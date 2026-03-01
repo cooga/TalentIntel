@@ -30,17 +30,28 @@
 
 ---
 
-### 🎯 Milestone 2: 监控与信号 (3-4天)
+### ✅ Milestone 2: 监控与信号 ~~(3-4天)~~
+**状态**: 已完成 (2026-03-01)
+**耗时**: ~1小时
 **目标**: 自动化监控和信号检测
 
 **交付物**:
-- [ ] 定时调度系统 (APScheduler)
-- [ ] GitHub Events 监控
-- [ ] 基线自动学习
-- [ ] 时间异常检测
-- [ ] 信号存储与查询
+- [x] 定时调度系统 (APScheduler)
+- [x] GitHub Events 监控
+- [x] 基线自动学习
+- [x] 时间异常检测
+- [x] 信号存储与查询
 
-**检查点**: 目标人物的 GitHub 活动能被自动监控，异常信号被记录
+**检查点**: 目标人物的 GitHub 活动能被自动监控，异常信号被记录 ✅
+
+**代码统计**:
+- 新增 5 个核心模块
+- MonitoringScheduler (APScheduler)
+- GitHubMonitor (事件监控)
+- BaselineLearner (基线学习)
+- TemporalAnalyzer (时间异常检测)
+- SignalService (信号服务)
+- CLI 新增命令: monitor, baseline, signals
 
 ---
 
@@ -144,5 +155,5 @@ git worktree add ../TalentIntel-hotfix hotfix
 
 ---
 
-**最后更新**: 2026-03-01  
-**当前进度**: Milestone 1 ✅ 完成 | 准备开始 Milestone 2
+**最后更新**: 2026-03-01
+**当前进度**: Milestone 1 ✅ 完成 | Milestone 2 ✅ 完成 | 准备开始 Milestone 3
