@@ -8,17 +8,25 @@
 
 ## 开发里程碑
 
-### 🎯 Milestone 1: 核心骨架 (3-4天)
+### ✅ Milestone 1: 核心骨架 ~~(3-4天)~~ 
+**状态**: 已完成 (2026-03-01)  
+**耗时**: ~1小时  
 **目标**: 可运行的基础框架
 
 **交付物**:
-- [ ] 数据库模型 (SQLAlchemy)
-- [ ] 实体管理模块 (增删改查)
-- [ ] GitHub 基础监控 (差分检测)
-- [ ] CLI 工具 (添加目标、查看状态)
-- [ ] 配置系统
+- [x] 数据库模型 (SQLAlchemy)
+- [x] 实体管理模块 (增删改查)
+- [x] GitHub 基础监控 (差分检测)
+- [x] CLI 工具 (添加目标、查看状态)
+- [x] 配置系统
 
-**检查点**: 能够添加目标人物，手动触发 GitHub 数据获取
+**检查点**: 能够添加目标人物，手动触发 GitHub 数据获取 ✅
+
+**代码统计**:
+- 18 个 Python 文件
+- ~2,300 行代码
+- 5 个数据模型 (Entity, Event, Signal, Alert, PlatformSnapshot)
+- 完整的 CLI 命令 (init, add, list, status, fetch, delete, update)
 
 ---
 
@@ -136,4 +144,5 @@ git worktree add ../TalentIntel-hotfix hotfix
 
 ---
 
-**最后更新**: 2026-03-01
+**最后更新**: 2026-03-01  
+**当前进度**: Milestone 1 ✅ 完成 | 准备开始 Milestone 2
