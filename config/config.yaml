@@ -1,0 +1,36 @@
+# TalentIntel Configuration
+# Copy this file to config/config.yaml and customize
+
+# Database settings
+database:
+  url: "sqlite+aiosqlite:///./data/sentinel.db"
+  echo: false
+
+# GitHub API settings
+github:
+  # Set via SENTINEL_GITHUB_TOKEN environment variable
+  # token: "your-github-token"
+  api_base_url: "https://api.github.com"
+  request_timeout: 30
+  max_retries: 3
+
+# Monitoring settings
+monitoring:
+  default_check_interval: 3600  # 1 hour
+  baseline_learning_period: 14  # days
+
+# Logging settings
+logging:
+  level: "INFO"
+  format: "console"  # json or console
+
+# Alert settings
+alert:
+  # Set via SENTINEL_ALERT_DISCORD_WEBHOOK environment variable
+  # discord_webhook: "https://discord.com/api/webhooks/..."
+  min_confidence: 0.7
+
+# Application settings
+app:
+  debug: false
+  data_dir: "./data"
