@@ -1,0 +1,93 @@
+# 代理配置 - 10个代理池
+# 复制为 proxies.yaml 并填入真实代理信息
+
+proxies:
+  # === 付费代理（推荐）===
+  # Bright Data / Oxylabs / Smartproxy 等住宅代理
+  
+  # 代理1 - 主代理
+  - host: "your-residential-proxy1.com"
+    port: 8080
+    username: "your_username"
+    password: "your_password"
+    
+  # 代理2
+  - host: "your-residential-proxy2.com"
+    port: 8080
+    username: "your_username"
+    password: "your_password"
+    
+  # 代理3
+  - host: "your-residential-proxy3.com"
+    port: 8080
+    username: "your_username"
+    password: "your_password"
+    
+  # 代理4
+  - host: "your-residential-proxy4.com"
+    port: 8080
+    username: "your_username"
+    password: "your_password"
+    
+  # 代理5
+  - host: "your-residential-proxy5.com"
+    port: 8080
+    username: "your_username"
+    password: "your_password"
+
+  # === 数据中心代理（备选）===
+  
+  # 代理6
+  - host: "datacenter-proxy1.com"
+    port: 3128
+    username: "your_username"
+    password: "your_password"
+    
+  # 代理7
+  - host: "datacenter-proxy2.com"
+    port: 3128
+    username: "your_username"
+    password: "your_password"
+    
+  # 代理8
+  - host: "datacenter-proxy3.com"
+    port: 3128
+    username: "your_username"
+    password: "your_password"
+    
+  # 代理9
+  - host: "datacenter-proxy4.com"
+    port: 3128
+    username: "your_username"
+    password: "your_password"
+    
+  # 代理10
+  - host: "datacenter-proxy5.com"
+    port: 3128
+    username: "your_username"
+    password: "your_password"
+
+# === 代理来源推荐 ===
+# 
+# 付费代理（高质量）:
+# - Bright Data: https://brightdata.com/ (住宅代理，最稳定)
+# - Oxylabs: https://oxylabs.io/ (数据中心+住宅)
+# - Smartproxy: https://smartproxy.com/ (性价比高)
+# - IPRoyal: https://iproyal.com/ (轮换代理)
+#
+# 免费代理（不稳定，仅供测试）:
+# - https://www.proxy-list.download/
+# - https://free-proxy-list.net/
+# - https://proxyscrape.com/
+#
+# === 配置建议 ===
+#
+# 大规模搜索推荐:
+# - 住宅代理: 10-20个
+# - 轮换间隔: 每请求切换
+# - 健康检查: 每30分钟
+#
+# 小规模测试:
+# - 数据中心代理: 5-10个
+# - 失败阈值: 2次
+# - 恢复时间: 30分钟
