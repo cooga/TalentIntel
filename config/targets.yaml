@@ -1,0 +1,24 @@
+# 目标人才定义
+# 研究员将根据这些标准筛选和评估人才
+
+targets:
+  # 人才画像 1: AI + Wireless 交叉领域研究者
+  - name: "AI-Wireless Researchers"
+    priority: high
+    criteria:
+      keywords:
+        - "machine learning wireless"
+        - "deep learning 5G"
+      locations:
+        - "United States"
+      education:
+        - "PhD"
+        - "PostDoc"
+    sources:
+      - linkedin
+
+# 搜索策略
+search_strategy:
+  daily_batch_size: 3        # 每日处理数量（保守起见先设为3）
+  max_depth: 2               # 关联人才挖掘深度
+  min_match_score: 0.5       # 最低匹配分数（规则评估可以适当降低）
