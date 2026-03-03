@@ -7,13 +7,22 @@ targets:
     priority: high
     criteria:
       keywords:
-        - "machine learning wireless"
-        - "deep learning 5G"
+        - "AI wireless communication"
+        - "deep learning physical layer"
+        - "neural network 5G"
+        - "MIMO machine learning"
+        - "intelligent reflecting surface"
+        - "federated learning wireless"
       locations:
         - "United States"
+        - "Canada"
+        - "United Kingdom"
+        - "Singapore"
+        - "Hong Kong"
       education:
         - "PhD"
         - "PostDoc"
+        - "Master"
     sources:
       - linkedin
 

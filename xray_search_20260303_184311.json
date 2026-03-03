@@ -1,0 +1,10 @@
+{
+  "strategy": "北美大厂 AI+无线工程师",
+  "query": "site:linkedin.com/in (\"Qualcomm\" OR \"NVIDIA\" OR \"Intel\" OR \"Samsung\") (\"AI Engineer\" OR \"Wireless Engineer\" OR \"Research Scientist\") (\"5G\" OR \"Deep Learning\" OR \"MIMO\") (\"United States\" OR \"Canada\") -\"recruiter\" -\"HR\" -\"sales\"",
+  "search_urls": [
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Qualcomm%22+OR+%22NVIDIA%22+OR+%22Intel%22+OR+%22Samsung%22%29+%28%22AI+Engineer%22+OR+%22Wireless+Engineer%22+OR+%22Research+Scientist%22%29+%28%225G%22+OR+%22Deep+Learning%22+OR+%22MIMO%22%29+%28%22United+States%22+OR+%22Canada%22%29+-%22recruiter%22+-%22HR%22+-%22sales%22&start=0&num=10&hl=zh-CN",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Qualcomm%22+OR+%22NVIDIA%22+OR+%22Intel%22+OR+%22Samsung%22%29+%28%22AI+Engineer%22+OR+%22Wireless+Engineer%22+OR+%22Research+Scientist%22%29+%28%225G%22+OR+%22Deep+Learning%22+OR+%22MIMO%22%29+%28%22United+States%22+OR+%22Canada%22%29+-%22recruiter%22+-%22HR%22+-%22sales%22&start=10&num=10&hl=zh-CN",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Qualcomm%22+OR+%22NVIDIA%22+OR+%22Intel%22+OR+%22Samsung%22%29+%28%22AI+Engineer%22+OR+%22Wireless+Engineer%22+OR+%22Research+Scientist%22%29+%28%225G%22+OR+%22Deep+Learning%22+OR+%22MIMO%22%29+%28%22United+States%22+OR+%22Canada%22%29+-%22recruiter%22+-%22HR%22+-%22sales%22&start=20&num=10&hl=zh-CN"
+  ],
+  "generated_at": "2026-03-03T18:43:11.785369"
+}

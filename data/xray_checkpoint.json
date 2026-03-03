@@ -1,0 +1,12 @@
+{
+  "seen_urls": [],
+  "stats": {
+    "total_requests": 4,
+    "successful_requests": 4,
+    "failed_requests": 2,
+    "captcha_hits": 0,
+    "profiles_found": 0,
+    "start_time": "2026-03-03T18:50:26.067197"
+  },
+  "saved_at": "2026-03-03T18:53:26.167382"
+}
