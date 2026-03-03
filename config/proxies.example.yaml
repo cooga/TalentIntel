@@ -1,0 +1,29 @@
+# 代理配置示例
+# 复制为 proxies.yaml 并填入真实代理信息
+
+proxies:
+  # 免费代理示例（不稳定，仅供测试）
+  - host: "103.152.112.157"
+    port: 80
+    username: null
+    password: null
+    
+  # 付费代理示例（推荐）
+  # - host: "proxy.example.com"
+  #   port: 8080
+  #   username: "your_username"
+  #   password: "your_password"
+  
+  # 更多代理...
+  # - host: "proxy2.example.com"
+  #   port: 8080
+  #   username: "your_username"
+  #   password: "your_password"
+
+# 代理来源推荐:
+# 1. Bright Data (原Luminati) - 住宅代理，质量高
+# 2. Oxylabs - 数据中心代理，速度快
+# 3. Smartproxy - 性价比高
+# 4. 免费代理列表:
+#    - https://www.proxy-list.download/
+#    - https://free-proxy-list.net/
