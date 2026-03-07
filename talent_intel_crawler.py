@@ -22,7 +22,7 @@ from smart_cache import SmartCacheManager, cached
 @dataclass
 class TalentProfile:
     """人才档案数据结构"""
-    source: str  # google_scholar / github / linkedin
+    source: str  # google_scholar / github / linkedin / arxiv_author / semanticscholar_author
     name: str
     url: str
     raw_data: Dict[str, Any]
@@ -55,7 +55,6 @@ class TalentIntelCrawler:
         """
         cache_key = f"scholar:{hash(scholar_url)}"
         
-        # 检查缓存
         cached_data = self.cache.get(cache_key)
         if cached_data:
             print(f"[Cache Hit] Scholar profile: {scholar_url}")
@@ -64,7 +63,6 @@ class TalentIntelCrawler:
         print(f"[Crawling] Scholar profile: {scholar_url}")
         
         async with SmartCrawler(profile_name=self.profile_name) as crawler:
-            # 访问页面
             result = await crawler.crawl(
                 url=scholar_url,
                 wait_for="#gsc_prf_w",
@@ -75,11 +73,9 @@ class TalentIntelCrawler:
                 print(f"[Failed] {result.get('error', 'Unknown error')}")
                 return None
             
-            # 使用 Schema 提取结构化数据
             schema = TALENT_SCHEMAS["google_scholar"]
             extracted = await self.extractor.extract_with_schema(crawler.page, schema)
             
-            # 构建人才档案
             profile = TalentProfile(
                 source="google_scholar",
                 name=extracted.get("name", "Unknown"),
@@ -89,7 +85,6 @@ class TalentIntelCrawler:
                 confidence=0.85 if extracted.get("name") else 0.5
             )
             
-            # 缓存结果（7天）
             self.cache.set(cache_key, {
                 "source": profile.source,
                 "name": profile.name,
@@ -102,12 +97,7 @@ class TalentIntelCrawler:
             return profile
     
     async def crawl_github_profile(self, github_url: str) -> Optional[TalentProfile]:
-        """
-        抓取 GitHub 个人主页
-        
-        Args:
-            github_url: 如 https://github.com/username
-        """
+        """抓取 GitHub 个人主页"""
         cache_key = f"github:{hash(github_url)}"
         
         cached_data = self.cache.get(cache_key)
@@ -150,13 +140,185 @@ class TalentIntelCrawler:
             
             return profile
     
+    async def crawl_arxiv_author(self, arxiv_url: str) -> Optional[TalentProfile]:
+        """
+        抓取 arXiv 作者主页
+        
+        Args:
+            arxiv_url: 如 https://arxiv.org/a/author_id
+        """
+        cache_key = f"arxiv_author:{hash(arxiv_url)}"
+        
+        cached_data = self.cache.get(cache_key)
+        if cached_data:
+            print(f"[Cache Hit] arXiv author: {arxiv_url}")
+            return TalentProfile(**cached_data)
+        
+        print(f"[Crawling] arXiv author: {arxiv_url}")
+        
+        async with SmartCrawler(profile_name=self.profile_name) as crawler:
+            result = await crawler.crawl(
+                url=arxiv_url,
+                wait_for=".author-profile",
+                query="arxiv author papers"
+            )
+            
+            if not result["success"]:
+                print(f"[Failed] {result.get('error', 'Unknown error')}")
+                return None
+            
+            schema = TALENT_SCHEMAS["arxiv_author"]
+            extracted = await self.extractor.extract_with_schema(crawler.page, schema)
+            
+            profile = TalentProfile(
+                source="arxiv_author",
+                name=extracted.get("name", "Unknown"),
+                url=arxiv_url,
+                raw_data=extracted,
+                extracted_at=datetime.now(),
+                confidence=0.85 if extracted.get("name") else 0.5
+            )
+            
+            self.cache.set(cache_key, {
+                "source": profile.source,
+                "name": profile.name,
+                "url": profile.url,
+                "raw_data": profile.raw_data,
+                "extracted_at": profile.extracted_at.isoformat(),
+                "confidence": profile.confidence
+            }, ttl=604800)
+            
+            return profile
+    
+    async def crawl_arxiv_paper(self, arxiv_url: str) -> Optional[Dict[str, Any]]:
+        """
+        抓取 arXiv 论文详情
+        
+        Args:
+            arxiv_url: 如 https://arxiv.org/abs/2301.xxxxx
+        """
+        cache_key = f"arxiv_paper:{hash(arxiv_url)}"
+        
+        cached_data = self.cache.get(cache_key)
+        if cached_data:
+            print(f"[Cache Hit] arXiv paper: {arxiv_url}")
+            return cached_data
+        
+        print(f"[Crawling] arXiv paper: {arxiv_url}")
+        
+        async with SmartCrawler(profile_name=self.profile_name) as crawler:
+            result = await crawler.crawl(
+                url=arxiv_url,
+                wait_for="#content-inner",
+                query="arxiv paper abstract"
+            )
+            
+            if not result["success"]:
+                print(f"[Failed] {result.get('error', 'Unknown error')}")
+                return None
+            
+            schema = TALENT_SCHEMAS["arxiv_paper"]
+            extracted = await self.extractor.extract_with_schema(crawler.page, schema)
+            
+            if extracted.get("_success"):
+                self.cache.set(cache_key, extracted, ttl=604800)
+                return extracted
+            
+            return None
+    
+    async def crawl_semanticscholar_author(self, ss_url: str) -> Optional[TalentProfile]:
+        """
+        抓取 Semantic Scholar 作者主页
+        
+        Args:
+            ss_url: 如 https://www.semanticscholar.org/author/xxx/xxxx
+        """
+        cache_key = f"semanticscholar_author:{hash(ss_url)}"
+        
+        cached_data = self.cache.get(cache_key)
+        if cached_data:
+            print(f"[Cache Hit] Semantic Scholar author: {ss_url}")
+            return TalentProfile(**cached_data)
+        
+        print(f"[Crawling] Semantic Scholar author: {ss_url}")
+        
+        async with SmartCrawler(profile_name=self.profile_name) as crawler:
+            result = await crawler.crawl(
+                url=ss_url,
+                wait_for="[data-test-id='author-page']",
+                query="semantic scholar author citations"
+            )
+            
+            if not result["success"]:
+                print(f"[Failed] {result.get('error', 'Unknown error')}")
+                return None
+            
+            schema = TALENT_SCHEMAS["semanticscholar_author"]
+            extracted = await self.extractor.extract_with_schema(crawler.page, schema)
+            
+            profile = TalentProfile(
+                source="semanticscholar_author",
+                name=extracted.get("name", "Unknown"),
+                url=ss_url,
+                raw_data=extracted,
+                extracted_at=datetime.now(),
+                confidence=0.85 if extracted.get("name") else 0.5
+            )
+            
+            self.cache.set(cache_key, {
+                "source": profile.source,
+                "name": profile.name,
+                "url": profile.url,
+                "raw_data": profile.raw_data,
+                "extracted_at": profile.extracted_at.isoformat(),
+                "confidence": profile.confidence
+            }, ttl=604800)
+            
+            return profile
+    
+    async def crawl_semanticscholar_paper(self, ss_url: str) -> Optional[Dict[str, Any]]:
+        """
+        抓取 Semantic Scholar 论文详情
+        
+        Args:
+            ss_url: 如 https://www.semanticscholar.org/paper/xxx/xxxx
+        """
+        cache_key = f"semanticscholar_paper:{hash(ss_url)}"
+        
+        cached_data = self.cache.get(cache_key)
+        if cached_data:
+            print(f"[Cache Hit] Semantic Scholar paper: {ss_url}")
+            return cached_data
+        
+        print(f"[Crawling] Semantic Scholar paper: {ss_url}")
+        
+        async with SmartCrawler(profile_name=self.profile_name) as crawler:
+            result = await crawler.crawl(
+                url=ss_url,
+                wait_for="[data-test-id='paper-details']",
+                query="semantic scholar paper"
+            )
+            
+            if not result["success"]:
+                print(f"[Failed] {result.get('error', 'Unknown error')}")
+                return None
+            
+            schema = TALENT_SCHEMAS["semanticscholar_paper"]
+            extracted = await self.extractor.extract_with_schema(crawler.page, schema)
+            
+            if extracted.get("_success"):
+                self.cache.set(cache_key, extracted, ttl=604800)
+                return extracted
+            
+            return None
+    
     async def crawl_batch(self, urls: List[str], source_type: str) -> List[TalentProfile]:
         """
         批量抓取
         
         Args:
             urls: URL列表
-            source_type: scholar / github / linkedin
+            source_type: scholar / github / arxiv_author / semanticscholar_author
             
         Returns:
             TalentProfile 列表
@@ -164,15 +326,20 @@ class TalentIntelCrawler:
         results = []
         
         # 根据类型选择抓取函数
-        if source_type == "scholar":
-            crawl_func = self.crawl_scholar_profile
-        elif source_type == "github":
-            crawl_func = self.crawl_github_profile
-        else:
-            raise ValueError(f"Unknown source type: {source_type}")
+        crawl_func_map = {
+            "scholar": self.crawl_scholar_profile,
+            "github": self.crawl_github_profile,
+            "arxiv_author": self.crawl_arxiv_author,
+            "semanticscholar_author": self.crawl_semanticscholar_author
+        }
+        
+        crawl_func = crawl_func_map.get(source_type)
+        if not crawl_func:
+            raise ValueError(f"Unknown source type: {source_type}. "
+                           f"Supported: {list(crawl_func_map.keys())}")
         
         # 并发抓取（限制并发数）
-        semaphore = asyncio.Semaphore(3)  # 最多3个并发
+        semaphore = asyncio.Semaphore(3)
         
         async def crawl_with_limit(url):
             async with semaphore:
@@ -203,7 +370,6 @@ class TalentIntelCrawler:
         print("[Cache Cleared] All cache levels cleared")
 
 
-# 简化同步接口
 class TalentIntelSync:
     """同步包装类"""
     
@@ -220,72 +386,51 @@ class TalentIntelSync:
         crawler = TalentIntelCrawler(self.profile_name)
         return asyncio.run(crawler.crawl_github_profile(url))
     
+    def crawl_arxiv_author(self, url: str) -> Optional[TalentProfile]:
+        """同步抓取 arXiv 作者"""
+        crawler = TalentIntelCrawler(self.profile_name)
+        return asyncio.run(crawler.crawl_arxiv_author(url))
+    
+    def crawl_arxiv_paper(self, url: str) -> Optional[Dict[str, Any]]:
+        """同步抓取 arXiv 论文"""
+        crawler = TalentIntelCrawler(self.profile_name)
+        return asyncio.run(crawler.crawl_arxiv_paper(url))
+    
+    def crawl_semanticscholar_author(self, url: str) -> Optional[TalentProfile]:
+        """同步抓取 Semantic Scholar 作者"""
+        crawler = TalentIntelCrawler(self.profile_name)
+        return asyncio.run(crawler.crawl_semanticscholar_author(url))
+    
+    def crawl_semanticscholar_paper(self, url: str) -> Optional[Dict[str, Any]]:
+        """同步抓取 Semantic Scholar 论文"""
+        crawler = TalentIntelCrawler(self.profile_name)
+        return asyncio.run(crawler.crawl_semanticscholar_paper(url))
+    
     def crawl_batch(self, urls: List[str], source_type: str) -> List[TalentProfile]:
         """同步批量抓取"""
         crawler = TalentIntelCrawler(self.profile_name)
         return asyncio.run(crawler.crawl_batch(urls, source_type))
 
 
-# 示例脚本
 async def demo():
-    """演示新系统的改进"""
+    """演示"""
     print("=" * 70)
     print(" TalentIntel Smart Crawler Demo")
     print("=" * 70)
     
     crawler = TalentIntelCrawler()
     
-    # 演示 1: 缓存系统
-    print("\n[Demo 1] 三层缓存系统")
-    print("-" * 70)
-    print("L1 (Memory): 热数据，最快访问")
-    print("L2 (Disk): 持久化，进程间共享")
-    print("L3 (Browser): 已渲染页面复用")
-    print(f"\n当前缓存统计: {crawler.cache.stats()}")
-    
-    # 演示 2: Profile 管理
-    print("\n[Demo 2] Profile 持久化管理")
-    print("-" * 70)
-    profiles = crawler.profile_manager.list_profiles()
-    print(f"已保存的 Profiles: {profiles if profiles else '(无)'}")
-    print("功能: 保存登录态、Cookie、浏览器指纹")
-    
-    # 演示 3: BM25 内容清洗
-    print("\n[Demo 3] BM25 智能内容清洗")
-    print("-" * 70)
-    from smart_crawler import BM25ContentFilter
-    
-    bm25 = BM25ContentFilter()
-    test_blocks = [
-        {"text": "导航栏 Home About Contact", "tag": "nav", "class": "navbar"},
-        {"text": "李明的研究兴趣包括机器学习、自然语言处理、计算机视觉。他在Google Scholar上有1000+引用。", "tag": "article", "class": "profile-content"},
-        {"text": "广告：购买优质服务器", "tag": "div", "class": "ad-banner"},
-        {"text": "发表论文：1. Transformer架构研究 2. BERT模型优化 3. GPT系列分析", "tag": "section", "class": "publications"}
-    ]
-    
-    main_content = bm25.extract_main_content(test_blocks, query="machine learning research")
-    print(f"输入块数: {len(test_blocks)}")
-    print(f"提取内容:\n{main_content[:300]}...")
-    
-    # 演示 4: Schema 提取
-    print("\n[Demo 4] 智能 Schema 提取")
-    print("-" * 70)
-    print("预定义 Schema:")
+    print("\n支持的 Schema:")
     for name, schema in TALENT_SCHEMAS.items():
         print(f"  • {name}: {schema.name}")
-        print(f"    字段: {list(schema.fields.keys())}")
     
-    # 演示 5: 抓取示例（可选，需要网络）
-    print("\n[Demo 5] 实际抓取演示")
-    print("-" * 70)
-    test_url = "https://scholar.google.com/citations?hl=en&imq=Geoffrey+Hinton"
-    print(f"示例 URL: {test_url}")
-    print("(实际抓取需要网络连接和 Playwright 浏览器)")
-    print("运行: python -c \"from talent_intel_crawler import TalentIntelSync; TalentIntelSync().crawl_scholar('URL')\"")
+    print("\n示例用法:")
+    print("  from talent_intel_crawler import TalentIntelSync")
+    print("  crawler = TalentIntelSync()")
+    print("  profile = crawler.crawl_arxiv_author('https://arxiv.org/a/0000-0002-0000-0000')")
+    print("  paper = crawler.crawl_semanticscholar_paper('https://www.semanticscholar.org/paper/xxx')")
     
     print("\n" + "=" * 70)
-    print(" Demo Completed!")
-    print("=" * 70)
 
 
 if __name__ == "__main__":

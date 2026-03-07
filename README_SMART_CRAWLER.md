@@ -63,14 +63,26 @@ from talent_intel_crawler import TalentIntelSync
 
 crawler = TalentIntelSync()
 
-# 抓取 Scholar
+# 抓取 Google Scholar
 profile = crawler.crawl_scholar("https://scholar.google.com/...")
 
 # 抓取 GitHub
 profile = crawler.crawl_github("https://github.com/username")
 
+# 抓取 arXiv 作者
+profile = crawler.crawl_arxiv_author("https://arxiv.org/a/xxx")
+
+# 抓取 arXiv 论文
+paper = crawler.crawl_arxiv_paper("https://arxiv.org/abs/2301.xxxxx")
+
+# 抓取 Semantic Scholar 作者
+profile = crawler.crawl_semanticscholar_author("https://www.semanticscholar.org/author/xxx/xxxx")
+
+# 抓取 Semantic Scholar 论文
+paper = crawler.crawl_semanticscholar_paper("https://www.semanticscholar.org/paper/xxx/xxxx")
+
 # 批量抓取
-profiles = crawler.crawl_batch(url_list, source_type="scholar")
+profiles = crawler.crawl_batch(url_list, source_type="arxiv_author")
 ```
 
 ## 核心组件详解
@@ -154,8 +166,22 @@ extractor = IntelligentExtractor()
 # 使用预定义 Schema
 schema = TALENT_SCHEMAS["google_scholar"]
 extracted = await extractor.extract_with_schema(page, schema)
+```
 
-# 自定义 Schema
+**支持的 Schema:**
+
+| Schema | 用途 | 字段 |
+|--------|------|------|
+| `google_scholar` | Google Scholar 作者 | name, affiliation, interests, citations, h_index, i10_index |
+| `github_profile` | GitHub 个人主页 | username, fullname, bio, company, location, email, repos, followers |
+| `linkedin_profile` | LinkedIn 个人主页 | name, headline, company, location, about |
+| `arxiv_author` | arXiv 作者主页 | name, affiliation, interests, total_papers, recent_papers, homepage, orcid |
+| `arxiv_paper` | arXiv 论文详情 | title, authors, abstract, arxiv_id, date, categories, pdf_url |
+| `semanticscholar_author` | Semantic Scholar 作者 | name, affiliation, citations, h_index, paper_count, research_fields, co_authors |
+| `semanticscholar_paper` | Semantic Scholar 论文 | title, authors, abstract, venue, year, citations, references, influential_citations |
+
+**自定义 Schema:**
+```python
 custom_schema = extractor.create_custom_schema(
     name="custom_profile",
     base_selector=".profile-container",

@@ -169,6 +169,220 @@ TALENT_SCHEMAS = {
                 "required": False
             }
         }
+    ),
+    
+    "arxiv_author": ExtractionSchema(
+        name="arXiv Author Profile",
+        base_selector=".author-profile",
+        fields={
+            "name": {
+                "selector": "h1",
+                "type": FieldType.TEXT,
+                "required": True
+            },
+            "affiliation": {
+                "selector": ".author-affiliation",
+                "type": FieldType.TEXT,
+                "required": False
+            },
+            "interests": {
+                "selector": ".author-tag",
+                "type": FieldType.LIST,
+                "required": False
+            },
+            "total_papers": {
+                "selector": ".author-stats .stat-value",
+                "type": FieldType.NUMBER,
+                "index": 0,
+                "required": False,
+                "transform": "parse_number"
+            },
+            "recent_papers": {
+                "selector": ".paper-title",
+                "type": FieldType.LIST,
+                "required": False
+            },
+            "homepage": {
+                "selector": ".author-homepage a",
+                "type": FieldType.URL,
+                "required": False
+            },
+            "orcid": {
+                "selector": ".author-orcid",
+                "type": FieldType.TEXT,
+                "required": False
+            }
+        }
+    ),
+    
+    "arxiv_paper": ExtractionSchema(
+        name="arXiv Paper",
+        base_selector="#content-inner",
+        fields={
+            "title": {
+                "selector": "h1.title",
+                "type": FieldType.TEXT,
+                "required": True
+            },
+            "authors": {
+                "selector": ".authors .author a",
+                "type": FieldType.LIST,
+                "required": True
+            },
+            "abstract": {
+                "selector": ".abstract",
+                "type": FieldType.TEXT,
+                "required": True
+            },
+            "arxiv_id": {
+                "selector": ".arxivid",
+                "type": FieldType.TEXT,
+                "required": True
+            },
+            "submission_date": {
+                "selector": ".dateline",
+                "type": FieldType.DATE,
+                "required": False,
+                "transform": "parse_date"
+            },
+            "primary_category": {
+                "selector": ".primary-subject",
+                "type": FieldType.TEXT,
+                "required": False
+            },
+            "categories": {
+                "selector": ".subject .primary-subject, .subject span",
+                "type": FieldType.LIST,
+                "required": False
+            },
+            "pdf_url": {
+                "selector": ".download-pdf",
+                "type": FieldType.URL,
+                "required": False
+            },
+            "comments": {
+                "selector": ".comments",
+                "type": FieldType.TEXT,
+                "required": False
+            }
+        }
+    ),
+    
+    "semanticscholar_author": ExtractionSchema(
+        name="Semantic Scholar Author Profile",
+        base_selector="[data-test-id='author-page']",
+        fields={
+            "name": {
+                "selector": "h1.author-name",
+                "type": FieldType.TEXT,
+                "required": True
+            },
+            "affiliation": {
+                "selector": ".author-affiliation",
+                "type": FieldType.TEXT,
+                "required": False
+            },
+            "homepage": {
+                "selector": ".author-homepage",
+                "type": FieldType.URL,
+                "required": False
+            },
+            "citation_count": {
+                "selector": ".citation-stat .stat-value",
+                "type": FieldType.NUMBER,
+                "index": 0,
+                "required": False,
+                "transform": "parse_number"
+            },
+            "h_index": {
+                "selector": ".h-index-stat .stat-value",
+                "type": FieldType.NUMBER,
+                "required": False,
+                "transform": "parse_number"
+            },
+            "paper_count": {
+                "selector": ".paper-count-stat .stat-value",
+                "type": FieldType.NUMBER,
+                "required": False,
+                "transform": "parse_number"
+            },
+            "research_fields": {
+                "selector": ".research-field",
+                "type": FieldType.LIST,
+                "required": False
+            },
+            "top_papers": {
+                "selector": ".paper-title",
+                "type": FieldType.LIST,
+                "required": False
+            },
+            "co_authors": {
+                "selector": ".co-author-name",
+                "type": FieldType.LIST,
+                "required": False
+            }
+        }
+    ),
+    
+    "semanticscholar_paper": ExtractionSchema(
+        name="Semantic Scholar Paper",
+        base_selector="[data-test-id='paper-details']",
+        fields={
+            "title": {
+                "selector": "h1.paper-title",
+                "type": FieldType.TEXT,
+                "required": True
+            },
+            "authors": {
+                "selector": ".author-list .author-name",
+                "type": FieldType.LIST,
+                "required": True
+            },
+            "abstract": {
+                "selector": ".abstract",
+                "type": FieldType.TEXT,
+                "required": True
+            },
+            "venue": {
+                "selector": ".venue",
+                "type": FieldType.TEXT,
+                "required": False
+            },
+            "year": {
+                "selector": ".year",
+                "type": FieldType.NUMBER,
+                "required": False,
+                "transform": "parse_number"
+            },
+            "citation_count": {
+                "selector": ".citation-count",
+                "type": FieldType.NUMBER,
+                "required": False,
+                "transform": "parse_number"
+            },
+            "reference_count": {
+                "selector": ".reference-count",
+                "type": FieldType.NUMBER,
+                "required": False,
+                "transform": "parse_number"
+            },
+            "influential_citations": {
+                "selector": ".influential-citation-count",
+                "type": FieldType.NUMBER,
+                "required": False,
+                "transform": "parse_number"
+            },
+            "fields_of_study": {
+                "selector": ".field-of-study",
+                "type": FieldType.LIST,
+                "required": False
+            },
+            "pdf_url": {
+                "selector": "[data-test-id='paper-pdf-link']",
+                "type": FieldType.URL,
+                "required": False
+            }
+        }
     )
 }
 
