@@ -85,6 +85,35 @@ paper = crawler.crawl_semanticscholar_paper("https://www.semanticscholar.org/pap
 profiles = crawler.crawl_batch(url_list, source_type="arxiv_author")
 ```
 
+### X-Ray LinkedIn 搜索
+
+```python
+from xray_linkedin_searcher import XRayLinkedInSearcher, search_linkedin_xray
+
+# 方法1: 使用类（推荐）
+searcher = XRayLinkedInSearcher(proxy_config_path="config/proxies.yaml")
+profiles = await searcher.search_all(
+    queries=None,  # 使用默认查询列表
+    max_results_per_query=20,
+    min_match_score=0.3
+)
+
+# 导出结果
+searcher.export_to_markdown(profiles, "output/linkedin_results.md")
+
+# 方法2: 同步接口
+profiles = search_linkedin_xray(
+    max_results_per_query=20,
+    min_match_score=0.3
+)
+```
+
+**X-Ray 搜索特点：**
+- 不需要 LinkedIn 账号
+- 通过 Google 搜索 `site:linkedin.com/in` 获取公开索引
+- 合规安全，只抓取 Google 已收录的公开信息
+- 自动评估匹配度（AI + 无线通信交叉领域）
+
 ## 核心组件详解
 
 ### 1. SmartCrawler - 智能浏览器爬虫
