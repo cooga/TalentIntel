@@ -254,10 +254,13 @@ class SmartCrawler:
         self.context = await self.browser.new_context(
             user_agent=self.profile.user_agent,
             viewport=self.profile.viewport,
-            cookies=self.profile.cookies,
             locale="en-US",
             timezone_id="America/New_York"
         )
+        
+        # 添加 cookies（如果有）
+        if self.profile.cookies:
+            await self.context.add_cookies(self.profile.cookies)
         
         # 注入反检测脚本
         await self._inject_stealth_scripts()
