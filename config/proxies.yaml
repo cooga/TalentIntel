@@ -1,0 +1,54 @@
+# Decodo 住宅代理配置
+# 服务商: https://decodo.com/
+# 用户名: sp3npkhffk
+
+proxies:
+  # Decodo 轮换住宅代理 - 美国
+  - host: "gate.decodo.com"
+    port: 7000
+    username: "sp3npkhffk"
+    password: "8oSbbFj_tke4Ng76Yl"
+    protocol: "http"
+    
+  # Decodo 轮换住宅代理 - 英国
+  - host: "gate.decodo.com"
+    port: 7001
+    username: "sp3npkhffk"
+    password: "8oSbbFj_tke4Ng76Yl"
+    protocol: "http"
+    
+  # Decodo 轮换住宅代理 - 德国
+  - host: "gate.decodo.com"
+    port: 7002
+    username: "sp3npkhffk"
+    password: "8oSbbFj_tke4Ng76Yl"
+    protocol: "http"
+    
+  # Decodo 轮换住宅代理 - 日本
+  - host: "gate.decodo.com"
+    port: 7003
+    username: "sp3npkhffk"
+    password: "8oSbbFj_tke4Ng76Yl"
+    protocol: "http"
+    
+  # Decodo 轮换住宅代理 - 法国
+  - host: "gate.decodo.com"
+    port: 7004
+    username: "sp3npkhffk"
+    password: "8oSbbFj_tke4Ng76Yl"
+    protocol: "http"
+
+# 代理池设置
+settings:
+  health_check_interval: 300  # 5分钟健康检查
+  max_failures_before_remove: 5  # 住宅代理更宽容
+  recovery_interval: 600  # 10分钟后尝试恢复
+  
+# 使用限制（住宅代理）
+limits:
+  requests_per_proxy_per_minute: 30  # 住宅代理可以更激进
+  concurrent_requests: 5  # 最多5个并发
+  
+# Decodo 文档: https://docs.decodo.com/
+# 支持的端口: 7000-7009 (不同国家/地区)
+# 流量计费: 按实际使用流量计费

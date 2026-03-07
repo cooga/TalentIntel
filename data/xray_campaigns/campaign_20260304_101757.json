@@ -1,0 +1,131 @@
+{
+  "campaign_name": "campaign_20260304_101757",
+  "created_at": "2026-03-04T10:17:57.807988",
+  "strategies": {
+    "na_ai_wireless": {
+      "name": "北美 AI+无线工程师",
+      "query": "site:linkedin.com/in (\"Qualcomm\" OR \"NVIDIA\" OR \"Intel\" OR \"Samsung\" OR \"Apple\" OR \"Meta\") (\"AI Engineer\" OR \"Wireless Engineer\" OR \"Research Scientist\" OR \"ML Engineer\") (\"5G\" OR \"Deep Learning\" OR \"MIMO\" OR \"Wireless Communication\") (\"United States\" OR \"Canada\") -\"recruiter\" -\"HR\" -\"sales\"",
+      "links": [
+        {
+          "page": 1,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Qualcomm%22+OR+%22NVIDIA%22+OR+%22Intel%22+OR+%22Samsung%22+OR+%22Apple%22+OR+%22Meta%22%29+%28%22AI+Engineer%22+OR+%22Wireless+Engineer%22+OR+%22Research+Scientist%22+OR+%22ML+Engineer%22%29+%28%225G%22+OR+%22Deep+Learning%22+OR+%22MIMO%22+OR+%22Wireless+Communication%22%29+%28%22United+States%22+OR+%22Canada%22%29+-%22recruiter%22+-%22HR%22+-%22sales%22&start=0&num=10",
+          "range": "1-10"
+        },
+        {
+          "page": 2,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Qualcomm%22+OR+%22NVIDIA%22+OR+%22Intel%22+OR+%22Samsung%22+OR+%22Apple%22+OR+%22Meta%22%29+%28%22AI+Engineer%22+OR+%22Wireless+Engineer%22+OR+%22Research+Scientist%22+OR+%22ML+Engineer%22%29+%28%225G%22+OR+%22Deep+Learning%22+OR+%22MIMO%22+OR+%22Wireless+Communication%22%29+%28%22United+States%22+OR+%22Canada%22%29+-%22recruiter%22+-%22HR%22+-%22sales%22&start=10&num=10",
+          "range": "11-20"
+        },
+        {
+          "page": 3,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Qualcomm%22+OR+%22NVIDIA%22+OR+%22Intel%22+OR+%22Samsung%22+OR+%22Apple%22+OR+%22Meta%22%29+%28%22AI+Engineer%22+OR+%22Wireless+Engineer%22+OR+%22Research+Scientist%22+OR+%22ML+Engineer%22%29+%28%225G%22+OR+%22Deep+Learning%22+OR+%22MIMO%22+OR+%22Wireless+Communication%22%29+%28%22United+States%22+OR+%22Canada%22%29+-%22recruiter%22+-%22HR%22+-%22sales%22&start=20&num=10",
+          "range": "21-30"
+        },
+        {
+          "page": 4,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Qualcomm%22+OR+%22NVIDIA%22+OR+%22Intel%22+OR+%22Samsung%22+OR+%22Apple%22+OR+%22Meta%22%29+%28%22AI+Engineer%22+OR+%22Wireless+Engineer%22+OR+%22Research+Scientist%22+OR+%22ML+Engineer%22%29+%28%225G%22+OR+%22Deep+Learning%22+OR+%22MIMO%22+OR+%22Wireless+Communication%22%29+%28%22United+States%22+OR+%22Canada%22%29+-%22recruiter%22+-%22HR%22+-%22sales%22&start=30&num=10",
+          "range": "31-40"
+        },
+        {
+          "page": 5,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Qualcomm%22+OR+%22NVIDIA%22+OR+%22Intel%22+OR+%22Samsung%22+OR+%22Apple%22+OR+%22Meta%22%29+%28%22AI+Engineer%22+OR+%22Wireless+Engineer%22+OR+%22Research+Scientist%22+OR+%22ML+Engineer%22%29+%28%225G%22+OR+%22Deep+Learning%22+OR+%22MIMO%22+OR+%22Wireless+Communication%22%29+%28%22United+States%22+OR+%22Canada%22%29+-%22recruiter%22+-%22HR%22+-%22sales%22&start=40&num=10",
+          "range": "41-50"
+        }
+      ]
+    },
+    "china_wireless": {
+      "name": "华系通信算法专家",
+      "query": "site:linkedin.com/in (\"Huawei\" OR \"ZTE\" OR \"HiSilicon\" OR \"OPPO\" OR \"vivo\" OR \"Xiaomi\") (\"算法工程师\" OR \"通信算法\" OR \"Research Engineer\" OR \"Senior Engineer\") (\"5G\" OR \"MIMO\" OR \"OFDM\" OR \"信道估计\" OR \"信号处理\") (\"China\" OR \"Singapore\")",
+      "links": [
+        {
+          "page": 1,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Huawei%22+OR+%22ZTE%22+OR+%22HiSilicon%22+OR+%22OPPO%22+OR+%22vivo%22+OR+%22Xiaomi%22%29+%28%22%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%22+OR+%22%E9%80%9A%E4%BF%A1%E7%AE%97%E6%B3%95%22+OR+%22Research+Engineer%22+OR+%22Senior+Engineer%22%29+%28%225G%22+OR+%22MIMO%22+OR+%22OFDM%22+OR+%22%E4%BF%A1%E9%81%93%E4%BC%B0%E8%AE%A1%22+OR+%22%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%22%29+%28%22China%22+OR+%22Singapore%22%29&start=0&num=10",
+          "range": "1-10"
+        },
+        {
+          "page": 2,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Huawei%22+OR+%22ZTE%22+OR+%22HiSilicon%22+OR+%22OPPO%22+OR+%22vivo%22+OR+%22Xiaomi%22%29+%28%22%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%22+OR+%22%E9%80%9A%E4%BF%A1%E7%AE%97%E6%B3%95%22+OR+%22Research+Engineer%22+OR+%22Senior+Engineer%22%29+%28%225G%22+OR+%22MIMO%22+OR+%22OFDM%22+OR+%22%E4%BF%A1%E9%81%93%E4%BC%B0%E8%AE%A1%22+OR+%22%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%22%29+%28%22China%22+OR+%22Singapore%22%29&start=10&num=10",
+          "range": "11-20"
+        },
+        {
+          "page": 3,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Huawei%22+OR+%22ZTE%22+OR+%22HiSilicon%22+OR+%22OPPO%22+OR+%22vivo%22+OR+%22Xiaomi%22%29+%28%22%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%22+OR+%22%E9%80%9A%E4%BF%A1%E7%AE%97%E6%B3%95%22+OR+%22Research+Engineer%22+OR+%22Senior+Engineer%22%29+%28%225G%22+OR+%22MIMO%22+OR+%22OFDM%22+OR+%22%E4%BF%A1%E9%81%93%E4%BC%B0%E8%AE%A1%22+OR+%22%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%22%29+%28%22China%22+OR+%22Singapore%22%29&start=20&num=10",
+          "range": "21-30"
+        },
+        {
+          "page": 4,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Huawei%22+OR+%22ZTE%22+OR+%22HiSilicon%22+OR+%22OPPO%22+OR+%22vivo%22+OR+%22Xiaomi%22%29+%28%22%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%22+OR+%22%E9%80%9A%E4%BF%A1%E7%AE%97%E6%B3%95%22+OR+%22Research+Engineer%22+OR+%22Senior+Engineer%22%29+%28%225G%22+OR+%22MIMO%22+OR+%22OFDM%22+OR+%22%E4%BF%A1%E9%81%93%E4%BC%B0%E8%AE%A1%22+OR+%22%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%22%29+%28%22China%22+OR+%22Singapore%22%29&start=30&num=10",
+          "range": "31-40"
+        },
+        {
+          "page": 5,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Huawei%22+OR+%22ZTE%22+OR+%22HiSilicon%22+OR+%22OPPO%22+OR+%22vivo%22+OR+%22Xiaomi%22%29+%28%22%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%22+OR+%22%E9%80%9A%E4%BF%A1%E7%AE%97%E6%B3%95%22+OR+%22Research+Engineer%22+OR+%22Senior+Engineer%22%29+%28%225G%22+OR+%22MIMO%22+OR+%22OFDM%22+OR+%22%E4%BF%A1%E9%81%93%E4%BC%B0%E8%AE%A1%22+OR+%22%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86%22%29+%28%22China%22+OR+%22Singapore%22%29&start=40&num=10",
+          "range": "41-50"
+        }
+      ]
+    },
+    "eu_research": {
+      "name": "欧洲无线研究机构",
+      "query": "site:linkedin.com/in (\"Ericsson\" OR \"Nokia\" OR \"Bell Labs\" OR \"InterDigital\" OR \"Keysight\") (\"Research Scientist\" OR \"Wireless Researcher\" OR \"Principal Engineer\") (\"6G\" OR \"Machine Learning\" OR \"Wireless Communication\" OR \"mmWave\") (\"Sweden\" OR \"Finland\" OR \"Germany\" OR \"UK\" OR \"France\")",
+      "links": [
+        {
+          "page": 1,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Ericsson%22+OR+%22Nokia%22+OR+%22Bell+Labs%22+OR+%22InterDigital%22+OR+%22Keysight%22%29+%28%22Research+Scientist%22+OR+%22Wireless+Researcher%22+OR+%22Principal+Engineer%22%29+%28%226G%22+OR+%22Machine+Learning%22+OR+%22Wireless+Communication%22+OR+%22mmWave%22%29+%28%22Sweden%22+OR+%22Finland%22+OR+%22Germany%22+OR+%22UK%22+OR+%22France%22%29&start=0&num=10",
+          "range": "1-10"
+        },
+        {
+          "page": 2,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Ericsson%22+OR+%22Nokia%22+OR+%22Bell+Labs%22+OR+%22InterDigital%22+OR+%22Keysight%22%29+%28%22Research+Scientist%22+OR+%22Wireless+Researcher%22+OR+%22Principal+Engineer%22%29+%28%226G%22+OR+%22Machine+Learning%22+OR+%22Wireless+Communication%22+OR+%22mmWave%22%29+%28%22Sweden%22+OR+%22Finland%22+OR+%22Germany%22+OR+%22UK%22+OR+%22France%22%29&start=10&num=10",
+          "range": "11-20"
+        },
+        {
+          "page": 3,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Ericsson%22+OR+%22Nokia%22+OR+%22Bell+Labs%22+OR+%22InterDigital%22+OR+%22Keysight%22%29+%28%22Research+Scientist%22+OR+%22Wireless+Researcher%22+OR+%22Principal+Engineer%22%29+%28%226G%22+OR+%22Machine+Learning%22+OR+%22Wireless+Communication%22+OR+%22mmWave%22%29+%28%22Sweden%22+OR+%22Finland%22+OR+%22Germany%22+OR+%22UK%22+OR+%22France%22%29&start=20&num=10",
+          "range": "21-30"
+        },
+        {
+          "page": 4,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Ericsson%22+OR+%22Nokia%22+OR+%22Bell+Labs%22+OR+%22InterDigital%22+OR+%22Keysight%22%29+%28%22Research+Scientist%22+OR+%22Wireless+Researcher%22+OR+%22Principal+Engineer%22%29+%28%226G%22+OR+%22Machine+Learning%22+OR+%22Wireless+Communication%22+OR+%22mmWave%22%29+%28%22Sweden%22+OR+%22Finland%22+OR+%22Germany%22+OR+%22UK%22+OR+%22France%22%29&start=30&num=10",
+          "range": "31-40"
+        },
+        {
+          "page": 5,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Ericsson%22+OR+%22Nokia%22+OR+%22Bell+Labs%22+OR+%22InterDigital%22+OR+%22Keysight%22%29+%28%22Research+Scientist%22+OR+%22Wireless+Researcher%22+OR+%22Principal+Engineer%22%29+%28%226G%22+OR+%22Machine+Learning%22+OR+%22Wireless+Communication%22+OR+%22mmWave%22%29+%28%22Sweden%22+OR+%22Finland%22+OR+%22Germany%22+OR+%22UK%22+OR+%22France%22%29&start=40&num=10",
+          "range": "41-50"
+        }
+      ]
+    },
+    "apac_talent": {
+      "name": "亚太无线AI人才",
+      "query": "site:linkedin.com/in (\"MediaTek\" OR \"Samsung\" OR \"Sony\" OR \"NEC\" OR \"NTT\") (\"Engineer\" OR \"Scientist\" OR \"Researcher\" OR \"Developer\") (\"AI\" OR \"5G\" OR \"Machine Learning\" OR \"Communication\") (\"Singapore\" OR \"Japan\" OR \"South Korea\" OR \"Australia\")",
+      "links": [
+        {
+          "page": 1,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22MediaTek%22+OR+%22Samsung%22+OR+%22Sony%22+OR+%22NEC%22+OR+%22NTT%22%29+%28%22Engineer%22+OR+%22Scientist%22+OR+%22Researcher%22+OR+%22Developer%22%29+%28%22AI%22+OR+%225G%22+OR+%22Machine+Learning%22+OR+%22Communication%22%29+%28%22Singapore%22+OR+%22Japan%22+OR+%22South+Korea%22+OR+%22Australia%22%29&start=0&num=10",
+          "range": "1-10"
+        },
+        {
+          "page": 2,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22MediaTek%22+OR+%22Samsung%22+OR+%22Sony%22+OR+%22NEC%22+OR+%22NTT%22%29+%28%22Engineer%22+OR+%22Scientist%22+OR+%22Researcher%22+OR+%22Developer%22%29+%28%22AI%22+OR+%225G%22+OR+%22Machine+Learning%22+OR+%22Communication%22%29+%28%22Singapore%22+OR+%22Japan%22+OR+%22South+Korea%22+OR+%22Australia%22%29&start=10&num=10",
+          "range": "11-20"
+        },
+        {
+          "page": 3,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22MediaTek%22+OR+%22Samsung%22+OR+%22Sony%22+OR+%22NEC%22+OR+%22NTT%22%29+%28%22Engineer%22+OR+%22Scientist%22+OR+%22Researcher%22+OR+%22Developer%22%29+%28%22AI%22+OR+%225G%22+OR+%22Machine+Learning%22+OR+%22Communication%22%29+%28%22Singapore%22+OR+%22Japan%22+OR+%22South+Korea%22+OR+%22Australia%22%29&start=20&num=10",
+          "range": "21-30"
+        },
+        {
+          "page": 4,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22MediaTek%22+OR+%22Samsung%22+OR+%22Sony%22+OR+%22NEC%22+OR+%22NTT%22%29+%28%22Engineer%22+OR+%22Scientist%22+OR+%22Researcher%22+OR+%22Developer%22%29+%28%22AI%22+OR+%225G%22+OR+%22Machine+Learning%22+OR+%22Communication%22%29+%28%22Singapore%22+OR+%22Japan%22+OR+%22South+Korea%22+OR+%22Australia%22%29&start=30&num=10",
+          "range": "31-40"
+        },
+        {
+          "page": 5,
+          "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22MediaTek%22+OR+%22Samsung%22+OR+%22Sony%22+OR+%22NEC%22+OR+%22NTT%22%29+%28%22Engineer%22+OR+%22Scientist%22+OR+%22Researcher%22+OR+%22Developer%22%29+%28%22AI%22+OR+%225G%22+OR+%22Machine+Learning%22+OR+%22Communication%22%29+%28%22Singapore%22+OR+%22Japan%22+OR+%22South+Korea%22+OR+%22Australia%22%29&start=40&num=10",
+          "range": "41-50"
+        }
+      ]
+    }
+  },
+  "total_links": 20
+}

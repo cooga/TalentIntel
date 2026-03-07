@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-03-05T03:01:20.166763",
+  "queries": [
+    {
+      "company": "Google",
+      "keyword": "NOMA machine learning",
+      "query": "site:linkedin.com/in (\"Google\") (\"NOMA machine learning\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "wireless communication researcher",
+      "query": "site:linkedin.com/in (\"Google\") (\"wireless communication researcher\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "AI platform engineer",
+      "query": "site:linkedin.com/in (\"Google\") (\"AI platform engineer\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "scientific machine learning",
+      "query": "site:linkedin.com/in (\"Google\") (\"scientific machine learning\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "AI drug discovery",
+      "query": "site:linkedin.com/in (\"Google\") (\"AI drug discovery\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "wireless sensing AI",
+      "query": "site:linkedin.com/in (\"Meta\") (\"wireless sensing AI\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "physics informed neural networks",
+      "query": "site:linkedin.com/in (\"Meta\") (\"physics informed neural networks\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "MIMO deep learning",
+      "query": "site:linkedin.com/in (\"Meta\") (\"MIMO deep learning\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "AI software stack",
+      "query": "site:linkedin.com/in (\"Meta\") (\"AI software stack\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "beamforming optimization",
+      "query": "site:linkedin.com/in (\"Meta\") (\"beamforming optimization\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "edge intelligence",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"edge intelligence\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "O-RAN AI",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"O-RAN AI\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "NOMA machine learning",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"NOMA machine learning\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "model compression",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"model compression\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "AI silicon",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"AI silicon\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "deep learning framework",
+      "query": "site:linkedin.com/in (\"Apple\") (\"deep learning framework\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "AI software stack",
+      "query": "site:linkedin.com/in (\"Apple\") (\"AI software stack\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "AI chip architect",
+      "query": "site:linkedin.com/in (\"Apple\") (\"AI chip architect\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "AI drug discovery",
+      "query": "site:linkedin.com/in (\"Apple\") (\"AI drug discovery\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "wireless sensing AI",
+      "query": "site:linkedin.com/in (\"Apple\") (\"wireless sensing AI\")"
+    }
+  ],
+  "profiles_found": [],
+  "high_score_candidates": []
+}

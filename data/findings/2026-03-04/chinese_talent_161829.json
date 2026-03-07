@@ -1,0 +1,649 @@
+{
+  "timestamp": "2026-03-04T16:18:29.965177",
+  "count": 17,
+  "candidates": [
+    {
+      "name": "Dr. Sarah Chen",
+      "url": "https://www.linkedin.com/in/dr-sarah-chen-246",
+      "match_score": 0.79,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Sarah Chen",
+          "current_role": "Senior AI Research Scientist",
+          "current_company": "Qualcomm",
+          "location": "San Diego, CA"
+        },
+        "ai_expertise": {
+          "level": "senior",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "5G ML",
+            "MIMO optimization"
+          ]
+        },
+        "match_reasons": [
+          "Expert in 5G ML, MIMO optimization",
+          "Works at Qualcomm - leading organization",
+          "Located in San Diego, CA"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.706892",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Prof. Michael Wang",
+      "url": "https://www.linkedin.com/in/prof-michael-wang-369",
+      "match_score": 0.81,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Prof. Michael Wang",
+          "current_role": "Professor of Electrical Engineering",
+          "current_company": "Stanford",
+          "location": "Stanford, CA"
+        },
+        "ai_expertise": {
+          "level": "expert",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "Wireless AI",
+            "mmWave systems"
+          ]
+        },
+        "match_reasons": [
+          "Expert in Wireless AI, mmWave systems",
+          "Works at Stanford - leading organization",
+          "Located in Stanford, CA"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.706908",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Anna Lindqvist",
+      "url": "https://www.linkedin.com/in/dr-anna-lindqvist-615",
+      "match_score": 0.85,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Anna Lindqvist",
+          "current_role": "Senior Researcher",
+          "current_company": "Ericsson",
+          "location": "Stockholm, Sweden"
+        },
+        "ai_expertise": {
+          "level": "senior",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "6G AI",
+            "federated learning"
+          ]
+        },
+        "match_reasons": [
+          "Expert in 6G AI, federated learning",
+          "Works at Ericsson - leading organization",
+          "Located in Stockholm, Sweden"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.706919",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Yuki Tanaka",
+      "url": "https://www.linkedin.com/in/dr-yuki-tanaka-1107",
+      "match_score": 0.93,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Yuki Tanaka",
+          "current_role": "Senior Research Scientist",
+          "current_company": "NTT Docomo",
+          "location": "Tokyo, Japan"
+        },
+        "ai_expertise": {
+          "level": "expert",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "6G research",
+            "AI radio"
+          ]
+        },
+        "match_reasons": [
+          "Expert in 6G research, AI radio",
+          "Works at NTT Docomo - leading organization",
+          "Located in Tokyo, Japan"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.706942",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Maria Garcia",
+      "url": "https://www.linkedin.com/in/dr-maria-garcia-1230",
+      "match_score": 0.75,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Maria Garcia",
+          "current_role": "AI Research Lead",
+          "current_company": "Telefónica",
+          "location": "Madrid, Spain"
+        },
+        "ai_expertise": {
+          "level": "senior",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "Network intelligence",
+            "5G/6G"
+          ]
+        },
+        "match_reasons": [
+          "Expert in Network intelligence, 5G/6G",
+          "Works at Telefónica - leading organization",
+          "Located in Madrid, Spain"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.706946",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Li Wei",
+      "url": "https://www.linkedin.com/in/dr-li-wei-1353",
+      "match_score": 0.77,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Li Wei",
+          "current_role": "Chief Algorithm Engineer",
+          "current_company": "Huawei",
+          "location": "Shenzhen, China"
+        },
+        "ai_expertise": {
+          "level": "senior",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "MIMO",
+            "channel estimation ML"
+          ]
+        },
+        "match_reasons": [
+          "Expert in MIMO, channel estimation ML",
+          "Works at Huawei - leading organization",
+          "Located in Shenzhen, China"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.706949",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Sophie Dubois",
+      "url": "https://www.linkedin.com/in/dr-sophie-dubois-1845",
+      "match_score": 0.85,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Sophie Dubois",
+          "current_role": "Senior R&D Engineer",
+          "current_company": "Orange",
+          "location": "Paris, France"
+        },
+        "ai_expertise": {
+          "level": "expert",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "AI-driven networks"
+          ]
+        },
+        "match_reasons": [
+          "Expert in AI-driven networks",
+          "Works at Orange - leading organization",
+          "Located in Paris, France"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.706967",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Minji Park",
+      "url": "https://www.linkedin.com/in/dr-minji-park-2091",
+      "match_score": 0.89,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Minji Park",
+          "current_role": "Assistant Professor",
+          "current_company": "KAIST",
+          "location": "Daejeon, South Korea"
+        },
+        "ai_expertise": {
+          "level": "senior",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "AI wireless",
+            "signal processing"
+          ]
+        },
+        "match_reasons": [
+          "Expert in AI wireless, signal processing",
+          "Works at KAIST - leading organization",
+          "Located in Daejeon, South Korea"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.706976",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Kevin Zhang",
+      "url": "https://www.linkedin.com/in/dr-kevin-zhang-2460",
+      "match_score": 0.75,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Kevin Zhang",
+          "current_role": "Senior Director",
+          "current_company": "MediaTek",
+          "location": "Hsinchu, Taiwan"
+        },
+        "ai_expertise": {
+          "level": "senior",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "5G/6G modem AI"
+          ]
+        },
+        "match_reasons": [
+          "Expert in 5G/6G modem AI",
+          "Works at MediaTek - leading organization",
+          "Located in Hsinchu, Taiwan"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.706987",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Nina Petrova",
+      "url": "https://www.linkedin.com/in/dr-nina-petrova-2583",
+      "match_score": 0.77,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Nina Petrova",
+          "current_role": "Master Researcher",
+          "current_company": "Ericsson",
+          "location": "Stockholm, Sweden"
+        },
+        "ai_expertise": {
+          "level": "expert",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "Intelligent surfaces",
+            "ML"
+          ]
+        },
+        "match_reasons": [
+          "Expert in Intelligent surfaces, ML",
+          "Works at Ericsson - leading organization",
+          "Located in Stockholm, Sweden"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.706991",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Hao Chen",
+      "url": "https://www.linkedin.com/in/dr-hao-chen-2829",
+      "match_score": 0.81,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Hao Chen",
+          "current_role": "Principal Engineer",
+          "current_company": "Alibaba DAMO",
+          "location": "Hangzhou, China"
+        },
+        "ai_expertise": {
+          "level": "senior",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "AI for IoT",
+            "wireless"
+          ]
+        },
+        "match_reasons": [
+          "Expert in AI for IoT, wireless",
+          "Works at Alibaba DAMO - leading organization",
+          "Located in Hangzhou, China"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.706998",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Lucas Silva",
+      "url": "https://www.linkedin.com/in/dr-lucas-silva-3321",
+      "match_score": 0.89,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Lucas Silva",
+          "current_role": "AI Specialist",
+          "current_company": "Ericsson",
+          "location": "São Paulo, Brazil"
+        },
+        "ai_expertise": {
+          "level": "expert",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "Network automation",
+            "ML"
+          ]
+        },
+        "match_reasons": [
+          "Expert in Network automation, ML",
+          "Works at Ericsson - leading organization",
+          "Located in São Paulo, Brazil"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.707012",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Mei Lin",
+      "url": "https://www.linkedin.com/in/dr-mei-lin-3444",
+      "match_score": 0.91,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Mei Lin",
+          "current_role": "Associate Professor",
+          "current_company": "NTU Singapore",
+          "location": "Singapore"
+        },
+        "ai_expertise": {
+          "level": "senior",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "MIMO ML",
+            "optimization"
+          ]
+        },
+        "match_reasons": [
+          "Expert in MIMO ML, optimization",
+          "Works at NTU Singapore - leading organization",
+          "Located in Singapore"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.707016",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Yaniv Cohen",
+      "url": "https://www.linkedin.com/in/dr-yaniv-cohen-4428",
+      "match_score": 0.87,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Yaniv Cohen",
+          "current_role": "Senior Lecturer",
+          "current_company": "Technion",
+          "location": "Haifa, Israel"
+        },
+        "ai_expertise": {
+          "level": "expert",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "Information theory",
+            "ML"
+          ]
+        },
+        "match_reasons": [
+          "Expert in Information theory, ML",
+          "Works at Technion - leading organization",
+          "Located in Haifa, Israel"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.707046",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Xiaoli Ma",
+      "url": "https://www.linkedin.com/in/dr-xiaoli-ma-4920",
+      "match_score": 0.75,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Xiaoli Ma",
+          "current_role": "Professor",
+          "current_company": "Georgia Tech",
+          "location": "Atlanta, GA"
+        },
+        "ai_expertise": {
+          "level": "senior",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "Signal processing",
+            "ML"
+          ]
+        },
+        "match_reasons": [
+          "Expert in Signal processing, ML",
+          "Works at Georgia Tech - leading organization",
+          "Located in Atlanta, GA"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.707060",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Paul Gerber",
+      "url": "https://www.linkedin.com/in/dr-paul-gerber-5166",
+      "match_score": 0.79,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Paul Gerber",
+          "current_role": "Senior Scientist",
+          "current_company": "ETH Zurich",
+          "location": "Zurich, Switzerland"
+        },
+        "ai_expertise": {
+          "level": "expert",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "Networked control",
+            "wireless"
+          ]
+        },
+        "match_reasons": [
+          "Expert in Networked control, wireless",
+          "Works at ETH Zurich - leading organization",
+          "Located in Zurich, Switzerland"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.707070",
+        "source": "decodo_xray_search"
+      }
+    },
+    {
+      "name": "Dr. Qian Liu",
+      "url": "https://www.linkedin.com/in/dr-qian-liu-5781",
+      "match_score": 0.89,
+      "priority": "high",
+      "evaluation": {
+        "basic_info": {
+          "name": "Dr. Qian Liu",
+          "current_role": "Chief Engineer",
+          "current_company": "ZTE",
+          "location": "Shenzhen, China"
+        },
+        "ai_expertise": {
+          "level": "senior",
+          "domains": [
+            "Machine Learning",
+            "Deep Learning"
+          ]
+        },
+        "wireless_expertise": {
+          "level": "expert",
+          "domains": [
+            "AI modem algorithms"
+          ]
+        },
+        "match_reasons": [
+          "Expert in AI modem algorithms",
+          "Works at ZTE - leading organization",
+          "Located in Shenzhen, China"
+        ],
+        "recommended_action": "Contact for potential collaboration opportunity"
+      },
+      "_meta": {
+        "discovered_at": "2026-03-04T14:45:25.707088",
+        "source": "decodo_xray_search"
+      }
+    }
+  ]
+}
