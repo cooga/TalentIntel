@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 快速人才检索脚本 - 使用Decodo住宅代理
+安全修复版本: SSL验证启用, 代理配置外部化
 """
 import asyncio
 import aiohttp
@@ -8,18 +9,51 @@ from aiohttp import ClientTimeout
 import yaml
 import json
 import re
+import os
+import ssl
 from datetime import datetime
 from pathlib import Path
 import urllib.parse
 import random
 import sys
+import logging
+
+# 配置日志
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
+# 从环境变量加载代理配置 (安全改进: 不再硬编码凭证)
+def load_proxy_config():
+    """加载代理配置，优先从环境变量读取"""
+    # 方法1: 从环境变量读取JSON格式配置
+    env_config = os.getenv('PROXY_CONFIG_JSON')
+    if env_config:
+        try:
+            return json.loads(env_config)
+        except json.JSONDecodeError:
+            logger.warning("PROXY_CONFIG_JSON 格式无效，尝试其他方式")
+    
+    # 方法2: 从环境变量读取单个代理
+    proxy_url = os.getenv('PROXY_URL')
+    if proxy_url:
+        return {'proxies': [{'url': proxy_url}]}
+    
+    # 方法3: 从配置文件读取 (文件不应提交到Git)
+    config_path = os.getenv('PROXY_CONFIG_FILE', 'config/proxies.yaml')
+    try:
+        with open(config_path) as f:
+            return yaml.safe_load(f)
+    except FileNotFoundError:
+        logger.error(f"代理配置文件未找到: {config_path}")
+        logger.error("请设置 PROXY_CONFIG_JSON 或 PROXY_URL 环境变量")
+        sys.exit(1)
 
 # 加载代理配置
-with open('config/proxies.yaml') as f:
-    config = yaml.safe_load(f)
-
-# 使用多个代理轮换
-proxies = config['proxies'][:4]  # 使用美/英/德/日代理
+config = load_proxy_config()
+proxies = config.get('proxies', [])[:4]  # 使用前4个代理
 
 SEARCH_KEYWORDS = [
     "machine learning wireless",
@@ -50,6 +84,9 @@ class TalentHunter:
     def get_proxy(self):
         p = proxies[self.proxy_index % len(proxies)]
         self.proxy_index += 1
+        # 支持环境变量配置格式和YAML格式
+        if 'url' in p:
+            return p['url']
         return f"http://{p['username']}:{p['password']}@{p['host']}:{p['port']}"
     
     def evaluate_profile(self, name, url, keyword):
@@ -90,22 +127,26 @@ class TalentHunter:
         
         try:
             timeout = ClientTimeout(total=20)
-            async with session.get(url, proxy=proxy_url, ssl=False, timeout=timeout) as resp:
+            # 安全修复: 启用SSL验证 (移除 ssl=False)
+            async with session.get(url, proxy=proxy_url, timeout=timeout) as resp:
                 if resp.status == 200:
                     html = await resp.text()
                     return self.extract_profiles(html, keyword)
                 elif resp.status == 429:
-                    print(f"  ⚠️  触发限制(429)，等待...")
+                    logger.warning("触发限制(429)，等待...")
                     await asyncio.sleep(random.uniform(30, 60))
                     return []
                 else:
+                    logger.debug(f"请求返回状态码: {resp.status}")
                     return []
         except Exception as e:
+            logger.debug(f"请求异常: {e}")
             return []
     
     def extract_profiles(self, html, keyword):
         profiles = []
-        pattern = r'https://[^"\s<>]*linkedin\.com/in/[^"\s<>]+'
+        # 性能优化: 使用非贪婪匹配，减少回溯
+        pattern = r'https://[^"\s<>]*?linkedin\.com/in/[^"\s<>]+?'
         urls = re.findall(pattern, html, re.IGNORECASE)
         
         seen = set()
@@ -124,29 +165,28 @@ class TalentHunter:
         return profiles
     
     async def run_hunt(self):
-        print("=" * 70)
-        print("🎯 TalentIntel - LinkedIn人才检索")
-        print(f"关键词: {len(SEARCH_KEYWORDS)}个 | 代理: {len(proxies)}个")
-        print("=" * 70)
+        logger.info("=" * 70)
+        logger.info("🎯 TalentIntel - LinkedIn人才检索")
+        logger.info(f"关键词: {len(SEARCH_KEYWORDS)}个 | 代理: {len(proxies)}个")
+        logger.info("=" * 70)
         
         async with aiohttp.ClientSession(headers=HEADERS) as session:
             for i, keyword in enumerate(SEARCH_KEYWORDS):
-                print(f"\n[{i+1}/{len(SEARCH_KEYWORDS)}] 搜索: {keyword}")
+                logger.info(f"[{i+1}/{len(SEARCH_KEYWORDS)}] 搜索: {keyword}")
                 
                 profiles = await self.search_google(keyword, session)
                 self.stats["searches"] += 1
                 self.stats["profiles"] += len(profiles)
                 
-                print(f"   找到 {len(profiles)} 个档案", end="")
+                logger.info(f"   找到 {len(profiles)} 个档案")
                 
                 for p in profiles:
                     result = self.evaluate_profile(p["name"], p["url"], keyword)
                     if result["match_score"] >= 0.7:
                         self.candidates.append(result)
                         self.stats["high_score"] += 1
-                        print(f"\n   ⭐ {result['name']} ({result['match_score']})")
+                        logger.info(f"   ⭐ {result['name']} ({result['match_score']})")
                 
-                print()  # 换行
                 await asyncio.sleep(random.uniform(5, 12))
         
         return self.candidates
@@ -175,7 +215,7 @@ if __name__ == "__main__":
             "candidates": unique
         }, f, indent=2)
     
-    print("\n" + "=" * 70)
-    print("📊 检索完成")
-    print(f"搜索: {hunter.stats['searches']} | 档案: {hunter.stats['profiles']} | 高分: {len(unique)}")
-    print("=" * 70)
+    logger.info("\n" + "=" * 70)
+    logger.info("📊 检索完成")
+    logger.info(f"搜索: {hunter.stats['searches']} | 档案: {hunter.stats['profiles']} | 高分: {len(unique)}")
+    logger.info("=" * 70)

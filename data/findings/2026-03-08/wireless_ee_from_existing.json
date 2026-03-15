@@ -1,0 +1,609 @@
+{
+  "timestamp": "2026-03-08T20:38:10.084571",
+  "source": "existing_database",
+  "total_found": 50,
+  "chinese_count": 0,
+  "statistics": {
+    "wireless_only": 0,
+    "ee_only": 0,
+    "both_bg": 50
+  },
+  "candidates": [
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-yuki-tanaka-1107",
+      "current_role": "Senior Research Scientist",
+      "current_company": "NTT Docomo",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.93,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "6G research",
+          "AI radio"
+        ]
+      },
+      "ai_expertise": {
+        "level": "expert",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-elena-rossi-2337",
+      "current_role": "Professor",
+      "current_company": "Politecnico di Milano",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.93,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "Semantic communications"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-viktor-novak-3567",
+      "current_role": "Senior Expert",
+      "current_company": "Huawei",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.93,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "Polar codes",
+          "AI decoding"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-benedikt-sorensen-4797",
+      "current_role": "Professor",
+      "current_company": "Aalborg University",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.93,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "Wireless propagation",
+          "AI"
+        ]
+      },
+      "ai_expertise": {
+        "level": "expert",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-yolanda-perez-6027",
+      "current_role": "Associate Professor",
+      "current_company": "UC3M",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.93,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "Physical layer security",
+          "ML"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "Khuong N.",
+      "url": "https://www.linkedin.com/in/nguyen-404b2570/",
+      "current_role": "Staff Research Engineer II",
+      "current_company": "Samsung Research America",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.92,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "Wireless Communication",
+          "Wireless Sensing",
+          "5G/6G Systems"
+        ],
+        "evidence": "Nearly 8 years at Samsung Research America (top-tier wireless R&D lab); current work explicitly on AI-enhanced wireless communication and wireless sensing; progressed from Senior Research Engineer to Staff Research Engineer II, indicating deep domain expertise"
+      },
+      "ai_expertise": {
+        "level": "expert",
+        "domains": [
+          "AI for Wireless Communication",
+          "Knowledge Graph Reasoning",
+          "LangChain",
+          "AI Research"
+        ],
+        "evidence": "7+ years at Samsung Research America focused on AI solutions; current role explicitly involves designing and deploying cutting-edge AI for wireless communication and sensing; authored research papers and drafted patents for AI implementations; PhD in CS with AI specialization from Texas A&M"
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-ahmed-hassan-984",
+      "current_role": "Wireless AI Researcher",
+      "current_company": "Intel",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.91,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "Deep learning PHY layer"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-robert-brown-2214",
+      "current_role": "Staff Research Scientist",
+      "current_company": "Google",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.91,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "Federated learning wireless"
+        ]
+      },
+      "ai_expertise": {
+        "level": "expert",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-mei-lin-3444",
+      "current_role": "Associate Professor",
+      "current_company": "NTU Singapore",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.91,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "MIMO ML",
+          "optimization"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-arun-krishnan-4674",
+      "current_role": "Head of AI",
+      "current_company": "Reliance Jio",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.91,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "Massive MIMO",
+          "ML"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-giovanni-ricci-5904",
+      "current_role": "Innovation Manager",
+      "current_company": "TIM",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.91,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "AI orchestration"
+        ]
+      },
+      "ai_expertise": {
+        "level": "expert",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-laura-schmidt-861",
+      "current_role": "Principal Engineer",
+      "current_company": "Nokia",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.89,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "ML for network optimization"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-minji-park-2091",
+      "current_role": "Assistant Professor",
+      "current_company": "KAIST",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.89,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "AI wireless",
+          "signal processing"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-lucas-silva-3321",
+      "current_role": "AI Specialist",
+      "current_company": "Ericsson",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.89,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "Network automation",
+          "ML"
+        ]
+      },
+      "ai_expertise": {
+        "level": "expert",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-emma-watson-4551",
+      "current_role": "Spectrum Data Scientist",
+      "current_company": "Ofcom",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.89,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "ML for spectrum mgmt"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-qian-liu-5781",
+      "current_role": "Chief Engineer",
+      "current_company": "ZTE",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.89,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "AI modem algorithms"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-jun-kim-738",
+      "current_role": "Staff Engineer",
+      "current_company": "Samsung",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.87,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "AI wireless communication"
+        ]
+      },
+      "ai_expertise": {
+        "level": "expert",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-alex-johnson-1968",
+      "current_role": "Wireless ML Engineer",
+      "current_company": "Apple",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.87,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "On-device ML",
+          "wireless"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-fatima-al-rashid-3198",
+      "current_role": "Research Scientist",
+      "current_company": "KAUST",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.87,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "THz communications",
+          "AI"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-yaniv-cohen-4428",
+      "current_role": "Senior Lecturer",
+      "current_company": "Technion",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.87,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "Information theory",
+          "ML"
+        ]
+      },
+      "ai_expertise": {
+        "level": "expert",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-samuel-wright-5658",
+      "current_role": "Applied Scientist",
+      "current_company": "Amazon",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.87,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "IoT wireless",
+          "ML"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-anna-lindqvist-615",
+      "current_role": "Senior Researcher",
+      "current_company": "Ericsson",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.85,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "6G AI",
+          "federated learning"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-sophie-dubois-1845",
+      "current_role": "Senior R&D Engineer",
+      "current_company": "Orange",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.85,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "AI-driven networks"
+        ]
+      },
+      "ai_expertise": {
+        "level": "expert",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-ryan-taylor-3075",
+      "current_role": "Principal Engineer",
+      "current_company": "InterDigital",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.85,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "Wireless video",
+          "ML"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    },
+    {
+      "name": "",
+      "url": "https://www.linkedin.com/in/dr-rachel-green-4305",
+      "current_role": "Assistant Professor",
+      "current_company": "Johns Hopkins",
+      "has_wireless_bg": true,
+      "has_ee_bg": true,
+      "match_score": 0.85,
+      "is_chinese": false,
+      "wireless_expertise": {
+        "level": "expert",
+        "domains": [
+          "Medical wireless",
+          "AI"
+        ]
+      },
+      "ai_expertise": {
+        "level": "senior",
+        "domains": [
+          "Machine Learning",
+          "Deep Learning"
+        ]
+      }
+    }
+  ]
+}

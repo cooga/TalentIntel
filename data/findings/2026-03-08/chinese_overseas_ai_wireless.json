@@ -1,0 +1,181 @@
+{
+  "timestamp": "2026-03-08T23:39:37.918287",
+  "target": "AI + \u6d77\u5916\u534e\u4eba + \u65e0\u7ebf\u80cc\u666f",
+  "target_count": 20,
+  "found_candidates": 10,
+  "by_region": {
+    "north_america": 4,
+    "asia_pacific": 4,
+    "europe": 0
+  },
+  "candidates": [
+    {
+      "name": "Dr. Mei Lin",
+      "url": "https://www.linkedin.com/in/dr-mei-lin-3444",
+      "current_role": "Associate Professor",
+      "current_company": "NTU Singapore",
+      "location": "Singapore",
+      "match_score": 0.91,
+      "ai_domains": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "wireless_domains": [
+        "MIMO ML",
+        "optimization"
+      ],
+      "is_overseas": true
+    },
+    {
+      "name": "Dr. Mei Lin",
+      "url": "https://www.linkedin.com/in/dr-mei-lin-3444",
+      "current_role": "Associate Professor",
+      "current_company": "NTU Singapore",
+      "location": "Singapore",
+      "match_score": 0.91,
+      "ai_domains": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "wireless_domains": [
+        "MIMO ML",
+        "optimization"
+      ],
+      "is_overseas": true
+    },
+    {
+      "name": "Prof. Michael Wang",
+      "url": "https://www.linkedin.com/in/prof-michael-wang-369",
+      "current_role": "Professor of Electrical Engineering",
+      "current_company": "Stanford",
+      "location": "Stanford, CA",
+      "match_score": 0.81,
+      "ai_domains": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "wireless_domains": [
+        "Wireless AI",
+        "mmWave systems"
+      ],
+      "is_overseas": true
+    },
+    {
+      "name": "Prof. Michael Wang",
+      "url": "https://www.linkedin.com/in/prof-michael-wang-369",
+      "current_role": "Professor of Electrical Engineering",
+      "current_company": "Stanford",
+      "location": "Stanford, CA",
+      "match_score": 0.81,
+      "ai_domains": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "wireless_domains": [
+        "Wireless AI",
+        "mmWave systems"
+      ],
+      "is_overseas": true
+    },
+    {
+      "name": "Dr. Sarah Chen",
+      "url": "https://www.linkedin.com/in/dr-sarah-chen-246",
+      "current_role": "Senior AI Research Scientist",
+      "current_company": "Qualcomm",
+      "location": "San Diego, CA",
+      "match_score": 0.79,
+      "ai_domains": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "wireless_domains": [
+        "5G ML",
+        "MIMO optimization"
+      ],
+      "is_overseas": true
+    },
+    {
+      "name": "Dr. Sarah Chen",
+      "url": "https://www.linkedin.com/in/dr-sarah-chen-246",
+      "current_role": "Senior AI Research Scientist",
+      "current_company": "Qualcomm",
+      "location": "San Diego, CA",
+      "match_score": 0.79,
+      "ai_domains": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "wireless_domains": [
+        "5G ML",
+        "MIMO optimization"
+      ],
+      "is_overseas": true
+    },
+    {
+      "name": "Dr. Kevin Zhang",
+      "url": "https://www.linkedin.com/in/dr-kevin-zhang-2460",
+      "current_role": "Senior Director",
+      "current_company": "MediaTek",
+      "location": "Hsinchu, Taiwan",
+      "match_score": 0.75,
+      "ai_domains": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "wireless_domains": [
+        "5G/6G modem AI"
+      ],
+      "is_overseas": true
+    },
+    {
+      "name": "Dr. Xiaoli Ma",
+      "url": "https://www.linkedin.com/in/dr-xiaoli-ma-4920",
+      "current_role": "Professor",
+      "current_company": "Georgia Tech",
+      "location": "Atlanta, GA",
+      "match_score": 0.75,
+      "ai_domains": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "wireless_domains": [
+        "Signal processing",
+        "ML"
+      ],
+      "is_overseas": true
+    },
+    {
+      "name": "Dr. Kevin Zhang",
+      "url": "https://www.linkedin.com/in/dr-kevin-zhang-2460",
+      "current_role": "Senior Director",
+      "current_company": "MediaTek",
+      "location": "Hsinchu, Taiwan",
+      "match_score": 0.75,
+      "ai_domains": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "wireless_domains": [
+        "5G/6G modem AI"
+      ],
+      "is_overseas": true
+    },
+    {
+      "name": "Dr. Xiaoli Ma",
+      "url": "https://www.linkedin.com/in/dr-xiaoli-ma-4920",
+      "current_role": "Professor",
+      "current_company": "Georgia Tech",
+      "location": "Atlanta, GA",
+      "match_score": 0.75,
+      "ai_domains": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "wireless_domains": [
+        "Signal processing",
+        "ML"
+      ],
+      "is_overseas": true
+    }
+  ]
+}

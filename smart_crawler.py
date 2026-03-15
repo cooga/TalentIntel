@@ -279,8 +279,8 @@ class SmartCrawler:
             try:
                 self.profile.cookies = await self.context.cookies()
                 self.profile_manager.save_profile(self.profile)
-            except:
-                pass
+            except Exception:
+                logger.warning("Failed to save profile cookies")
         
         if self.page:
             await self.page.close()
