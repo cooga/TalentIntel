@@ -224,41 +224,57 @@ TalentIntel/
 ├── requirements.txt          # Python依赖
 ├── setup.sh                  # 一键安装脚本
 ├── config/
-│   ├── researcher.example.yaml   # 研究员配置模板
-│   ├── researcher.yaml           # 实际配置（gitignored）
-│   ├── targets.yaml              # 目标人才画像
-│   └── .secrets.yaml.template    # 密钥模板
-├── src/
-│   ├── main.py               # 主入口
-│   ├── behavior/             # 人类行为模拟
-│   │   ├── mouse.py          # 鼠标轨迹（贝塞尔曲线）
-│   │   ├── reading.py        # 阅读模式（WPM建模）
-│   │   └── rhythm.py         # 工作节奏管理
-│   ├── browser/              # 浏览器管理
-│   │   └── stealth.py        # 反检测配置
-│   ├── platforms/            # 平台适配
-│   │   └── linkedin.py       # LinkedIn工作流
-│   ├── cognition/            # 认知理解层
-│   │   ├── llm.py            # LLM客户端
-│   │   ├── parser.py         # 页面解析
-│   │   └── evaluator.py      # 人才评估
-│   ├── scheduler/            # 任务调度
-│   │   └── search.py         # 搜索策略
-│   └── storage/              # 数据存储
-│       └── findings.py       # 研究发现存档
-├── tests/                    # 测试脚本
-│   ├── test_login.py         # 登录测试
-│   ├── test_profile_view.py  # 档案浏览测试
-│   └── debug_search.py       # 搜索调试
-├── data/
-│   ├── profiles/             # 浏览器指纹/会话
-│   └── findings/             # 每日发现存档
-│       └── 2026-03-02/
-│           ├── report.md             # 汇总报告
-│           ├── yousef_shawky_234520.json
-│           └── owen_wen_234512.json
+│   ├── researcher.yaml       # 研究员配置
+│   ├── search_keywords.yaml  # 搜索关键词配置
+│   ├── target_companies.yaml # 目标公司列表
+│   └── extended_keywords.yaml # 扩展关键词
+├── src/                      # 源代码（待重构）
+├── scripts/                  # 数据处理脚本
+│   ├── unify_candidates_db.py    # 合并所有候选人数据
+│   ├── clean_candidates_db.py    # 清理模拟数据
+│   └── generate_csv_report.py    # 生成CSV报告
+├── data/                     # 数据目录
+│   ├── .gitignore            # 忽略浏览器缓存等
+│   ├── unified_candidates_db.json    # 统一数据库（完整数据）
+│   ├── clean_candidates_db.json      # 清理后数据库（推荐）
+│   ├── chinese_talent_summary.json   # 华人人才汇总
+│   ├── active/               # 活跃候选人档案
+│   │   ├── candidates.json   # 活跃候选人主文件
+│   │   └── candidates/       # 候选人详细档案 (001_xxx.json)
+│   ├── research/             # X-Ray研究发现
+│   │   ├── DISCOVERED_CANDIDATES_*.json
+│   │   ├── ROUND2_DISCOVERED_*.json
+│   │   └── *_CANDIDATES_*.json
+│   ├── xray_searches/        # X-Ray搜索原始结果
+│   │   ├── spacex_search_results.json
+│   │   ├── nvidia_search_results_final.json
+│   │   └── qualcomm_*.json
+│   ├── daily_search/         # 每日搜索任务
+│   ├── findings/             # 历史研究发现（按日期）
+│   ├── exports/              # 导出文件
+│   │   ├── csv/              # CSV报告
+│   │   └── reports/          # Markdown报告
+│   └── profiles/             # 浏览器指纹/会话（gitignored）
 └── logs/                     # 工作日志
 ```
+
+### 数据使用说明
+
+**主数据库文件：**
+- `data/clean_candidates_db.json` - **推荐使用**，不含模拟数据，118位真实候选人
+- `data/unified_candidates_db.json` - 完整数据库（含所有来源）
+
+**CSV报告生成：**
+```bash
+cd Project/TalentIntel
+python3 scripts/clean_candidates_db.py
+# 输出: /tmp/clean_candidates_report_YYYY-MM-DD.csv
+```
+
+**数据清理原则：**
+- ❌ 所有模拟数据已删除（原 phase2/simulated_data/）
+- ❌ 浏览器缓存数据已忽略（.gitignore）
+- ✅ 仅保留真实候选人数据
 
 ---
 

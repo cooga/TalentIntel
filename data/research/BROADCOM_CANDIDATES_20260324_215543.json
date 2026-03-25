@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Victor Liang",
+    "title": "AI/Machine Learning Engineer",
+    "company": "Broadcom",
+    "location": "Irvine, California",
+    "linkedin_url": "https://www.linkedin.com/in/vliang",
+    "followers": "490+",
+    "background": "AI and machine learning video quality analytics. Digital image and signal processing.",
+    "is_chinese": true,
+    "chinese_name": "梁",
+    "match_score": 0.82,
+    "source": "Google X-Ray Search",
+    "search_query": "site:linkedin.com/in (\"Broadcom\") (\"AI\" OR \"Machine Learning\") (\"California\" OR \"CA\")"
+  },
+  {
+    "name": "Jinghao Li",
+    "title": "Software Engineer",
+    "company": "Broadcom Software",
+    "location": "Culver City, California",
+    "linkedin_url": "https://www.linkedin.com/in/jinghli",
+    "followers": "570+",
+    "background": "Beihang University",
+    "is_chinese": true,
+    "chinese_name": "李景浩",
+    "match_score": 0.75,
+    "source": "Google X-Ray Search",
+    "search_query": "site:linkedin.com/in (\"Broadcom\") (\"AI\" OR \"Machine Learning\") (\"California\" OR \"CA\")"
+  },
+  {
+    "name": "Ben Yang",
+    "title": "Engineer",
+    "company": "Broadcom Inc.",
+    "location": "Los Gatos, California",
+    "linkedin_url": "https://www.linkedin.com/in/ben-yang-618a7087",
+    "followers": "50+",
+    "background": "UCLA Henry Samueli School of Engineering and Applied Science",
+    "is_chinese": true,
+    "chinese_name": "杨",
+    "match_score": 0.72,
+    "source": "Google X-Ray Search",
+    "search_query": "site:linkedin.com/in (\"Broadcom\") (\"AI\" OR \"Machine Learning\") (\"California\" OR \"CA\")"
+  }
+]

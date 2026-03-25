@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Hongming Zheng",
+    "title": "AI Engineer",
+    "company": "Intel",
+    "location": "Santa Clara, California",
+    "linkedin_url": "https://www.linkedin.com/in/hongming-zheng-6404839b",
+    "followers": "820+",
+    "background": "Intel Corporation, Southeast University",
+    "is_chinese": true,
+    "chinese_name": "郑鸿鸣",
+    "match_score": 0.8,
+    "source": "Google X-Ray Search",
+    "search_query": "site:linkedin.com/in (\"Intel\") (\"AI\" OR \"Machine Learning\") (\"California\" OR \"CA\")"
+  },
+  {
+    "name": "Melanie Chen",
+    "title": "AI Product Manager",
+    "company": "Intel",
+    "location": "San Francisco, California",
+    "linkedin_url": "https://www.linkedin.com/in/michaelchen96203",
+    "followers": "30+",
+    "background": "Senior AI Product Manager, Edge AI",
+    "is_chinese": true,
+    "chinese_name": "陈",
+    "match_score": 0.78,
+    "source": "Google X-Ray Search",
+    "search_query": "site:linkedin.com/in (\"Intel\") (\"AI\" OR \"Machine Learning\") (\"California\" OR \"CA\")"
+  },
+  {
+    "name": "Jiaxiang (Tom) Jiang",
+    "title": "Senior AI Research Scientist",
+    "company": "Intel",
+    "location": "Santa Clara, California",
+    "linkedin_url": "https://www.linkedin.com/in/jiaxiang-tom-jiang-05221a118",
+    "followers": "930+",
+    "background": "Computer vision, GenAI, AI infrastructure, biomedical image analysis, machine learning",
+    "is_chinese": true,
+    "chinese_name": "蒋家祥",
+    "match_score": 0.85,
+    "source": "Google X-Ray Search",
+    "search_query": "site:linkedin.com/in (\"Intel\") (\"AI\" OR \"Machine Learning\") (\"California\" OR \"CA\")"
+  },
+  {
+    "name": "Beilei Zhu",
+    "title": "Staff Data Scientist",
+    "company": "Intel",
+    "location": "California",
+    "linkedin_url": "https://www.linkedin.com/in/beilei",
+    "followers": "310+",
+    "background": "AI, supply chain expertise, machine learning projects for decision optimization",
+    "is_chinese": true,
+    "chinese_name": "朱贝蕾",
+    "match_score": 0.75,
+    "source": "Google X-Ray Search",
+    "search_query": "site:linkedin.com/in (\"Intel\") (\"AI\" OR \"Machine Learning\") (\"California\" OR \"CA\")"
+  },
+  {
+    "name": "Alex Sin",
+    "title": "Engineer",
+    "company": "Intel",
+    "location": "San Francisco Bay Area, California",
+    "linkedin_url": "https://www.linkedin.com/in/alex-sin-852868b5",
+    "followers": "1410+",
+    "background": "University of California, AI and Machine Learning",
+    "is_chinese": true,
+    "chinese_name": "冼",
+    "match_score": 0.7,
+    "source": "Google X-Ray Search",
+    "search_query": "site:linkedin.com/in (\"Intel\") (\"AI\" OR \"Machine Learning\") (\"California\" OR \"CA\")"
+  }
+]

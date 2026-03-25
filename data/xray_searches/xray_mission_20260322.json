@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-03-22T16:13:28.977012",
+  "researcher": "Kobe Claw",
+  "mission": "双轨搜索 - X-Ray 轨道",
+  "searches": [
+    {
+      "name": "NVIDIA San Jose AI工程师",
+      "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22NVIDIA%22%29+%28%22AI+Engineer%22+OR+%22Machine+Learning%22+OR+%22Deep+Learning%22%29+%28%22San+Jose%22+OR+%22CA%22%29",
+      "company": "NVIDIA",
+      "priority": "P0"
+    },
+    {
+      "name": "Qualcomm San Diego 5G专家",
+      "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Qualcomm%22%29+%28%225G%22+OR+%226G%22+OR+%22Wireless%22%29+%28%22San+Diego%22+OR+%22CA%22%29",
+      "company": "Qualcomm",
+      "priority": "P0"
+    },
+    {
+      "name": "SpaceX Starlink工程师",
+      "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22SpaceX%22%29+%28%22Starlink%22+OR+%22Wireless%22+OR+%22Engineer%22%29+%28%22Hawthorne%22+OR+%22CA%22%29",
+      "company": "SpaceX",
+      "priority": "P0"
+    },
+    {
+      "name": "Google AI无线通信",
+      "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Google%22%29+%28%22AI%22+OR+%22Wireless%22+OR+%225G%22%29+%28%22Mountain+View%22+OR+%22CA%22%29",
+      "company": "Google",
+      "priority": "P1"
+    },
+    {
+      "name": "Meta AI网络连接",
+      "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Meta%22%29+%28%22AI%22+OR+%22Wireless%22+OR+%22Connectivity%22%29+%28%22Menlo+Park%22+OR+%22CA%22%29",
+      "company": "Meta",
+      "priority": "P1"
+    }
+  ],
+  "chinese_surnames": [
+    "chen",
+    "wang",
+    "li",
+    "zhang",
+    "liu",
+    "lin",
+    "wu",
+    "zhou",
+    "huang",
+    "zhao",
+    "yang",
+    "xu",
+    "sun",
+    "zhu",
+    "ma",
+    "gao",
+    "guo",
+    "he",
+    "zheng",
+    "xie",
+    "han",
+    "tang",
+    "feng",
+    "cao",
+    "yuan",
+    "deng",
+    "xue",
+    "tian",
+    "pan",
+    "wei"
+  ],
+  "instructions": {
+    "step1": "访问Google搜索URL",
+    "step2": "提取LinkedIn档案链接",
+    "step3": "筛选华人候选人",
+    "step4": "验证AI+无线背景",
+    "step5": "录入人才库"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "timestamp": "2026-03-22T17:27:12.275768",
+  "search_company": "SpaceX",
+  "search_location": "Starlink",
+  "search_keywords": [
+    "AI",
+    "Machine Learning",
+    "Starlink",
+    "Wireless"
+  ],
+  "total_found": 10,
+  "chinese_found": 2,
+  "candidates": [
+    {
+      "name": "Chao-Wei (Kibon) Cheng (郑朝伟)",
+      "linkedin_url": "https://tw.linkedin.com/in/chao-wei-kibon-cheng-3791b8104",
+      "title": "Senior Supplier Quality Engineer, Starlink Supply Chain Quality",
+      "company": "SpaceX",
+      "location": "New Taipei City, Taiwan",
+      "is_chinese": true,
+      "notes": "10+年硬件开发和供应链管理，290+关注者"
+    },
+    {
+      "name": "Angelique Refahiyat",
+      "linkedin_url": "https://www.linkedin.com/in/angelique-refahiyat",
+      "title": "Starlink | SpaceX",
+      "company": "SpaceX",
+      "location": "Unknown",
+      "is_chinese": false,
+      "notes": "卫星项目专家"
+    },
+    {
+      "name": "Michael Nicolls",
+      "linkedin_url": "https://www.linkedin.com/in/michael-nicolls-84989a50",
+      "title": "SVP, Starlink",
+      "company": "SpaceX",
+      "location": "Menlo Park, California",
+      "is_chinese": false,
+      "notes": "SVP级别，Cornell University，4190+关注者"
+    },
+    {
+      "name": "Ethan Andrianos",
+      "linkedin_url": "https://sg.linkedin.com/in/ethanandrianos",
+      "title": "SpaceX",
+      "company": "SpaceX",
+      "location": "Singapore",
+      "is_chinese": false,
+      "notes": "UC Berkeley，1.2万+关注者"
+    },
+    {
+      "name": "Carlos Godinez",
+      "linkedin_url": "https://www.linkedin.com/in/carlos-godinez-iii",
+      "title": "Starlink Infrastructure Engineer II",
+      "company": "SpaceX",
+      "location": "Seattle, Washington",
+      "is_chinese": false,
+      "notes": "Starlink International Infrastructure，800+关注者"
+    },
+    {
+      "name": "Albert Kuo (郭/柯)",
+      "linkedin_url": "https://www.linkedin.com/in/albert-kuo",
+      "title": "Lead Full-Stack Software Engineer, Starlink",
+      "company": "SpaceX",
+      "location": "Hawthorne, California",
+      "is_chinese": true,
+      "notes": "Lead Software Engineer @ Starlink，2200+关注者"
+    },
+    {
+      "name": "Steve Mance",
+      "linkedin_url": "https://www.linkedin.com/in/steve-mance",
+      "title": "Previously SpaceX (Starlink)",
+      "company": "SpaceX (Former)",
+      "location": "Greater Seattle Area",
+      "is_chinese": false,
+      "notes": "Starlink首位全职工程师，deep learning背景，1070+关注者"
+    },
+    {
+      "name": "Ben Manley",
+      "linkedin_url": "https://www.linkedin.com/in/benjamin-manley",
+      "title": "Lead Satellite Hardware Operations Engineer",
+      "company": "SpaceX",
+      "location": "Greater Seattle Area",
+      "is_chinese": false,
+      "notes": "Starlink WiFi Router，1030+关注者"
+    },
+    {
+      "name": "Abhinav Sridhar",
+      "linkedin_url": "https://www.linkedin.com/in/abhinav-sridhar-71012976",
+      "title": "SpaceX",
+      "company": "SpaceX",
+      "location": "San Francisco Bay Area",
+      "is_chinese": false,
+      "notes": "1690+关注者"
+    },
+    {
+      "name": "Blake Bollinger",
+      "linkedin_url": "https://www.linkedin.com/in/blake-bollinger",
+      "title": "Software Engineer at SpaceX (Starlink Mobile)",
+      "company": "SpaceX",
+      "location": "Unknown",
+      "is_chinese": false,
+      "notes": "Starlink Mobile, AI/ML，890+关注者"
+    }
+  ],
+  "chinese_candidates": [
+    {
+      "name": "Chao-Wei (Kibon) Cheng (郑朝伟)",
+      "linkedin_url": "https://tw.linkedin.com/in/chao-wei-kibon-cheng-3791b8104",
+      "title": "Senior Supplier Quality Engineer, Starlink Supply Chain Quality",
+      "company": "SpaceX",
+      "location": "New Taipei City, Taiwan",
+      "is_chinese": true,
+      "notes": "10+年硬件开发和供应链管理，290+关注者"
+    },
+    {
+      "name": "Albert Kuo (郭/柯)",
+      "linkedin_url": "https://www.linkedin.com/in/albert-kuo",
+      "title": "Lead Full-Stack Software Engineer, Starlink",
+      "company": "SpaceX",
+      "location": "Hawthorne, California",
+      "is_chinese": true,
+      "notes": "Lead Software Engineer @ Starlink，2200+关注者"
+    }
+  ]
+}

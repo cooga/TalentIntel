@@ -1,0 +1,151 @@
+{
+  "timestamp": "2026-03-22T16:48:08.991658",
+  "search_company": "NVIDIA",
+  "search_location": "San Jose, CA",
+  "search_keywords": [
+    "AI Engineer",
+    "Machine Learning",
+    "Deep Learning"
+  ],
+  "total_found": 10,
+  "chinese_found": 5,
+  "candidates": [
+    {
+      "name": "Tan Yu",
+      "linkedin_url": "https://www.linkedin.com/in/tan-yu-78675862",
+      "title": "Machine Learning Engineer",
+      "company": "NVIDIA",
+      "location": "San Jose, California",
+      "is_chinese": true,
+      "notes": "超过6060位关注者"
+    },
+    {
+      "name": "Joe Halabi",
+      "linkedin_url": "https://www.linkedin.com/in/joe-halabi",
+      "title": "Sr. Deep Learning Software Engineer",
+      "company": "NVIDIA",
+      "location": "San Jose, California",
+      "is_chinese": false,
+      "notes": "专注于AI和深度学习"
+    },
+    {
+      "name": "Aditya Sahu",
+      "linkedin_url": "https://www.linkedin.com/in/adityasahuvns",
+      "title": "NVIDIA",
+      "company": "NVIDIA",
+      "location": "San Jose, California",
+      "is_chinese": false,
+      "notes": ""
+    },
+    {
+      "name": "Kai-Hsiang Liu",
+      "linkedin_url": "https://www.linkedin.com/in/kaihsiangliu",
+      "title": "Senior Deep Learning Software Engineer",
+      "company": "NVIDIA",
+      "location": "San Jose, California",
+      "is_chinese": true,
+      "notes": "超过1570位关注者，Nvidia Deep Learning Safety"
+    },
+    {
+      "name": "Jocelyn Huang",
+      "linkedin_url": "https://www.linkedin.com/in/huangjocelyn",
+      "title": "Deep Learning Research Scientist",
+      "company": "NVIDIA",
+      "location": "San Jose, California",
+      "is_chinese": true,
+      "notes": "超过390位关注者，CMU毕业"
+    },
+    {
+      "name": "Jingkun Zhang",
+      "linkedin_url": "https://www.linkedin.com/in/jkzhang7",
+      "title": "Deep Learning Compilers",
+      "company": "NVIDIA",
+      "location": "Palo Alto, California",
+      "is_chinese": true,
+      "notes": "超过5830位关注者，Compiler Optimizations专家"
+    },
+    {
+      "name": "Meenakshi V.",
+      "linkedin_url": "https://www.linkedin.com/in/meens",
+      "title": "Deep Learning Software Engineer",
+      "company": "NVIDIA",
+      "location": "San Jose, California",
+      "is_chinese": false,
+      "notes": ""
+    },
+    {
+      "name": "Rahul Raman",
+      "linkedin_url": "https://www.linkedin.com/in/rahulraman3",
+      "title": "Deep Learning Engineer",
+      "company": "NVIDIA",
+      "location": "Santa Clara, California",
+      "is_chinese": false,
+      "notes": "NYU毕业"
+    },
+    {
+      "name": "BOR JIUN LIN",
+      "linkedin_url": "https://tw.linkedin.com/in/bor-jiun-lin-b99b80191",
+      "title": "Machine Learning Engineer",
+      "company": "NVIDIA",
+      "location": "Hsinchu, Taiwan",
+      "is_chinese": true,
+      "notes": "在台湾新竹"
+    },
+    {
+      "name": "Ankur Singh",
+      "linkedin_url": "https://www.linkedin.com/in/ankur-singh-ml",
+      "title": "NVIDIA",
+      "company": "NVIDIA",
+      "location": "San Jose, California",
+      "is_chinese": false,
+      "notes": "San Jose State University"
+    }
+  ],
+  "chinese_candidates": [
+    {
+      "name": "Tan Yu",
+      "linkedin_url": "https://www.linkedin.com/in/tan-yu-78675862",
+      "title": "Machine Learning Engineer",
+      "company": "NVIDIA",
+      "location": "San Jose, California",
+      "is_chinese": true,
+      "notes": "超过6060位关注者"
+    },
+    {
+      "name": "Kai-Hsiang Liu",
+      "linkedin_url": "https://www.linkedin.com/in/kaihsiangliu",
+      "title": "Senior Deep Learning Software Engineer",
+      "company": "NVIDIA",
+      "location": "San Jose, California",
+      "is_chinese": true,
+      "notes": "超过1570位关注者，Nvidia Deep Learning Safety"
+    },
+    {
+      "name": "Jocelyn Huang",
+      "linkedin_url": "https://www.linkedin.com/in/huangjocelyn",
+      "title": "Deep Learning Research Scientist",
+      "company": "NVIDIA",
+      "location": "San Jose, California",
+      "is_chinese": true,
+      "notes": "超过390位关注者，CMU毕业"
+    },
+    {
+      "name": "Jingkun Zhang",
+      "linkedin_url": "https://www.linkedin.com/in/jkzhang7",
+      "title": "Deep Learning Compilers",
+      "company": "NVIDIA",
+      "location": "Palo Alto, California",
+      "is_chinese": true,
+      "notes": "超过5830位关注者，Compiler Optimizations专家"
+    },
+    {
+      "name": "BOR JIUN LIN",
+      "linkedin_url": "https://tw.linkedin.com/in/bor-jiun-lin-b99b80191",
+      "title": "Machine Learning Engineer",
+      "company": "NVIDIA",
+      "location": "Hsinchu, Taiwan",
+      "is_chinese": true,
+      "notes": "在台湾新竹"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-03-22T11:33:20.338918",
+  "query": "site:linkedin.com/in (\"Google\" OR \"NVIDIA\" OR \"Nvidia\" OR \"Meta\" OR \"Apple\" OR \"Qualcomm\" OR \"Intel\" OR \"Samsung\" OR \"Broadcom\" OR \"AMD\" OR \"Marvell\" OR \"Cisco\" OR \"Ericsson\" OR \"Nokia\") (\"AI Engineer\" OR \"Machine Learning Engineer\" OR \"Research Scientist\" OR \"Staff Engineer\" OR \"Senior Engineer\" OR \"Principal Engineer\" OR \"Wireless Engineer\" OR \"Communication Engineer\" OR \"Signal Processing Engineer\" OR \"5G Engineer\" OR \"6G Researcher\") (\"machine learning\" OR \"deep learning\" OR \"wireless communication\" OR \"5G\" OR \"6G\" OR \"MIMO\" OR \"signal processing\" OR \"OFDM\" OR \"beamforming\" OR \"federated learning\" OR \"neural network\") (\"United States\" OR \"USA\" OR \"California\" OR \"San Francisco\" OR \"San Jose\" OR \"Palo Alto\" OR \"Mountain View\" OR \"Seattle\" OR \"Austin\" OR \"Boston\" OR \"New York\" OR \"Toronto\" OR \"Canada\" OR \"Vancouver\") -\"recruiter\" -\"HR\" -\"sales\" -\"marketing\" -\"intern\" -\"student\"",
+  "config": {
+    "target_companies": [
+      "Google",
+      "NVIDIA",
+      "Nvidia",
+      "Meta",
+      "Apple",
+      "Qualcomm",
+      "Intel",
+      "Samsung",
+      "Broadcom",
+      "AMD",
+      "Marvell",
+      "Cisco",
+      "Ericsson",
+      "Nokia"
+    ],
+    "title_keywords": [
+      "AI Engineer",
+      "Machine Learning Engineer",
+      "Research Scientist",
+      "Staff Engineer",
+      "Senior Engineer",
+      "Principal Engineer",
+      "Wireless Engineer",
+      "Communication Engineer",
+      "Signal Processing Engineer",
+      "5G Engineer",
+      "6G Researcher"
+    ],
+    "skill_keywords": [
+      "machine learning",
+      "deep learning",
+      "wireless communication",
+      "5G",
+      "6G",
+      "MIMO",
+      "signal processing",
+      "OFDM",
+      "beamforming",
+      "federated learning",
+      "neural network"
+    ],
+    "locations": [
+      "United States",
+      "USA",
+      "California",
+      "San Francisco",
+      "San Jose",
+      "Palo Alto",
+      "Mountain View",
+      "Seattle",
+      "Austin",
+      "Boston",
+      "New York",
+      "Toronto",
+      "Canada",
+      "Vancouver"
+    ]
+  },
+  "urls": [
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Google%22+OR+%22NVIDIA%22+OR+%22Nvidia%22+OR+%22Meta%22+OR+%22Apple%22+OR+%22Qualcomm%22+OR+%22Intel%22+OR+%22Samsung%22+OR+%22Broadcom%22+OR+%22AMD%22+OR+%22Marvell%22+OR+%22Cisco%22+OR+%22Ericsson%22+OR+%22Nokia%22%29+%28%22AI+Engineer%22+OR+%22Machine+Learning+Engineer%22+OR+%22Research+Scientist%22+OR+%22Staff+Engineer%22+OR+%22Senior+Engineer%22+OR+%22Principal+Engineer%22+OR+%22Wireless+Engineer%22+OR+%22Communication+Engineer%22+OR+%22Signal+Processing+Engineer%22+OR+%225G+Engineer%22+OR+%226G+Researcher%22%29+%28%22machine+learning%22+OR+%22deep+learning%22+OR+%22wireless+communication%22+OR+%225G%22+OR+%226G%22+OR+%22MIMO%22+OR+%22signal+processing%22+OR+%22OFDM%22+OR+%22beamforming%22+OR+%22federated+learning%22+OR+%22neural+network%22%29+%28%22United+States%22+OR+%22USA%22+OR+%22California%22+OR+%22San+Francisco%22+OR+%22San+Jose%22+OR+%22Palo+Alto%22+OR+%22Mountain+View%22+OR+%22Seattle%22+OR+%22Austin%22+OR+%22Boston%22+OR+%22New+York%22+OR+%22Toronto%22+OR+%22Canada%22+OR+%22Vancouver%22%29+-%22recruiter%22+-%22HR%22+-%22sales%22+-%22marketing%22+-%22intern%22+-%22student%22&start=0&num=10&hl=zh-CN",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Google%22+OR+%22NVIDIA%22+OR+%22Nvidia%22+OR+%22Meta%22+OR+%22Apple%22+OR+%22Qualcomm%22+OR+%22Intel%22+OR+%22Samsung%22+OR+%22Broadcom%22+OR+%22AMD%22+OR+%22Marvell%22+OR+%22Cisco%22+OR+%22Ericsson%22+OR+%22Nokia%22%29+%28%22AI+Engineer%22+OR+%22Machine+Learning+Engineer%22+OR+%22Research+Scientist%22+OR+%22Staff+Engineer%22+OR+%22Senior+Engineer%22+OR+%22Principal+Engineer%22+OR+%22Wireless+Engineer%22+OR+%22Communication+Engineer%22+OR+%22Signal+Processing+Engineer%22+OR+%225G+Engineer%22+OR+%226G+Researcher%22%29+%28%22machine+learning%22+OR+%22deep+learning%22+OR+%22wireless+communication%22+OR+%225G%22+OR+%226G%22+OR+%22MIMO%22+OR+%22signal+processing%22+OR+%22OFDM%22+OR+%22beamforming%22+OR+%22federated+learning%22+OR+%22neural+network%22%29+%28%22United+States%22+OR+%22USA%22+OR+%22California%22+OR+%22San+Francisco%22+OR+%22San+Jose%22+OR+%22Palo+Alto%22+OR+%22Mountain+View%22+OR+%22Seattle%22+OR+%22Austin%22+OR+%22Boston%22+OR+%22New+York%22+OR+%22Toronto%22+OR+%22Canada%22+OR+%22Vancouver%22%29+-%22recruiter%22+-%22HR%22+-%22sales%22+-%22marketing%22+-%22intern%22+-%22student%22&start=10&num=10&hl=zh-CN",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Google%22+OR+%22NVIDIA%22+OR+%22Nvidia%22+OR+%22Meta%22+OR+%22Apple%22+OR+%22Qualcomm%22+OR+%22Intel%22+OR+%22Samsung%22+OR+%22Broadcom%22+OR+%22AMD%22+OR+%22Marvell%22+OR+%22Cisco%22+OR+%22Ericsson%22+OR+%22Nokia%22%29+%28%22AI+Engineer%22+OR+%22Machine+Learning+Engineer%22+OR+%22Research+Scientist%22+OR+%22Staff+Engineer%22+OR+%22Senior+Engineer%22+OR+%22Principal+Engineer%22+OR+%22Wireless+Engineer%22+OR+%22Communication+Engineer%22+OR+%22Signal+Processing+Engineer%22+OR+%225G+Engineer%22+OR+%226G+Researcher%22%29+%28%22machine+learning%22+OR+%22deep+learning%22+OR+%22wireless+communication%22+OR+%225G%22+OR+%226G%22+OR+%22MIMO%22+OR+%22signal+processing%22+OR+%22OFDM%22+OR+%22beamforming%22+OR+%22federated+learning%22+OR+%22neural+network%22%29+%28%22United+States%22+OR+%22USA%22+OR+%22California%22+OR+%22San+Francisco%22+OR+%22San+Jose%22+OR+%22Palo+Alto%22+OR+%22Mountain+View%22+OR+%22Seattle%22+OR+%22Austin%22+OR+%22Boston%22+OR+%22New+York%22+OR+%22Toronto%22+OR+%22Canada%22+OR+%22Vancouver%22%29+-%22recruiter%22+-%22HR%22+-%22sales%22+-%22marketing%22+-%22intern%22+-%22student%22&start=20&num=10&hl=zh-CN",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Google%22+OR+%22NVIDIA%22+OR+%22Nvidia%22+OR+%22Meta%22+OR+%22Apple%22+OR+%22Qualcomm%22+OR+%22Intel%22+OR+%22Samsung%22+OR+%22Broadcom%22+OR+%22AMD%22+OR+%22Marvell%22+OR+%22Cisco%22+OR+%22Ericsson%22+OR+%22Nokia%22%29+%28%22AI+Engineer%22+OR+%22Machine+Learning+Engineer%22+OR+%22Research+Scientist%22+OR+%22Staff+Engineer%22+OR+%22Senior+Engineer%22+OR+%22Principal+Engineer%22+OR+%22Wireless+Engineer%22+OR+%22Communication+Engineer%22+OR+%22Signal+Processing+Engineer%22+OR+%225G+Engineer%22+OR+%226G+Researcher%22%29+%28%22machine+learning%22+OR+%22deep+learning%22+OR+%22wireless+communication%22+OR+%225G%22+OR+%226G%22+OR+%22MIMO%22+OR+%22signal+processing%22+OR+%22OFDM%22+OR+%22beamforming%22+OR+%22federated+learning%22+OR+%22neural+network%22%29+%28%22United+States%22+OR+%22USA%22+OR+%22California%22+OR+%22San+Francisco%22+OR+%22San+Jose%22+OR+%22Palo+Alto%22+OR+%22Mountain+View%22+OR+%22Seattle%22+OR+%22Austin%22+OR+%22Boston%22+OR+%22New+York%22+OR+%22Toronto%22+OR+%22Canada%22+OR+%22Vancouver%22%29+-%22recruiter%22+-%22HR%22+-%22sales%22+-%22marketing%22+-%22intern%22+-%22student%22&start=30&num=10&hl=zh-CN",
+    "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%28%22Google%22+OR+%22NVIDIA%22+OR+%22Nvidia%22+OR+%22Meta%22+OR+%22Apple%22+OR+%22Qualcomm%22+OR+%22Intel%22+OR+%22Samsung%22+OR+%22Broadcom%22+OR+%22AMD%22+OR+%22Marvell%22+OR+%22Cisco%22+OR+%22Ericsson%22+OR+%22Nokia%22%29+%28%22AI+Engineer%22+OR+%22Machine+Learning+Engineer%22+OR+%22Research+Scientist%22+OR+%22Staff+Engineer%22+OR+%22Senior+Engineer%22+OR+%22Principal+Engineer%22+OR+%22Wireless+Engineer%22+OR+%22Communication+Engineer%22+OR+%22Signal+Processing+Engineer%22+OR+%225G+Engineer%22+OR+%226G+Researcher%22%29+%28%22machine+learning%22+OR+%22deep+learning%22+OR+%22wireless+communication%22+OR+%225G%22+OR+%226G%22+OR+%22MIMO%22+OR+%22signal+processing%22+OR+%22OFDM%22+OR+%22beamforming%22+OR+%22federated+learning%22+OR+%22neural+network%22%29+%28%22United+States%22+OR+%22USA%22+OR+%22California%22+OR+%22San+Francisco%22+OR+%22San+Jose%22+OR+%22Palo+Alto%22+OR+%22Mountain+View%22+OR+%22Seattle%22+OR+%22Austin%22+OR+%22Boston%22+OR+%22New+York%22+OR+%22Toronto%22+OR+%22Canada%22+OR+%22Vancouver%22%29+-%22recruiter%22+-%22HR%22+-%22sales%22+-%22marketing%22+-%22intern%22+-%22student%22&start=40&num=10&hl=zh-CN"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "timestamp": "2026-03-22T17:05:28.498987",
+  "search_company": "Qualcomm",
+  "search_location": "San Diego, CA",
+  "search_keywords": [
+    "5G",
+    "6G",
+    "Wireless"
+  ],
+  "total_found": 10,
+  "chinese_found": 0,
+  "candidates": [
+    {
+      "name": "Balwinder Sachdev",
+      "linkedin_url": "https://www.linkedin.com/in/balwinder-sachdev-3723b220",
+      "title": "Senior Staff Engineer, 5G/6G Research",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": false,
+      "notes": "5G/6G Research, Technical team lead, 680+关注者"
+    },
+    {
+      "name": "Aleksandar Damnjanovic",
+      "linkedin_url": "https://www.linkedin.com/in/aleksandar-damnjanovic-ab36ba6",
+      "title": "Principal Engineer/Manager, 6G Spectrum Research Lead",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": false,
+      "notes": "25年无线行业经验, 3G/4G/5G网络, 830+关注者"
+    },
+    {
+      "name": "Somsubhra Barik",
+      "linkedin_url": "https://www.linkedin.com/in/somsubhra-barik-84318023",
+      "title": "Wireless Systems Engineer",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": false,
+      "notes": "5G NR标准, 710+关注者"
+    },
+    {
+      "name": "Christopher Wingert",
+      "linkedin_url": "https://www.linkedin.com/in/christopher-wingert-40b52b123",
+      "title": "5G/6G Core Software Performance and Architecture Lead",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": false,
+      "notes": "34年软件工程经验"
+    },
+    {
+      "name": "Sriraj Kandala",
+      "linkedin_url": "https://www.linkedin.com/in/skandal",
+      "title": "Wireless Software Engineer",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": false,
+      "notes": "6G原型, 5G非地面卫星网络, 1790+关注者"
+    },
+    {
+      "name": "Amrit Kharel",
+      "linkedin_url": "https://www.linkedin.com/in/amritkharelphd",
+      "title": "Staff Engineer, 5G/6G Systems & Protocol Design",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": false,
+      "notes": "Ph.D. in Wireless Communication, 900+关注者"
+    },
+    {
+      "name": "Vijay Kumaravelu",
+      "linkedin_url": "https://www.linkedin.com/in/vijay-kumaravelu-674b4330",
+      "title": "Staff Engineer, M-MIMO Array Calibration Architect",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": false,
+      "notes": "5G/6G M-MIMO, University of Florida, 600+关注者"
+    },
+    {
+      "name": "Shankar Krishnan",
+      "linkedin_url": "https://www.linkedin.com/in/shankar-krishnan-7b962541",
+      "title": "Senior Wireless Systems Engineer",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": false,
+      "notes": "Qualcomm首个5G调制解调器团队成员, 660+关注者"
+    },
+    {
+      "name": "Sankalp Agrawal",
+      "linkedin_url": "https://www.linkedin.com/in/sanag310",
+      "title": "Senior Engineer, 5G NR Base Station L1 PHY",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": false,
+      "notes": "5G NR基站物理层, 2120+关注者"
+    },
+    {
+      "name": "Mursalin Habib",
+      "linkedin_url": "https://www.linkedin.com/in/mursalinhabib",
+      "title": "Qualcomm",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": false,
+      "notes": "14年无线认证经验, 5G认证负责人, 2230+关注者"
+    }
+  ],
+  "chinese_candidates": []
+}

@@ -1,0 +1,98 @@
+{
+  "start_time": "2026-03-24T21:45:02.846268",
+  "search_config": {
+    "Intel": {
+      "queries": [
+        "site:linkedin.com/in (\"Intel\") (\"AI\" OR \"Machine Learning\" OR \"Deep Learning\") (\"California\" OR \"CA\" OR \"Oregon\" OR \"OR\")",
+        "site:linkedin.com/in (\"Intel\") (\"Wireless\" OR \"5G\" OR \"Communication\") (\"California\" OR \"CA\")",
+        "site:linkedin.com/in (\"Intel\") (\"Research Scientist\" OR \"Engineer\") (\"Santa Clara\" OR \"Hillsboro\")",
+        "site:linkedin.com/in (\"Intel Labs\") (\"AI\" OR \"ML\") (\"Research\")"
+      ],
+      "location_filter": [
+        "CA",
+        "California",
+        "Oregon",
+        "OR",
+        "Santa Clara",
+        "Hillsboro",
+        "San Jose"
+      ]
+    },
+    "Broadcom": {
+      "queries": [
+        "site:linkedin.com/in (\"Broadcom\") (\"AI\" OR \"Machine Learning\") (\"California\" OR \"CA\")",
+        "site:linkedin.com/in (\"Broadcom\") (\"Wireless\" OR \"5G\" OR \"WiFi\" OR \"Bluetooth\") (\"CA\" OR \"San Jose\")",
+        "site:linkedin.com/in (\"Broadcom\") (\"Engineer\" OR \"Scientist\") (\"Irvine\" OR \"Sunnyvale\")",
+        "site:linkedin.com/in (\"Broadcom\") (\"Chip\" OR \"Semiconductor\" OR \"ASIC\") (\"California\")"
+      ],
+      "location_filter": [
+        "CA",
+        "California",
+        "San Jose",
+        "Irvine",
+        "Sunnyvale"
+      ]
+    }
+  },
+  "search_tasks": [
+    {
+      "company": "Intel",
+      "query": "site:linkedin.com/in (\"Intel\") (\"AI\" OR \"Machine Learning\" OR \"Deep Learning\") (\"California\" OR \"CA\" OR \"Oregon\" OR \"OR\")",
+      "search_url": "https://www.google.com/search?q=site%3Alinkedin.com/in%20%28%22Intel%22%29%20%28%22AI%22%20OR%20%22Machine%20Learning%22%20OR%20%22Deep%20Learning%22%29%20%28%22California%22%20OR%20%22CA%22%20OR%20%22Oregon%22%20OR%20%22OR%22%29",
+      "status": "pending_manual_search",
+      "timestamp": "2026-03-24T21:45:02.846397"
+    },
+    {
+      "company": "Intel",
+      "query": "site:linkedin.com/in (\"Intel\") (\"Wireless\" OR \"5G\" OR \"Communication\") (\"California\" OR \"CA\")",
+      "search_url": "https://www.google.com/search?q=site%3Alinkedin.com/in%20%28%22Intel%22%29%20%28%22Wireless%22%20OR%20%225G%22%20OR%20%22Communication%22%29%20%28%22California%22%20OR%20%22CA%22%29",
+      "status": "pending_manual_search",
+      "timestamp": "2026-03-24T21:45:03.730093"
+    },
+    {
+      "company": "Intel",
+      "query": "site:linkedin.com/in (\"Intel\") (\"Research Scientist\" OR \"Engineer\") (\"Santa Clara\" OR \"Hillsboro\")",
+      "search_url": "https://www.google.com/search?q=site%3Alinkedin.com/in%20%28%22Intel%22%29%20%28%22Research%20Scientist%22%20OR%20%22Engineer%22%29%20%28%22Santa%20Clara%22%20OR%20%22Hillsboro%22%29",
+      "status": "pending_manual_search",
+      "timestamp": "2026-03-24T21:45:04.422899"
+    },
+    {
+      "company": "Intel",
+      "query": "site:linkedin.com/in (\"Intel Labs\") (\"AI\" OR \"ML\") (\"Research\")",
+      "search_url": "https://www.google.com/search?q=site%3Alinkedin.com/in%20%28%22Intel%20Labs%22%29%20%28%22AI%22%20OR%20%22ML%22%29%20%28%22Research%22%29",
+      "status": "pending_manual_search",
+      "timestamp": "2026-03-24T21:45:05.212738"
+    },
+    {
+      "company": "Broadcom",
+      "query": "site:linkedin.com/in (\"Broadcom\") (\"AI\" OR \"Machine Learning\") (\"California\" OR \"CA\")",
+      "search_url": "https://www.google.com/search?q=site%3Alinkedin.com/in%20%28%22Broadcom%22%29%20%28%22AI%22%20OR%20%22Machine%20Learning%22%29%20%28%22California%22%20OR%20%22CA%22%29",
+      "status": "pending_manual_search",
+      "timestamp": "2026-03-24T21:45:05.919318"
+    },
+    {
+      "company": "Broadcom",
+      "query": "site:linkedin.com/in (\"Broadcom\") (\"Wireless\" OR \"5G\" OR \"WiFi\" OR \"Bluetooth\") (\"CA\" OR \"San Jose\")",
+      "search_url": "https://www.google.com/search?q=site%3Alinkedin.com/in%20%28%22Broadcom%22%29%20%28%22Wireless%22%20OR%20%225G%22%20OR%20%22WiFi%22%20OR%20%22Bluetooth%22%29%20%28%22CA%22%20OR%20%22San%20Jose%22%29",
+      "status": "pending_manual_search",
+      "timestamp": "2026-03-24T21:45:06.857383"
+    },
+    {
+      "company": "Broadcom",
+      "query": "site:linkedin.com/in (\"Broadcom\") (\"Engineer\" OR \"Scientist\") (\"Irvine\" OR \"Sunnyvale\")",
+      "search_url": "https://www.google.com/search?q=site%3Alinkedin.com/in%20%28%22Broadcom%22%29%20%28%22Engineer%22%20OR%20%22Scientist%22%29%20%28%22Irvine%22%20OR%20%22Sunnyvale%22%29",
+      "status": "pending_manual_search",
+      "timestamp": "2026-03-24T21:45:07.385434"
+    },
+    {
+      "company": "Broadcom",
+      "query": "site:linkedin.com/in (\"Broadcom\") (\"Chip\" OR \"Semiconductor\" OR \"ASIC\") (\"California\")",
+      "search_url": "https://www.google.com/search?q=site%3Alinkedin.com/in%20%28%22Broadcom%22%29%20%28%22Chip%22%20OR%20%22Semiconductor%22%20OR%20%22ASIC%22%29%20%28%22California%22%29",
+      "status": "pending_manual_search",
+      "timestamp": "2026-03-24T21:45:08.013601"
+    }
+  ],
+  "verification_links": [],
+  "end_time": "2026-03-24T21:45:08.798497",
+  "total_queries": 8
+}

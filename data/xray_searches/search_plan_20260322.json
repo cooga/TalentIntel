@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-03-22T16:10:40.024791",
+  "researcher": "Kobe Claw",
+  "strategy": "双轨搜索 (LinkedIn + X-Ray)",
+  "targets": [
+    {
+      "company": "NVIDIA",
+      "location": "San Jose",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"AI Engineer\" OR \"Machine Learning\" OR \"Deep Learning\") (\"San Jose\" OR \"CA\" OR \"California\")",
+      "priority": "P0"
+    },
+    {
+      "company": "Qualcomm",
+      "location": "San Diego",
+      "query": "site:linkedin.com/in (\"Qualcomm\") (\"5G\" OR \"6G\" OR \"Wireless\") (\"San Diego\" OR \"CA\" OR \"California\")",
+      "priority": "P0"
+    },
+    {
+      "company": "SpaceX",
+      "location": "Hawthorne",
+      "query": "site:linkedin.com/in (\"SpaceX\") (\"Starlink\" OR \"Wireless\" OR \"Engineer\") (\"Hawthorne\" OR \"CA\" OR \"California\")",
+      "priority": "P0"
+    },
+    {
+      "company": "Google",
+      "location": "Mountain View",
+      "query": "site:linkedin.com/in (\"Google\") (\"AI\" OR \"Wireless\" OR \"5G\") (\"Mountain View\" OR \"CA\" OR \"California\")",
+      "priority": "P1"
+    },
+    {
+      "company": "Meta",
+      "location": "Menlo Park",
+      "query": "site:linkedin.com/in (\"Meta\") (\"AI\" OR \"Wireless\" OR \"Connectivity\") (\"Menlo Park\" OR \"CA\" OR \"California\")",
+      "priority": "P1"
+    }
+  ],
+  "chinese_surnames": [
+    "chen",
+    "wang",
+    "li",
+    "zhang",
+    "liu",
+    "lin",
+    "wu",
+    "zhou",
+    "huang",
+    "zhao",
+    "yang",
+    "xu",
+    "sun",
+    "zhu",
+    "ma",
+    "gao",
+    "guo",
+    "he",
+    "zheng",
+    "xie",
+    "han",
+    "tang",
+    "feng",
+    "cao",
+    "yuan",
+    "deng",
+    "xue",
+    "tian",
+    "pan",
+    "wei"
+  ]
+}

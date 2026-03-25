@@ -1,0 +1,142 @@
+{
+  "timestamp": "2026-03-22T17:17:03.673385",
+  "search_company": "Qualcomm",
+  "search_location": "San Diego, CA",
+  "search_keywords": [
+    "AI",
+    "Machine Learning",
+    "Deep Learning"
+  ],
+  "total_found": 10,
+  "chinese_found": 4,
+  "candidates": [
+    {
+      "name": "Mudit Jain",
+      "linkedin_url": "https://www.linkedin.com/in/muditj1729",
+      "title": "Senior Deep Learning Engineer",
+      "company": "Qualcomm",
+      "location": "San Diego County, California",
+      "is_chinese": false,
+      "notes": "多模态AI, UC San Diego硕士, 2110+关注者"
+    },
+    {
+      "name": "Balaji Shankar Balachandran",
+      "linkedin_url": "https://www.linkedin.com/in/balajishankar04",
+      "title": "Staff AI Product Manager",
+      "company": "Qualcomm",
+      "location": "San Diego Metropolitan Area",
+      "is_chinese": false,
+      "notes": "AI/ML, 应用机器学习工程师, 2290+关注者"
+    },
+    {
+      "name": "Kyunggeun Lee",
+      "linkedin_url": "https://www.linkedin.com/in/kyunggeun-lee-705180149",
+      "title": "Staff Engineer, Machine Learning",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": false,
+      "notes": "Qualcomm AI Research, 首尔国立大学, 270+关注者"
+    },
+    {
+      "name": "Yash Shah",
+      "linkedin_url": "https://www.linkedin.com/in/yash-shah-027509106",
+      "title": "Sr Machine Learning Engineer",
+      "company": "Qualcomm AI",
+      "location": "San Diego, California",
+      "is_chinese": false,
+      "notes": "马萨诸塞大学阿默斯特分校, 2200+关注者"
+    },
+    {
+      "name": "Jilei Hou (侯继磊)",
+      "linkedin_url": "https://www.linkedin.com/in/jileihou",
+      "title": "Senior Vice President of Engineering, AI R&D",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": true,
+      "notes": "🌟 SVP级别高管, UC San Diego, 3200+关注者, NAE/FOE提名者"
+    },
+    {
+      "name": "Lulu Wang (王璐璐)",
+      "linkedin_url": "https://www.linkedin.com/in/luluawang",
+      "title": "Senior Staff Engineer / Manager, AI/ML Leadership",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": true,
+      "notes": "生成式AI, 边缘AI, 无线连接, 2090+关注者"
+    },
+    {
+      "name": "Qiqi Hou (侯琪琪)",
+      "linkedin_url": "https://www.linkedin.com/in/hou-qiqi-511096b9",
+      "title": "Machine Learning Researcher (Senior Engineer)",
+      "company": "Qualcomm AI Research",
+      "location": "San Diego, California",
+      "is_chinese": true,
+      "notes": "Portland State University, 260+关注者"
+    },
+    {
+      "name": "Ashish Garg",
+      "linkedin_url": "https://www.linkedin.com/in/ashish-garg-3a62039",
+      "title": "Machine Learning Lead",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": false,
+      "notes": "AI Engineering Lead, Compute, 1850+关注者"
+    },
+    {
+      "name": "Aakarsh Gupta",
+      "linkedin_url": "https://www.linkedin.com/in/aakarshg99",
+      "title": "Machine Learning Engineer",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": false,
+      "notes": "UC San Diego, 3350+关注者"
+    },
+    {
+      "name": "Hong (Herbert) Cai (蔡宏)",
+      "linkedin_url": "https://www.linkedin.com/in/hong-herbert-cai",
+      "title": "Senior Staff Engineer, Deep Learning Researcher",
+      "company": "Qualcomm AI Research",
+      "location": "San Diego, California",
+      "is_chinese": true,
+      "notes": "UC Santa Barbara, 3310+关注者, 3K followers"
+    }
+  ],
+  "chinese_candidates": [
+    {
+      "name": "Jilei Hou (侯继磊)",
+      "linkedin_url": "https://www.linkedin.com/in/jileihou",
+      "title": "Senior Vice President of Engineering, AI R&D",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": true,
+      "notes": "🌟 SVP级别高管, UC San Diego, 3200+关注者, NAE/FOE提名者"
+    },
+    {
+      "name": "Lulu Wang (王璐璐)",
+      "linkedin_url": "https://www.linkedin.com/in/luluawang",
+      "title": "Senior Staff Engineer / Manager, AI/ML Leadership",
+      "company": "Qualcomm",
+      "location": "San Diego, California",
+      "is_chinese": true,
+      "notes": "生成式AI, 边缘AI, 无线连接, 2090+关注者"
+    },
+    {
+      "name": "Qiqi Hou (侯琪琪)",
+      "linkedin_url": "https://www.linkedin.com/in/hou-qiqi-511096b9",
+      "title": "Machine Learning Researcher (Senior Engineer)",
+      "company": "Qualcomm AI Research",
+      "location": "San Diego, California",
+      "is_chinese": true,
+      "notes": "Portland State University, 260+关注者"
+    },
+    {
+      "name": "Hong (Herbert) Cai (蔡宏)",
+      "linkedin_url": "https://www.linkedin.com/in/hong-herbert-cai",
+      "title": "Senior Staff Engineer, Deep Learning Researcher",
+      "company": "Qualcomm AI Research",
+      "location": "San Diego, California",
+      "is_chinese": true,
+      "notes": "UC Santa Barbara, 3310+关注者, 3K followers"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+
+================================================================================
+🎯 Google X-Ray 手动搜索指南
+================================================================================
+
+由于 Google 反爬机制，建议使用以下方式手动搜索:
+
+1. 直接访问 Google 搜索:
+   https://www.google.com/search?q=site:linkedin.com/in%20("Google"%20OR%20"NVIDIA"%20OR%20"Meta"%20OR%20"Apple"%20OR%20"Qualcomm"%20OR%20"Intel")%20("AI%20Engineer"%20OR%20"Research%20Scientist"%20OR%20"Staff%20Engineer")%20("machine%20learning"%20OR%20"wireless"%20OR%20"5G"%20OR%20"MIMO")%20("United%20States"%20OR%20"California"%20OR%20"San%20Francisco")%20-"recruiter"%20-"HR"%20-"sales"
+
+2. 搜索查询语法:
+   site:linkedin.com/in ("Google" OR "NVIDIA" OR "Meta" OR "Apple" OR "Qualcomm" OR "Intel") ("AI Engineer" OR "Research Scientist" OR "Staff Engineer") ("machine learning" OR "wireless" OR "5G" OR "MIMO") ("United States" OR "California" OR "San Francisco") -"recruiter" -"HR" -"sales"
+
+3. 分页搜索 (修改 start 参数):
+   - 第1页: start=0
+   - 第2页: start=10
+   - 第3页: start=20
+   ...
+
+4. 提取 LinkedIn 档案:
+   - 从搜索结果中复制 linkedin.com/in/xxx 链接
+   - 记录姓名、职位、公司信息
+
+5. 华人姓名筛选:
+   - Chen, Wang, Li, Zhang, Liu, Lin, Wu, Zhou 等姓氏
+   - 结合个人简介判断是否华人
+
+================================================================================
+推荐搜索组合 (逐个尝试):
+================================================================================
+
+组合1: Google AI + Wireless
+  site:linkedin.com/in ("Google") ("AI Engineer" OR "Research Scientist") ("wireless" OR "5G")
+
+组合2: NVIDIA + Deep Learning
+  site:linkedin.com/in ("NVIDIA") ("Deep Learning" OR "Machine Learning") ("wireless" OR "communication")
+
+组合3: Meta + 5G/6G
+  site:linkedin.com/in ("Meta") ("5G" OR "6G" OR "wireless") ("engineer" OR "scientist")
+
+组合4: Qualcomm + AI
+  site:linkedin.com/in ("Qualcomm") ("AI" OR "machine learning") ("wireless" OR "5G" OR "MIMO")
+
+组合5: Apple + Signal Processing
+  site:linkedin.com/in ("Apple") ("signal processing" OR "wireless") ("engineer" OR "scientist")
+
+================================================================================

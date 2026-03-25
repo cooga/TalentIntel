@@ -1,0 +1,23 @@
+# 忽略浏览器缓存和临时数据
+**/Cache/
+**/Cache_Data/
+**/Code Cache/
+**/IndexedDB/
+**/Local Storage/
+**/Session Storage/
+**/blob_storage/
+**/*.leveldb
+**/profiles/
+**/BrowserMetrics/
+**/Default/
+**/chrome_*
+
+# 忽略模拟数据（不应提交到git）
+**/simulated_data/
+**/phase2/validated/chinese_candidates_20260321.json
+**/phase1_archive/
+
+# 忽略生成的临时文件
+*.tmp
+*.log
+nohup.out
