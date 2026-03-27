@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-03-23T02:00:14.367955",
+  "queries": [
+    {
+      "company": "Google",
+      "keyword": "deep learning framework",
+      "query": "site:linkedin.com/in (\"Google\") (\"deep learning framework\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "edge device optimization",
+      "query": "site:linkedin.com/in (\"Google\") (\"edge device optimization\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "AI for science",
+      "query": "site:linkedin.com/in (\"Google\") (\"AI for science\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "edge intelligence",
+      "query": "site:linkedin.com/in (\"Google\") (\"edge intelligence\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "model compression",
+      "query": "site:linkedin.com/in (\"Google\") (\"model compression\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "AI silicon",
+      "query": "site:linkedin.com/in (\"Meta\") (\"AI silicon\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "physics informed neural networks",
+      "query": "site:linkedin.com/in (\"Meta\") (\"physics informed neural networks\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "edge computing AI",
+      "query": "site:linkedin.com/in (\"Meta\") (\"edge computing AI\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "ML infrastructure engineer",
+      "query": "site:linkedin.com/in (\"Meta\") (\"ML infrastructure engineer\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "deep learning framework",
+      "query": "site:linkedin.com/in (\"Meta\") (\"deep learning framework\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "AI platform engineer",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"AI platform engineer\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "O-RAN AI",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"O-RAN AI\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "6G AI",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"6G AI\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "AI drug discovery",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"AI drug discovery\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "AI engineer 5G",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"AI engineer 5G\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "RAN intelligence",
+      "query": "site:linkedin.com/in (\"Apple\") (\"RAN intelligence\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "ML infrastructure engineer",
+      "query": "site:linkedin.com/in (\"Apple\") (\"ML infrastructure engineer\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "tinyML",
+      "query": "site:linkedin.com/in (\"Apple\") (\"tinyML\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "intelligent reflecting surface",
+      "query": "site:linkedin.com/in (\"Apple\") (\"intelligent reflecting surface\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "AI compiler optimization",
+      "query": "site:linkedin.com/in (\"Apple\") (\"AI compiler optimization\")"
+    }
+  ],
+  "profiles_found": [],
+  "high_score_candidates": []
+}

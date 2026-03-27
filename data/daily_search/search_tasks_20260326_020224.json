@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-03-26T02:02:01.178350",
+  "queries": [
+    {
+      "company": "Google",
+      "keyword": "AI material science",
+      "query": "site:linkedin.com/in (\"Google\") (\"AI material science\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "wireless sensing AI",
+      "query": "site:linkedin.com/in (\"Google\") (\"wireless sensing AI\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "model compression",
+      "query": "site:linkedin.com/in (\"Google\") (\"model compression\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "edge intelligence",
+      "query": "site:linkedin.com/in (\"Google\") (\"edge intelligence\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "MIMO deep learning",
+      "query": "site:linkedin.com/in (\"Google\") (\"MIMO deep learning\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "MIMO deep learning",
+      "query": "site:linkedin.com/in (\"Meta\") (\"MIMO deep learning\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "AI for science",
+      "query": "site:linkedin.com/in (\"Meta\") (\"AI for science\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "knowledge distillation",
+      "query": "site:linkedin.com/in (\"Meta\") (\"knowledge distillation\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "AI accelerator design",
+      "query": "site:linkedin.com/in (\"Meta\") (\"AI accelerator design\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "network slicing AI",
+      "query": "site:linkedin.com/in (\"Meta\") (\"network slicing AI\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "intelligent reflecting surface",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"intelligent reflecting surface\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "6G AI",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"6G AI\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "terahertz communications",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"terahertz communications\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "spectrum sensing AI",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"spectrum sensing AI\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "mobile AI inference",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"mobile AI inference\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "neural network deployment",
+      "query": "site:linkedin.com/in (\"Apple\") (\"neural network deployment\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "6G AI",
+      "query": "site:linkedin.com/in (\"Apple\") (\"6G AI\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "physics informed neural networks",
+      "query": "site:linkedin.com/in (\"Apple\") (\"physics informed neural networks\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "wireless communication researcher",
+      "query": "site:linkedin.com/in (\"Apple\") (\"wireless communication researcher\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "federated learning wireless",
+      "query": "site:linkedin.com/in (\"Apple\") (\"federated learning wireless\")"
+    }
+  ],
+  "profiles_found": [],
+  "high_score_candidates": []
+}

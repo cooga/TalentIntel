@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-03-27T02:02:43.842726",
+  "queries": [
+    {
+      "company": "Google",
+      "keyword": "neural network deployment",
+      "query": "site:linkedin.com/in (\"Google\") (\"neural network deployment\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "AI accelerator design",
+      "query": "site:linkedin.com/in (\"Google\") (\"AI accelerator design\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "neural processing unit",
+      "query": "site:linkedin.com/in (\"Google\") (\"neural processing unit\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "model compression",
+      "query": "site:linkedin.com/in (\"Google\") (\"model compression\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "O-RAN AI",
+      "query": "site:linkedin.com/in (\"Google\") (\"O-RAN AI\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "knowledge distillation",
+      "query": "site:linkedin.com/in (\"Meta\") (\"knowledge distillation\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "machine learning wireless",
+      "query": "site:linkedin.com/in (\"Meta\") (\"machine learning wireless\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "AI accelerator design",
+      "query": "site:linkedin.com/in (\"Meta\") (\"AI accelerator design\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "tinyML",
+      "query": "site:linkedin.com/in (\"Meta\") (\"tinyML\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "ML infrastructure engineer",
+      "query": "site:linkedin.com/in (\"Meta\") (\"ML infrastructure engineer\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "edge device optimization",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"edge device optimization\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "deep learning framework",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"deep learning framework\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "neural processing unit",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"neural processing unit\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "machine learning wireless",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"machine learning wireless\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "AI compiler optimization",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"AI compiler optimization\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "neural network deployment",
+      "query": "site:linkedin.com/in (\"Apple\") (\"neural network deployment\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "wireless sensing AI",
+      "query": "site:linkedin.com/in (\"Apple\") (\"wireless sensing AI\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "federated learning wireless",
+      "query": "site:linkedin.com/in (\"Apple\") (\"federated learning wireless\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "AI accelerator design",
+      "query": "site:linkedin.com/in (\"Apple\") (\"AI accelerator design\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "mobile AI inference",
+      "query": "site:linkedin.com/in (\"Apple\") (\"mobile AI inference\")"
+    }
+  ],
+  "profiles_found": [],
+  "high_score_candidates": []
+}

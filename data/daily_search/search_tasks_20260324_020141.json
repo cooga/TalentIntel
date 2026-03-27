@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-03-24T02:01:18.476113",
+  "queries": [
+    {
+      "company": "Google",
+      "keyword": "machine learning wireless",
+      "query": "site:linkedin.com/in (\"Google\") (\"machine learning wireless\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "AI material science",
+      "query": "site:linkedin.com/in (\"Google\") (\"AI material science\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "ML infrastructure engineer",
+      "query": "site:linkedin.com/in (\"Google\") (\"ML infrastructure engineer\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "deep learning hardware",
+      "query": "site:linkedin.com/in (\"Google\") (\"deep learning hardware\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "6G AI",
+      "query": "site:linkedin.com/in (\"Google\") (\"6G AI\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "ML infrastructure engineer",
+      "query": "site:linkedin.com/in (\"Meta\") (\"ML infrastructure engineer\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "knowledge distillation",
+      "query": "site:linkedin.com/in (\"Meta\") (\"knowledge distillation\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "chip design machine learning",
+      "query": "site:linkedin.com/in (\"Meta\") (\"chip design machine learning\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "AI compiler optimization",
+      "query": "site:linkedin.com/in (\"Meta\") (\"AI compiler optimization\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "AI drug discovery",
+      "query": "site:linkedin.com/in (\"Meta\") (\"AI drug discovery\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "MIMO deep learning",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"MIMO deep learning\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "O-RAN AI",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"O-RAN AI\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "6G AI",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"6G AI\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "AI accelerator design",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"AI accelerator design\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "physics informed neural networks",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"physics informed neural networks\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "edge computing AI",
+      "query": "site:linkedin.com/in (\"Apple\") (\"edge computing AI\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "federated learning wireless",
+      "query": "site:linkedin.com/in (\"Apple\") (\"federated learning wireless\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "edge device optimization",
+      "query": "site:linkedin.com/in (\"Apple\") (\"edge device optimization\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "mobile AI inference",
+      "query": "site:linkedin.com/in (\"Apple\") (\"mobile AI inference\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "AI drug discovery",
+      "query": "site:linkedin.com/in (\"Apple\") (\"AI drug discovery\")"
+    }
+  ],
+  "profiles_found": [],
+  "high_score_candidates": []
+}

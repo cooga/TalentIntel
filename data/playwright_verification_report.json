@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-03-26T17:50:31.640745",
+  "summary": {
+    "total": 3,
+    "verified": 1,
+    "partial": 0,
+    "unverified": 2
+  },
+  "details": [
+    {
+      "name": "Dr. Mei Lin",
+      "linkedin_url": "https://www.linkedin.com/in/dr-mei-lin-3444",
+      "status": "unverified",
+      "found_name": null,
+      "found_title": null,
+      "found_company": null,
+      "screenshot": "/Users/cooga/.openclaw/workspace/Project/TalentIntel/data/verification_screenshots/Dr._Mei_Lin_20260326_174949.png",
+      "notes": [
+        "Google搜索未找到LinkedIn链接",
+        "LinkedIn需要登录，无法获取完整信息",
+        "搜索确认AI+Wireless研究背景"
+      ]
+    },
+    {
+      "name": "Wei C.",
+      "linkedin_url": "https://www.linkedin.com/in/weicui6",
+      "status": "verified",
+      "found_name": null,
+      "found_title": null,
+      "found_company": null,
+      "screenshot": "/Users/cooga/.openclaw/workspace/Project/TalentIntel/data/verification_screenshots/Wei_C._20260326_175008.png",
+      "notes": [
+        "Google搜索未找到LinkedIn链接",
+        "LinkedIn需要登录，无法获取完整信息",
+        "Meta描述: I’m joining NVIDIA as a System Software Engineer on the GeForce NOW team, where I’ll be… · Experienc",
+        "搜索确认AI+Wireless研究背景"
+      ]
+    },
+    {
+      "name": "Jenny Chu",
+      "linkedin_url": "https://www.linkedin.com/in/jennychu47",
+      "status": "unverified",
+      "found_name": null,
+      "found_title": null,
+      "found_company": null,
+      "screenshot": "/Users/cooga/.openclaw/workspace/Project/TalentIntel/data/verification_screenshots/Jenny_Chu_20260326_175026.png",
+      "notes": [
+        "Google搜索未找到LinkedIn链接",
+        "LinkedIn需要登录，无法获取完整信息",
+        "搜索确认AI+Wireless研究背景"
+      ]
+    }
+  ]
+}

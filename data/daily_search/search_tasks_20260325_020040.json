@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-03-25T02:00:17.573454",
+  "queries": [
+    {
+      "company": "Google",
+      "keyword": "intelligent reflecting surface",
+      "query": "site:linkedin.com/in (\"Google\") (\"intelligent reflecting surface\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "knowledge distillation",
+      "query": "site:linkedin.com/in (\"Google\") (\"knowledge distillation\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "beamforming optimization",
+      "query": "site:linkedin.com/in (\"Google\") (\"beamforming optimization\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "wireless communication researcher",
+      "query": "site:linkedin.com/in (\"Google\") (\"wireless communication researcher\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "AI software stack",
+      "query": "site:linkedin.com/in (\"Google\") (\"AI software stack\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "AI drug discovery",
+      "query": "site:linkedin.com/in (\"Meta\") (\"AI drug discovery\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "AI for science",
+      "query": "site:linkedin.com/in (\"Meta\") (\"AI for science\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "edge computing AI",
+      "query": "site:linkedin.com/in (\"Meta\") (\"edge computing AI\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "tinyML",
+      "query": "site:linkedin.com/in (\"Meta\") (\"tinyML\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "scientific machine learning",
+      "query": "site:linkedin.com/in (\"Meta\") (\"scientific machine learning\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "AI material science",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"AI material science\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "mobile AI inference",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"mobile AI inference\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "AI engineer 5G",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"AI engineer 5G\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "RAN intelligence",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"RAN intelligence\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "neural network pruning",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"neural network pruning\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "mobile AI inference",
+      "query": "site:linkedin.com/in (\"Apple\") (\"mobile AI inference\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "deep learning framework",
+      "query": "site:linkedin.com/in (\"Apple\") (\"deep learning framework\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "deep learning hardware",
+      "query": "site:linkedin.com/in (\"Apple\") (\"deep learning hardware\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "AI material science",
+      "query": "site:linkedin.com/in (\"Apple\") (\"AI material science\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "physics informed neural networks",
+      "query": "site:linkedin.com/in (\"Apple\") (\"physics informed neural networks\")"
+    }
+  ],
+  "profiles_found": [],
+  "high_score_candidates": []
+}

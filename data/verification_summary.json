@@ -1,0 +1,191 @@
+{
+  "timestamp": "2026-03-26T22:52:32.425195",
+  "total_candidates": 90,
+  "verified_count": 83,
+  "high_score_count": 27,
+  "chinese_count": 68,
+  "top_companies": [
+    [
+      "Qualcomm",
+      21
+    ],
+    [
+      "NVIDIA",
+      16
+    ],
+    [
+      "AMD",
+      6
+    ],
+    [
+      "Marvell",
+      6
+    ],
+    [
+      "SpaceX",
+      5
+    ],
+    [
+      "Apple",
+      5
+    ],
+    [
+      "Intel",
+      5
+    ],
+    [
+      "Samsung Research America",
+      2
+    ],
+    [
+      "UNISOC",
+      2
+    ],
+    [
+      "Unknown",
+      2
+    ]
+  ],
+  "top_20_candidates": [
+    {
+      "name": "Rui (Ray) Huang",
+      "company": "Samsung",
+      "title": "Senior Research Engineer",
+      "match_score": 0.96,
+      "linkedin_url": "https://ca.linkedin.com/in/rui-ray-huang-8a8b32234"
+    },
+    {
+      "name": "Jian Song",
+      "company": "Apple (ex-Nokia)",
+      "title": "Wireless Systems Researcher",
+      "match_score": 0.9,
+      "linkedin_url": "https://fr.linkedin.com/in/jian-song-57b7b112a"
+    },
+    {
+      "name": "Peng Sun",
+      "company": "AMD",
+      "title": "Sr. Director of AI Software Engineering",
+      "match_score": 0.88,
+      "linkedin_url": "https://www.linkedin.com/in/pengsun86"
+    },
+    {
+      "name": "Cheng-Yu Hung",
+      "company": "Qualcomm",
+      "title": "Engineer",
+      "match_score": 0.88,
+      "linkedin_url": "https://www.linkedin.com/in/cheng-yu-hung-48941863"
+    },
+    {
+      "name": "Caron Zhang",
+      "company": "Apple",
+      "title": "Principal AI/ML Engineer",
+      "match_score": 0.87,
+      "linkedin_url": "https://www.linkedin.com/in/tianlucaronzhang"
+    },
+    {
+      "name": "George Zhou",
+      "company": "Multiple (Samsung/Intel/Qualcomm/Broadcom)",
+      "title": "Engineering Leader",
+      "match_score": 0.86,
+      "linkedin_url": "https://www.linkedin.com/in/george-zhou-422bb822"
+    },
+    {
+      "name": "Joseph Cheng",
+      "company": "Apple",
+      "title": "ML Research, Responsible AI",
+      "match_score": 0.86,
+      "linkedin_url": "https://www.linkedin.com/in/josephyitancheng"
+    },
+    {
+      "name": "Li Y.",
+      "company": "Marvell",
+      "title": "Principal Engineer",
+      "match_score": 0.85,
+      "linkedin_url": "https://www.linkedin.com/in/li-y-4a217263"
+    },
+    {
+      "name": "Hepeng Zhang",
+      "company": "Apple",
+      "title": "Machine Learning Engineer",
+      "match_score": 0.85,
+      "linkedin_url": "https://www.linkedin.com/in/hepengzhang"
+    },
+    {
+      "name": "YIFENG LIU",
+      "company": "Apple",
+      "title": "AI/ML Data Platform Engineer",
+      "match_score": 0.84,
+      "linkedin_url": "https://www.linkedin.com/in/yifeng-liu-b231b870"
+    },
+    {
+      "name": "Ray Lin",
+      "company": "AMD",
+      "title": "AI Engineer",
+      "match_score": 0.83,
+      "linkedin_url": "https://www.linkedin.com/in/ray-lin-76926a13a"
+    },
+    {
+      "name": "Jiarui Lu",
+      "company": "Apple",
+      "title": "Foundation Models Engineer",
+      "match_score": 0.83,
+      "linkedin_url": "https://www.linkedin.com/in/jiarui-lu"
+    },
+    {
+      "name": "Xin Li",
+      "company": "AMD",
+      "title": "Machine Learning Software Engineer",
+      "match_score": 0.82,
+      "linkedin_url": "https://www.linkedin.com/in/xin-li-23b35735"
+    },
+    {
+      "name": "Hao-Hsuan Chang",
+      "company": "Virginia Tech",
+      "title": "Researcher",
+      "match_score": 0.8,
+      "linkedin_url": "https://www.linkedin.com/in/hao-hsuan-chang-8862b7170/en"
+    },
+    {
+      "name": "David Kang",
+      "company": "AMD",
+      "title": "Senior ML Software Engineer",
+      "match_score": 0.8,
+      "linkedin_url": "https://www.linkedin.com/in/david-kang-081bba54"
+    },
+    {
+      "name": "Fujuan Guo",
+      "company": "Qualcomm",
+      "title": "Wireless Communication Algorithm Engineer",
+      "match_score": 0.78,
+      "linkedin_url": "https://www.linkedin.com/in/fujuan-guo-a434ba88"
+    },
+    {
+      "name": "jing X.",
+      "company": "NVIDIA",
+      "title": "TME/FAE Lead, AI-RAN",
+      "match_score": 0.78,
+      "linkedin_url": "https://www.linkedin.com/in/jing-x-6315a53a"
+    },
+    {
+      "name": "Yang Li",
+      "company": "Samsung Research America",
+      "title": "Director",
+      "match_score": 0.78,
+      "linkedin_url": "https://www.linkedin.com/in/yangliforward"
+    },
+    {
+      "name": "Andy Luo",
+      "company": "AMD",
+      "title": "Engineer",
+      "match_score": 0.78,
+      "linkedin_url": "https://www.linkedin.com/in/andyluo77"
+    },
+    {
+      "name": "Jiani Huang",
+      "company": "Marvell",
+      "title": "Engineer",
+      "match_score": 0.77,
+      "linkedin_url": "https://www.linkedin.com/in/jiani-huang-26a48359"
+    }
+  ]
+}

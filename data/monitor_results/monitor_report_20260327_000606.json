@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-03-27T00:06:06.718950",
+  "summary": {
+    "total_monitored": 2,
+    "profile_changes": 0,
+    "hot_signals": 0,
+    "open_to_work": 0,
+    "company_changes": 0
+  },
+  "hot_leads": [],
+  "details": [
+    {
+      "candidate_id": "https://ca.linkedin.com/in/rui-ray-huang-8a8b32234",
+      "name": "Rui (Ray) Huang",
+      "timestamp": "2026-03-27T00:05:59.010915",
+      "profile_result": {
+        "has_snapshot": true,
+        "has_changes": false,
+        "changes": null,
+        "signals": []
+      },
+      "activity_result": null,
+      "hot_signals": []
+    },
+    {
+      "candidate_id": "https://fr.linkedin.com/in/jian-song-57b7b112a",
+      "name": "Jian Song",
+      "timestamp": "2026-03-27T00:06:03.167271",
+      "profile_result": {
+        "has_snapshot": true,
+        "has_changes": false,
+        "changes": null,
+        "signals": []
+      },
+      "activity_result": null,
+      "hot_signals": []
+    }
+  ]
+}

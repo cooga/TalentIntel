@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TalentIntel - Social Graph Visualization</title>
+    <script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+        #header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        #header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        #header p {
+            margin: 5px 0 0 0;
+            opacity: 0.9;
+        }
+        #stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px;
+            background: white;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #667eea;
+        }
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+        }
+        #cy {
+            width: 100%;
+            height: calc(100vh - 200px);
+            background: white;
+        }
+        #legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+            font-size: 12px;
+        }
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>🕸️ TalentIntel Social Graph</h1>
+        <p>Candidate Network Visualization</p>
+    </div>
+    
+    <div id="stats">
+        <div class="stat-item">
+            <div class="stat-value">10</div>
+            <div class="stat-label">Total People</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value">15</div>
+            <div class="stat-label">Connections</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value">1</div>
+            <div class="stat-label">Targets</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value">3</div>
+            <div class="stat-label">Platforms</div>
+        </div>
+    </div>
+    
+    <div id="cy"></div>
+    
+    <div id="legend">
+        <div style="font-weight: bold; margin-bottom: 10px;">Platform</div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #0077b5;"></div>
+            <span>LinkedIn</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #1da1f2;"></div>
+            <span>X (Twitter)</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #333;"></div>
+            <span>GitHub</span>
+        </div>
+        <div style="margin-top: 15px; font-weight: bold;">Node Type</div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #e74c3c; border: 2px solid #c0392b;"></div>
+            <span>Target Candidate</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background: #3498db;"></div>
+            <span>Connection</span>
+        </div>
+    </div>
+
+    <script>
+        var cy = cytoscape({
+            container: document.getElementById('cy'),
+            elements: {"nodes": [{"data": {"id": "zhican_chen_001", "name": "Zhican(West) Chen", "platform": "linkedin", "company": "NVIDIA", "title": "Senior Software Engineer", "is_target": true, "is_entry": true}}, {"data": {"id": "conn_1", "name": "NVIDIA AI Researcher", "platform": "linkedin", "company": "Unknown", "title": "Senior AI Researcher", "is_target": false, "is_entry": false}}, {"data": {"id": "conn_2", "name": "NVIDIA Systems Lead", "platform": "linkedin", "company": "Unknown", "title": "Principal Engineer", "is_target": false, "is_entry": false}}, {"data": {"id": "conn_3", "name": "NVIDIA Manager", "platform": "linkedin", "company": "Unknown", "title": "Engineering Manager", "is_target": false, "is_entry": false}}, {"data": {"id": "conn_4", "name": "NVIDIA Intern", "platform": "linkedin", "company": "Unknown", "title": "PhD Intern", "is_target": false, "is_entry": false}}, {"data": {"id": "conn_5", "name": "Wireless OSS Dev", "platform": "github", "company": "Qualcomm", "title": "Engineer", "is_target": false, "is_entry": false}}, {"data": {"id": "conn_6", "name": "AI Researcher", "platform": "github", "company": "Stanford", "title": "Postdoc", "is_target": false, "is_entry": false}}, {"data": {"id": "conn_7", "name": "Wireless Professor", "platform": "x", "company": "MIT", "title": "Professor", "is_target": false, "is_entry": false}}, {"data": {"id": "conn_8", "name": "Tech Influencer", "platform": "x", "company": "Self", "title": "Consultant", "is_target": false, "is_entry": false}}, {"data": {"id": "conn_9", "name": "Industry Analyst", "platform": "x", "company": "IDC", "title": "Analyst", "is_target": false, "is_entry": false}}], "edges": [{"data": {"id": "zhican_chen_001_conn_1_colleague", "source": "zhican_chen_001", "target": "conn_1", "relation_type": "colleague", "strength": 0.6}}, {"data": {"id": "zhican_chen_001_conn_2_colleague", "source": "zhican_chen_001", "target": "conn_2", "relation_type": "colleague", "strength": 0.6}}, {"data": {"id": "zhican_chen_001_conn_3_colleague", "source": "zhican_chen_001", "target": "conn_3", "relation_type": "colleague", "strength": 0.6}}, {"data": {"id": "zhican_chen_001_conn_4_colleague", "source": "zhican_chen_001", "target": "conn_4", "relation_type": "colleague", "strength": 0.6}}, {"data": {"id": "zhican_chen_001_conn_5_collaborated", "source": "zhican_chen_001", "target": "conn_5", "relation_type": "collaborated", "strength": 0.4}}, {"data": {"id": "zhican_chen_001_conn_6_collaborated", "source": "zhican_chen_001", "target": "conn_6", "relation_type": "collaborated", "strength": 0.4}}, {"data": {"id": "zhican_chen_001_conn_7_follows", "source": "zhican_chen_001", "target": "conn_7", "relation_type": "follows", "strength": 0.4}}, {"data": {"id": "zhican_chen_001_conn_8_follows", "source": "zhican_chen_001", "target": "conn_8", "relation_type": "follows", "strength": 0.4}}, {"data": {"id": "zhican_chen_001_conn_9_follows", "source": "zhican_chen_001", "target": "conn_9", "relation_type": "follows", "strength": 0.4}}, {"data": {"id": "conn_3_conn_1_colleague", "source": "conn_3", "target": "conn_1", "relation_type": "colleague", "strength": 0.4, "inferred": true}}, {"data": {"id": "conn_3_conn_4_colleague", "source": "conn_3", "target": "conn_4", "relation_type": "colleague", "strength": 0.4, "inferred": true}}, {"data": {"id": "conn_3_conn_2_colleague", "source": "conn_3", "target": "conn_2", "relation_type": "colleague", "strength": 0.4, "inferred": true}}, {"data": {"id": "conn_1_conn_4_colleague", "source": "conn_1", "target": "conn_4", "relation_type": "colleague", "strength": 0.4, "inferred": true}}, {"data": {"id": "conn_1_conn_2_colleague", "source": "conn_1", "target": "conn_2", "relation_type": "colleague", "strength": 0.4, "inferred": true}}, {"data": {"id": "conn_4_conn_2_colleague", "source": "conn_4", "target": "conn_2", "relation_type": "colleague", "strength": 0.4, "inferred": true}}]},
+            style: [
+                {
+                    selector: 'node',
+                    style: {
+                        'background-color': function(ele) {
+                            var platform = ele.data('platform');
+                            if (platform === 'linkedin') return '#0077b5';
+                            if (platform === 'x') return '#1da1f2';
+                            if (platform === 'github') return '#333';
+                            return '#95a5a6';
+                        },
+                        'width': function(ele) {
+                            return ele.data('is_target') ? 50 : 30;
+                        },
+                        'height': function(ele) {
+                            return ele.data('is_target') ? 50 : 30;
+                        },
+                        'border-width': function(ele) {
+                            return ele.data('is_target') ? 4 : 1;
+                        },
+                        'border-color': function(ele) {
+                            return ele.data('is_target') ? '#e74c3c' : '#fff';
+                        },
+                        'label': 'data(name)',
+                        'font-size': '10px',
+                        'text-valign': 'bottom',
+                        'text-halign': 'center',
+                        'text-background-color': '#fff',
+                        'text-background-opacity': 0.8,
+                        'text-background-padding': '2px',
+                        'color': '#333'
+                    }
+                },
+                {
+                    selector: 'edge',
+                    style: {
+                        'width': 'mapData(strength, 0, 1, 1, 4)',
+                        'line-color': '#bdc3c7',
+                        'target-arrow-color': '#bdc3c7',
+                        'target-arrow-shape': 'triangle',
+                        'curve-style': 'bezier',
+                        'opacity': 0.7
+                    }
+                },
+                {
+                    selector: 'edge[relation_type = "colleague"]',
+                    style: {
+                        'line-color': '#27ae60',
+                        'line-style': 'solid'
+                    }
+                },
+                {
+                    selector: 'edge[relation_type = "collaborated"]',
+                    style: {
+                        'line-color': '#8e44ad',
+                        'line-style': 'dashed'
+                    }
+                },
+                {
+                    selector: 'edge[relation_type = "follows"]',
+                    style: {
+                        'line-color': '#3498db',
+                        'line-style': 'dotted'
+                    }
+                }
+            ],
+            layout: {
+                name: 'cose',
+                padding: 50,
+                nodeRepulsion: 400000,
+                edgeElasticity: 100,
+                nestingFactor: 5,
+                gravity: 80,
+                numIter: 1000,
+                initialTemp: 200,
+                coolingFactor: 0.95,
+                minTemp: 1.0
+            }
+        });
+        
+        // 点击节点显示详情
+        cy.on('tap', 'node', function(evt) {
+            var node = evt.target;
+            var data = node.data();
+            alert('Name: ' + data.name + '\n' +
+                  'Platform: ' + data.platform + '\n' +
+                  'Company: ' + data.company + '\n' +
+                  'Title: ' + data.title);
+        });
+    </script>
+</body>
+</html>

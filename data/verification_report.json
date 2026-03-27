@@ -1,0 +1,101 @@
+{
+  "timestamp": "2026-03-26T17:01:28.459793",
+  "total_verified": 5,
+  "summary": {
+    "verified": 0,
+    "partial": 0,
+    "unverified": 5
+  },
+  "details": [
+    {
+      "name": "Dr. Mei Lin",
+      "original_score": 0.91,
+      "original_priority": "",
+      "verification_status": "unverified",
+      "verification_notes": [
+        "无法验证LinkedIn档案",
+        "无法确认AI+Wireless背景"
+      ],
+      "new_score": 0.0,
+      "new_priority": "REMOVE",
+      "new_background": "",
+      "search_results": {
+        "linkedin": [],
+        "background": [],
+        "x": []
+      }
+    },
+    {
+      "name": "Wei C.",
+      "original_score": 0.9,
+      "original_priority": "",
+      "verification_status": "unverified",
+      "verification_notes": [
+        "无法验证LinkedIn档案",
+        "无法确认AI+Wireless背景"
+      ],
+      "new_score": 0.0,
+      "new_priority": "REMOVE",
+      "new_background": "",
+      "search_results": {
+        "linkedin": [],
+        "background": [],
+        "x": []
+      }
+    },
+    {
+      "name": "Jenny Chu",
+      "original_score": 0.9,
+      "original_priority": "",
+      "verification_status": "unverified",
+      "verification_notes": [
+        "无法验证LinkedIn档案",
+        "无法确认AI+Wireless背景"
+      ],
+      "new_score": 0.0,
+      "new_priority": "REMOVE",
+      "new_background": "",
+      "search_results": {
+        "linkedin": [],
+        "background": [],
+        "x": []
+      }
+    },
+    {
+      "name": "Wai San Wong (黄伟山)",
+      "original_score": 0.9,
+      "original_priority": "",
+      "verification_status": "unverified",
+      "verification_notes": [
+        "无法验证LinkedIn档案",
+        "无法确认AI+Wireless背景"
+      ],
+      "new_score": 0.0,
+      "new_priority": "REMOVE",
+      "new_background": "",
+      "search_results": {
+        "linkedin": [],
+        "background": [],
+        "x": []
+      }
+    },
+    {
+      "name": "Jiaxiang (Tom) Jiang",
+      "original_score": 0.85,
+      "original_priority": "",
+      "verification_status": "unverified",
+      "verification_notes": [
+        "无法验证LinkedIn档案",
+        "无法确认AI+Wireless背景"
+      ],
+      "new_score": 0.0,
+      "new_priority": "REMOVE",
+      "new_background": "",
+      "search_results": {
+        "linkedin": [],
+        "background": [],
+        "x": []
+      }
+    }
+  ]
+}

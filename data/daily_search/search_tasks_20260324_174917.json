@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-03-24T17:48:54.798141",
+  "queries": [
+    {
+      "company": "Google",
+      "keyword": "physics informed neural networks",
+      "query": "site:linkedin.com/in (\"Google\") (\"physics informed neural networks\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "knowledge distillation",
+      "query": "site:linkedin.com/in (\"Google\") (\"knowledge distillation\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "O-RAN AI",
+      "query": "site:linkedin.com/in (\"Google\") (\"O-RAN AI\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "beamforming optimization",
+      "query": "site:linkedin.com/in (\"Google\") (\"beamforming optimization\")"
+    },
+    {
+      "company": "Google",
+      "keyword": "ML infrastructure engineer",
+      "query": "site:linkedin.com/in (\"Google\") (\"ML infrastructure engineer\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "computational chemistry AI",
+      "query": "site:linkedin.com/in (\"Meta\") (\"computational chemistry AI\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "O-RAN AI",
+      "query": "site:linkedin.com/in (\"Meta\") (\"O-RAN AI\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "neural network pruning",
+      "query": "site:linkedin.com/in (\"Meta\") (\"neural network pruning\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "mobile AI inference",
+      "query": "site:linkedin.com/in (\"Meta\") (\"mobile AI inference\")"
+    },
+    {
+      "company": "Meta",
+      "keyword": "AI drug discovery",
+      "query": "site:linkedin.com/in (\"Meta\") (\"AI drug discovery\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "neural processing unit",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"neural processing unit\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "AI material science",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"AI material science\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "AI silicon",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"AI silicon\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "O-RAN AI",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"O-RAN AI\")"
+    },
+    {
+      "company": "NVIDIA",
+      "keyword": "intelligent reflecting surface",
+      "query": "site:linkedin.com/in (\"NVIDIA\") (\"intelligent reflecting surface\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "model compression",
+      "query": "site:linkedin.com/in (\"Apple\") (\"model compression\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "scientific machine learning",
+      "query": "site:linkedin.com/in (\"Apple\") (\"scientific machine learning\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "deep learning framework",
+      "query": "site:linkedin.com/in (\"Apple\") (\"deep learning framework\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "6G AI",
+      "query": "site:linkedin.com/in (\"Apple\") (\"6G AI\")"
+    },
+    {
+      "company": "Apple",
+      "keyword": "AI compiler optimization",
+      "query": "site:linkedin.com/in (\"Apple\") (\"AI compiler optimization\")"
+    }
+  ],
+  "profiles_found": [],
+  "high_score_candidates": []
+}

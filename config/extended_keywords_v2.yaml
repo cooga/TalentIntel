@@ -1,0 +1,290 @@
+# TalentIntel 扩展关键词搜索配置 V2.0
+# 基于用户推荐候选人特征优化 (2026-03-24)
+# 核心方向: 无线通信 + AI 交叉、AI-RAN、MIMO、L1/PHY层
+
+search_keywords:
+  # ===== 核心匹配方向 (新增) =====
+  # AI-RAN / O-RAN (最高优先级)
+  - "AI-RAN"
+  - "O-RAN AI"
+  - "AI RAN engineer"
+  - "intelligent RAN"
+  - "AI-RAN algorithm"
+  - "vRAN AI"
+  - "Open RAN machine learning"
+  
+  # MIMO + AI (关键技能)
+  - "MIMO channel estimation machine learning"
+  - "MIMO deep learning"
+  - "massive MIMO AI"
+  - "MIMO precoding neural network"
+  - "MIMO signal processing AI"
+  
+  # L1/PHY层 + AI (核心技术)
+  - "5G PHY AI"
+  - "4G LTE baseband machine learning"
+  - "wireless modem L1 AI"
+  - "PHY layer algorithm deep learning"
+  - "baseband firmware AI"
+  - "wireless signal processing neural network"
+  
+  # 嵌入式通信算法
+  - "embedded communication algorithm"
+  - "low complexity wireless algorithm"
+  - "embedded AI wireless"
+  - "communication system optimization"
+  
+  # ===== 原有基础组合 =====
+  - "machine learning wireless"
+  - "AI engineer 5G"
+  - "wireless communication researcher"
+  - "6G AI"
+  
+  # AI + 软件栈
+  - "AI software stack"
+  - "ML infrastructure engineer"
+  - "AI platform engineer"
+  - "deep learning framework"
+  - "AI compiler optimization"
+  - "neural network deployment"
+  
+  # 模型压缩 + 边缘AI
+  - "model compression"
+  - "neural network pruning"
+  - "knowledge distillation"
+  - "quantization aware training"
+  - "edge AI optimization"
+  - "tinyML"
+  - "LLM quantization"
+  - "distributed training optimization"
+  
+  # 边缘计算
+  - "edge computing AI"
+  - "federated learning wireless"
+  - "edge intelligence"
+  - "mobile AI inference"
+  - "IoT machine learning"
+  - "edge device optimization"
+  
+  # 推理加速
+  - "inference acceleration"
+  - "model acceleration"
+  - "AI inference optimization"
+  - "neural network acceleration"
+  - "GPU kernel optimization"
+  
+  # AI + Science (AI4Science)
+  - "AI for science"
+  - "scientific machine learning"
+  - "physics informed neural networks"
+  - "AI drug discovery"
+  - "computational chemistry AI"
+  - "AI material science"
+  
+  # AI + 芯片
+  - "AI chip architect"
+  - "neural processing unit"
+  - "AI accelerator design"
+  - "deep learning hardware"
+  - "AI silicon"
+  - "chip design machine learning"
+  
+  # 无线通信细分
+  - "O-RAN AI"
+  - "semantic communications"
+  - "intelligent reflecting surface"
+  - "terahertz communications"
+  - "NOMA machine learning"
+  - "spectrum sensing AI"
+  - "beamforming optimization"
+  - "channel estimation deep learning"
+  - "network slicing AI"
+  - "RAN intelligence"
+  
+  # ===== 新兴方向 =====
+  # 具身智能 + 无线
+  - "embodied AI wireless"
+  - "robotics machine learning"
+  - "autonomous systems AI"
+  
+  # AI4Wireless
+  - "AI4Wireless"
+  - "AI for wireless communications"
+  - "machine learning 6G"
+  - "deep learning communication theory"
+
+# 目标公司 (基于用户推荐优化)
+target_companies:
+  tier1:
+    - "Google"
+    - "Meta"
+    - "NVIDIA"
+    - "Apple"
+    - "Microsoft"
+    - "Amazon"
+    - "AWS"
+  
+  tier2:
+    - "Qualcomm"
+    - "Intel"
+    - "Broadcom"
+    - "AMD"
+    - "Marvell"
+    - "Cisco"
+    - "ARM"
+    - "Texas Instruments"
+  
+  tier3:
+    - "Samsung"
+    - "Ericsson"
+    - "Nokia"
+    - "MediaTek"
+    - "Sony"
+    - "Hitachi"
+    - "Fujitsu"
+  
+  # 学术机构 (新增)
+  research:
+    - "Stanford"
+    - "MIT"
+    - "Berkeley"
+    - "CMU"
+    - "Georgia Tech"
+    - "Caltech"
+    - "ETH Zurich"
+    - "University of Cambridge"
+    - "University of Oxford"
+    - "Imperial College London"
+    - "University of Leeds"
+    - "Virginia Tech"
+    - "University of Michigan"
+    - "UCLA"
+    - "USC"
+    - "Rice University"
+    - "UT Austin"
+    - "University of Alabama"
+  
+  # 多公司背景人才 (新增类别)
+  multi_company_talent:
+    - "Samsung Intel Qualcomm"
+    - "Nokia Intel Samsung"
+    - "Qualcomm Broadcom Intel"
+    - "Samsung Qualcomm MediaTek"
+
+# 华人姓氏 (扩充)
+chinese_surnames:
+  - "Chen"
+  - "Wang"
+  - "Li"
+  - "Zhang"
+  - "Liu"
+  - "Lin"
+  - "Wu"
+  - "Zhou"
+  - "Huang"
+  - "Zhao"
+  - "Yang"
+  - "Xu"
+  - "Sun"
+  - "Zhu"
+  - "Ma"
+  - "Gao"
+  - "Guo"
+  - "He"
+  - "Zheng"
+  - "Xiao"
+  - "Xie"
+  - "Han"
+  - "Wei"
+  - "Xue"
+  - "Ye"
+  - "Jin"
+  - "Qian"
+  - "Tian"
+  - "Fang"
+  - "Mei"
+  - "Deng"
+  - "Cheng"
+  - "Cao"
+  - "Jiang"
+  - "Luo"
+  - "Tang"
+  - "Yuan"
+  - "Dong"
+  - "Shao"
+  - "Shi"
+  - "Song"
+  - "Tao"
+  - "Wan"
+  - "Wen"
+  - "Yan"
+  - "Yao"
+  - "Yin"
+  - "You"
+  - "Yu"
+  - "Zeng"
+  - "Zhan"
+  - "Chang"
+  - "Fu"
+  - "Fan"
+  - "Bai"
+  - "Zhou"
+  - "Hou"
+  - "Hsu"
+  - "Chung"
+
+# 经验年限筛选 (新增)
+experience_filters:
+  senior: 10      # 10年以上经验
+  mid: 5          # 5-10年经验
+  junior: 2       # 2-5年经验
+
+# 搜索配置
+search_config:
+  pages_per_keyword: 5        # 每个关键词搜索5页
+  profiles_per_batch: 20      # 每批评估20个档案
+  min_match_score: 0.70       # 最低匹配分数
+  daily_limit: 50             # 每日最多搜索50个档案
+  
+  # 新增：优先级加权
+  priority_weights:
+    has_ai_ran: 1.5           # AI-RAN经验加权50%
+    has_mimo_ml: 1.4          # MIMO+ML经验加权40%
+    has_phy_ai: 1.3           # PHY层AI经验加权30%
+    multi_company: 1.2        # 多公司背景加权20%
+    academic_to_industry: 1.15 # 学术转工业界加权15%
+
+# 代理轮换配置
+proxy_rotation:
+  enabled: true
+  switch_after_requests: 10   # 每10个请求切换代理
+  health_check_interval: 300  # 5分钟健康检查
+
+# 反爬虫策略
+anti_detection:
+  delay_between_requests: [3, 8]  # 3-8秒随机延迟
+  user_agents_rotation: true
+  cookie_persistence: true
+
+# 新增：人才画像标签
+talent_profiles:
+  ai_ran_specialist:
+    keywords: ["AI-RAN", "O-RAN", "vRAN", "intelligent RAN"]
+    min_score: 0.85
+  
+  mimo_ml_expert:
+    keywords: ["MIMO", "channel estimation", "precoding", "massive MIMO"]
+    min_score: 0.80
+  
+  phy_layer_ai:
+    keywords: ["PHY", "baseband", "L1", "modem", "wireless signal processing"]
+    min_score: 0.80
+  
+  wireless_veteran:
+    keywords: ["5G", "4G", "LTE", "3GPP", "wireless communication"]
+    min_years: 15
+    min_score: 0.75
+  
+  executive_talent:
+    keywords: ["VP", "Director", "Principal", "Senior Director"]
+    min_score: 0.90

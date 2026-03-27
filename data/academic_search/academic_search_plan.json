@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-03-22T16:44:09.482953",
+  "strategy": "学术渠道挖掘",
+  "searches": [
+    {
+      "name": "无线通信 + 深度学习",
+      "query": "wireless communication deep learning",
+      "keywords": [
+        "wireless",
+        "deep learning",
+        "neural network",
+        "5G",
+        "MIMO"
+      ]
+    },
+    {
+      "name": "AI + 信号处理",
+      "query": "machine learning signal processing",
+      "keywords": [
+        "machine learning",
+        "signal processing",
+        "OFDM",
+        "beamforming"
+      ]
+    },
+    {
+      "name": "联邦学习 + 无线",
+      "query": "federated learning wireless",
+      "keywords": [
+        "federated learning",
+        "wireless",
+        "edge computing",
+        "IoT"
+      ]
+    },
+    {
+      "name": "语义通信 + AI",
+      "query": "semantic communication AI",
+      "keywords": [
+        "semantic communication",
+        "deep learning",
+        "6G"
+      ]
+    }
+  ],
+  "target_conferences": [
+    "IEEE ICC",
+    "IEEE Globecom",
+    "IEEE INFOCOM",
+    "MobiCom",
+    "MobiHoc",
+    "NeurIPS",
+    "ICML",
+    "CVPR"
+  ],
+  "chinese_surnames": [
+    "Chen",
+    "Wang",
+    "Li",
+    "Zhang",
+    "Liu",
+    "Lin",
+    "Wu",
+    "Zhou",
+    "Huang",
+    "Zhao",
+    "Yang",
+    "Xu",
+    "Sun",
+    "Zhu",
+    "Ma",
+    "Gao",
+    "Guo",
+    "He",
+    "Zheng",
+    "Xie",
+    "Han",
+    "Tang",
+    "Feng",
+    "Cao",
+    "Yuan",
+    "Deng",
+    "Xue",
+    "Tian",
+    "Pan",
+    "Wei"
+  ],
+  "target_companies": [
+    "NVIDIA",
+    "Google",
+    "Meta",
+    "Qualcomm",
+    "Intel",
+    "Apple",
+    "Samsung",
+    "Ericsson",
+    "Nokia"
+  ],
+  "instructions": {
+    "step1": "访问 Google Scholar 搜索链接",
+    "step2": "筛选 2023-2024 年论文",
+    "step3": "查看作者姓名识别华人",
+    "step4": "检查作者单位是否为目标公司",
+    "step5": "记录作者信息和联系方式"
+  }
+}

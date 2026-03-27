@@ -1,0 +1,69 @@
+{
+  "url": "https://www.linkedin.com/in/mina-khadem-51bbbbb9/",
+  "profile": {
+    "name": "",
+    "headline": "",
+    "about": "She holds a bachelor's degree in Electronics from Bu-Ali Sina University and pursued her passion for telecommunications through a master's degree at Tarbiat Modares University. Currently, she is a PhD student at Pompeu Fabra University in Barcelona, Spain, where she is working toward her goal of making a meaningful impact in the telecommunications field and contributing to international research and innovation.\nDriven by curiosity and a love for learning, she is passionate about research, personal growth, and embracing new challenges. She values collaboration, enjoys connecting with people from diverse backgrounds, and leads an active lifestyle with an interest in sports and well-being.\n… more",
+    "experience": [
+      {
+        "text": "Mina Khadem\n\n \n • 3rd+\n\nResearch Assistant | Wireless communication | LLM  | AI/ML\n\n8mo • Edited • \n\nI’m happy to share that I’ve obtained a new training certification: Machine Learning & Advanced Statistics: Generative AI Specialization from Universidad Politécnica de Madrid!\n\nA huge thank you to Álvaro Barbero Jiménez, Alberto Suárez, and Carlos María Alaíz Gudín for their outstanding teaching, insightful lectures, and generosity in sharing their expertise. Your passion for the field made this an inspiring and intellectually enriching experience.\n\n\n#GenerativeAI #MachineLearning\n… more\n\nCelebrating a new certification\n\n58 reactions\n58\n\n26 comments\n26 comments\n\nLike\nComment\nRepost\nSend"
+      },
+      {
+        "text": "Mina Khadem\n\n \n • 3rd+\n\nResearch Assistant | Wireless communication | LLM  | AI/ML\n\n1yr • Edited • \n\n🌟 Exciting News! 🌟\nI am thrilled to announce that our latest research, titled \"Dynamic Fairness-Aware Spectrum Auction for Enhanced Licensed Shared Access in UAV-based Networks\", has been published in IEEE Transactions on Communications (IF: 7.2).\nThis work explores innovative methods to tackle spectrum scarcity in 6G networks. We propose a novel framework that not only enhances fairness but also optimizes spectrum utilization for next-generation networks.\n\n🔗 Read the full publication here: https://lnkd.in/dmhBnBnp\nA heartfelt thank you to my collaborators and mentors, including Maryam Ansarifard, Nader Mokari, Mohammad Reza Javan, Hamid Saeedi, and Eduard Jorswieck, whose insights and efforts were instrumental in this work. \nI look forward to discussing ideas and receiving your valuable feedback! 🙌\n\n\n#5G #6G #UAV #SpectrumSharing #Spectrumsensing #ReinforcementLearning #IEEE\n… more\n\nDynamic Fairness-Aware Spectrum Auction for Enhanced Licensed Shared Access in UAV-based Networks\nDynamic Fairness-Aware Spectrum Auction for Enhanced Licensed Shared Access in UAV-based Networks\n\nieeexplore.ieee.org\n\n57 reactions\n57\n\n35 comments\n35 comments\n\nLike\nComment\nRepost\nSend"
+      }
+    ],
+    "education": [],
+    "skills": []
+  },
+  "evaluation": {
+    "basic_info": {
+      "name": "Mina Khadem",
+      "current_role": "PhD Student / Research Assistant",
+      "current_company": "Pompeu Fabra University",
+      "location": "Barcelona, Spain",
+      "education": "PhD (in progress)"
+    },
+    "ai_expertise": {
+      "level": "mid",
+      "domains": [
+        "Generative AI",
+        "Machine Learning",
+        "LLM",
+        "Reinforcement Learning"
+      ],
+      "evidence": "Obtained Machine Learning & Advanced Statistics: Generative AI Specialization certification from Universidad Politécnica de Madrid; research involves Reinforcement Learning for spectrum auction"
+    },
+    "wireless_expertise": {
+      "level": "mid",
+      "domains": [
+        "Wireless Communication",
+        "5G/6G Networks",
+        "Spectrum Sharing",
+        "UAV Networks",
+        "Licensed Shared Access"
+      ],
+      "evidence": "Published IEEE Transactions on Communications paper (IF: 7.2) on Dynamic Fairness-Aware Spectrum Auction for UAV-based 6G networks; research focus on spectrum scarcity and next-generation networks"
+    },
+    "match_score": 0.65,
+    "match_reasons": [
+      "PhD candidate with active research in wireless communications",
+      "Published high-impact IEEE paper (IF: 7.2) on 5G/6G spectrum sharing",
+      "Demonstrated AI/ML expertise with formal certification in Generative AI",
+      "Research explicitly combines wireless + AI (Reinforcement Learning for spectrum auction)",
+      "Strong academic trajectory (Bachelor → Master → PhD)"
+    ],
+    "red_flags": [
+      "Location in Spain, not in target regions (US/Canada/UK/Singapore/HK)",
+      "Early career stage (PhD student, not yet graduated)",
+      "Limited industry experience (research assistant role only)"
+    ],
+    "priority": "medium",
+    "recommended_action": "Track for future recruitment post-PhD; monitor for potential postdoc or research collaborations; consider for academic network expansion in Europe"
+  },
+  "match_score": 0.65,
+  "priority": "medium",
+  "_meta": {
+    "saved_at": "2026-03-24T21:34:38.900533",
+    "filepath": "data/findings/2026-03-24/_213438.json"
+  }
+}

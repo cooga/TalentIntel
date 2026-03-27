@@ -1,0 +1,1264 @@
+{
+  "timestamp": "2026-03-20T18:03:25.769995",
+  "arxiv_papers": [
+    {
+      "title": "Communication-Efficient and Robust Multi-Modal Federated Learning via Latent-Space Consensus",
+      "authors": [
+        "Mohamed Badi",
+        "Chaouki Ben Issaid",
+        "Mehdi Bennis"
+      ],
+      "abstract": "Federated learning (FL) enables collaborative model training across distributed devices without sharing raw data, but applying FL to multi-modal settings introduces significant challenges. Clients typically possess heterogeneous modalities and model architectures, making it difficult to align feature spaces efficiently while preserving privacy and minimizing communication costs. To address this, we introduce CoMFed, a Communication-Efficient Multi-Modal Federated Learning framework that uses learnable projection matrices to generate compressed latent representations. A latent-space regularizer aligns these representations across clients, improving cross-modal consistency and robustness to outliers. Experiments on human activity recognition benchmarks show that CoMFed achieves competitive accuracy with minimal overhead.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.19067v1"
+    },
+    {
+      "title": "When Differential Privacy Meets Wireless Federated Learning: An Improved Analysis for Privacy and Convergence",
+      "authors": [
+        "Chen Yaoling",
+        "Liang Hao",
+        "Tu Xiaotong"
+      ],
+      "abstract": "Differentially private wireless federated learning (DPWFL) is a promising framework for protecting sensitive user data. However, foundational questions on how to precisely characterize privacy loss remain open, and existing work is further limited by convergence analyses that rely on restrictive convexity assumptions or ignore the effect of gradient clipping. To overcome these issues, we present a comprehensive analysis of privacy and convergence for DPWFL with general smooth non-convex loss objectives. Our analysis explicitly incorporates both device selection and mini-batch sampling, and shows that the privacy loss can converge to a constant rather than diverge with the number of iterations. Moreover, we establish convergence guarantees with gradient clipping and derive an explicit privacy-utility trade-off. Numerical results validate our theoretical findings.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.19040v1"
+    },
+    {
+      "title": "RadioDiff-FS: Physics-Informed Manifold Alignment in Few-Shot Diffusion Models for High-Fidelity Radio Map Construction",
+      "authors": [
+        "Xiucheng Wang",
+        "Zixuan Guo",
+        "Nan Cheng"
+      ],
+      "abstract": "Radio maps (RMs) provide spatially continuous propagation characterizations essential for 6G network planning, but high-fidelity RM construction remains challenging. Rigorous electromagnetic solvers incur prohibitive computational latency, while data-driven models demand massive labeled datasets and generalize poorly from simplified simulations to complex multipath environments. This paper proposes RadioDiff-FS, a few-shot diffusion framework that adapts a pre-trained main-path generator to multipath-rich target domains with only a small number of high-fidelity samples. The adaptation is grounded in a theoretical decomposition of the multipath RM into a dominant main-path component and a directionally sparse residual. This decomposition shows that the cross-domain shift corresponds to a bounded and geometrically structured feature translation rather than an arbitrary distribution change. A Direction-Consistency Loss (DCL) is then introduced to constrain diffusion score updates along physically plausible propagation directions, suppressing phase-inconsistent artifacts that arise in the low-data regime. Experiments show that RadioDiff-FS reduces NMSE by 59.5% on static RMs and by 74.0% on dynamic RMs relative to the vanilla diffusion baseline, achieving an SSIM of 0.9752 and a PSNR of 36.37 dB under severely limited supervision.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18865v1"
+    },
+    {
+      "title": "BeamAgent: LLM-Aided MIMO Beamforming with Decoupled Intent Parsing and Alternating Optimization for Joint Site Selection and Precoding",
+      "authors": [
+        "Xiucheng Wang",
+        "Yue Zhang",
+        "Nan Cheng"
+      ],
+      "abstract": "Integrating large language models (LLMs) into wireless communication optimization is a promising yet challenging direction. Existing approaches either use LLMs as black-box solvers or code generators, tightly coupling them with numerical computation. However, LLMs lack the precision required for physical-layer optimization, and the scarcity of wireless training data makes domain-specific fine-tuning impractical. We propose BeamAgent, an LLM-aided MIMO beamforming framework that explicitly decouples semantic intent parsing from numerical optimization. The LLM serves solely as a semantic translator that converts natural language descriptions into structured spatial constraints. A dedicated gradient-based optimizer then jointly solves the discrete base station site selection and continuous precoding design through an alternating optimization algorithm. A scene-aware prompt enables grounded spatial reasoning without fine-tuning, and a multi-round interaction mechanism with dual-layer intent classification ensures robust constraint verification. A penalty-based loss function enforces dark-zone power constraints while releasing optimization degrees of freedom for bright-zone gain maximization. Experiments on a ray-tracing-based urban MIMO scenario show that BeamAgent achieves a bright-zone power of 84.0\\,dB, outperforming exhaustive zero-forcing by 7.1 dB under the same dark-zone constraint. The end-to-end system reaches within 3.3 dB of the expert upper bound, with the full optimization completing in under 2 s on a laptop.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18855v1"
+    },
+    {
+      "title": "Learn for Variation: Variationally Guided AAV Trajectory Learning in Differentiable Environments",
+      "authors": [
+        "Xiucheng Wang",
+        "Zhenye Chen",
+        "Nan Cheng"
+      ],
+      "abstract": "Autonomous aerial vehicles (AAVs) empower sixth-generation (6G) Internet-of-Things (IoT) networks through mobility-driven data collection. However, conventional reward-driven reinforcement learning for AAV trajectory planning suffers from severe credit assignment issues and training instability, because sparse scalar rewards fail to capture the long-term and nonlinear effects of sequential movements. To address these challenges, this paper proposes Learn for Variation (L4V), a gradient-informed trajectory learning framework that replaces high-variance scalar reward signals with dense and analytically grounded policy gradients. Particularly, the coupled evolution of AAV kinematics, distance-dependent channel gains, and per-user data-collection progress is first unrolled into an end-to-end differentiable computational graph. Backpropagation through time then serves as a discrete adjoint solver, which propagates exact sensitivities from the cumulative mission objective to every control action and policy parameter. These structured gradients are used to train a deterministic neural policy with temporal smoothness regularization and gradient clipping. Extensive simulations demonstrate that L4V consistently outperforms representative baselines, including a genetic algorithm, DQN, A2C, and DDPG, in mission completion time, average transmission rate, and training cost",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18853v1"
+    },
+    {
+      "title": "Auto-Unrolled Proximal Gradient Descent: An AutoML Approach to Interpretable Waveform Optimization",
+      "authors": [
+        "Ahmet Kaplan"
+      ],
+      "abstract": "This study explores the combination of automated machine learning (AutoML) with model-based deep unfolding (DU) for optimizing wireless beamforming and waveforms. We convert the iterative proximal gradient descent (PGD) algorithm into a deep neural network, wherein the parameters of each layer are learned instead of being predetermined. Additionally, we enhance the architecture by incorporating a hybrid layer that performs a learnable linear gradient transformation prior to the proximal projection. By utilizing AutoGluon with a tree-structured parzen estimator (TPE) for hyperparameter optimization (HPO) across an expanded search space, which includes network depth, step-size initialization, optimizer, learning rate scheduler, layer type, and post-gradient activation, the proposed auto-unrolled PGD (Auto-PGD) achieves 98.8% of the spectral efficiency of a traditional 200-iteration PGD solver using only five unrolled layers, while requiring only 100 training samples. We also address a gradient normalization issue to ensure consistent performance during training and evaluation, and we illustrate per-layer sum-rate logging as a tool for transparency. These contributions highlight a notable reduction in the amount of training data and inference cost required, while maintaining high interpretability compared to conventional black-box architectures.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.17478v1"
+    },
+    {
+      "title": "Topology-Preserving Deep Joint Source-Channel Coding for Semantic Communication",
+      "authors": [
+        "Omar Erak",
+        "Omar Alhussein",
+        "Fang Fang",
+        "Sami Muhaidat"
+      ],
+      "abstract": "Many wireless vision applications, such as autonomous driving, require preservation of global structural information rather than only per-pixel fidelity. However, existing Deep joint source-channel coding (DeepJSCC) schemes mainly optimize pixel-wise losses and provide no explicit protection of connectivity or topology. This letter proposes TopoJSCC, a topology-aware DeepJSCC framework that integrates persistent-homology regularizers to end-to-end training. Specifically, we enforce topological consistency by penalizing Wasserstein distances between cubical persistence diagrams of original and reconstructed images, and between Vietoris--Rips persistence of latent features before and after the channel to promote a robust latent manifold. TopoJSCC is based on end-to-end learning and requires no side information. Experiments show improved topology preservation and peak signal-to-noise ratio (PSNR) in low signal-to-noise ratio (SNR) and bandwidth-ratio regimes.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.17126v1"
+    },
+    {
+      "title": "Bridging the High-Frequency Data Gap: A Millisecond-Resolution Network Dataset for Advancing Time Series Foundation Models",
+      "authors": [
+        "Subina Khanal",
+        "Seshu Tirupathi",
+        "Merim Dzaferagic",
+        "Marco Ruffini",
+        "Torben Bach Pedersen"
+      ],
+      "abstract": "Time series foundation models (TSFMs) require diverse, real-world datasets to adapt across varying domains and temporal frequencies. However, current large-scale datasets predominantly focus on low-frequency time series with sampling intervals, i.e., time resolution, in the range of seconds to years, hindering their ability to capture the nuances of high-frequency time series data. To address this limitation, we introduce a novel dataset that captures millisecond-resolution wireless and traffic conditions from an operational 5G wireless deployment, expanding the scope of TSFMs to incorporate high-frequency data for pre-training. Further, the dataset introduces a new domain, wireless networks, thus complementing existing more general domains like energy and finance. The dataset also provides use cases for short-term forecasting, with prediction horizons spanning from 100 milliseconds (1 step) to 9.6 seconds (96 steps). By benchmarking traditional machine learning models and TSFMs on predictive tasks using this dataset, we demonstrate that most TSFM model configurations perform poorly on this new data distribution in both zero-shot and fine-tuned settings. Our work underscores the importance of incorporating high-frequency datasets during pre-training and forecasting to enhance architectures, fine-tuning strategies, generalization, and robustness of TSFMs in real-world applications.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16497v1"
+    },
+    {
+      "title": "Entropy-Aware Task Offloading in Mobile Edge Computing",
+      "authors": [
+        "Mohsen Sahraei Ardakani",
+        "Hong Wan",
+        "Rui Song"
+      ],
+      "abstract": "Mobile Edge Computing (MEC) technology has been introduced to enable could computing at the edge of the network in order to help resource limited mobile devices with time sensitive data processing tasks. In this paradigm, mobile devices can offload their computationally heavy tasks to more efficient nearby MEC servers via wireless communication. Consequently, the main focus of researches on the subject has been on development of efficient offloading schemes, leaving the privacy of mobile user out. While the Blockchain technology is used as the trust mechanism for secured sharing of the data, the privacy issues induced from wireless communication, namely, usage pattern and location privacy are the centerpiece of this work. The effects of these privacy concerns on the task offloading Markov Decision Process (MDP) is addressed and the MDP is solved using a Deep Recurrent Q-Netwrok (DRQN). The Numerical simulations are presented to show the effectiveness of the proposed method.",
+      "published": "2026-03-16",
+      "url": "http://arxiv.org/abs/2603.16949v1"
+    },
+    {
+      "title": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+      "authors": [
+        "Aakash Lahoti",
+        "Kevin Y. Li",
+        "Berlin Chen",
+        "Caitlin Wang",
+        "Aviv Bick",
+        "J. Zico Kolter",
+        "Tri Dao",
+        "Albert Gu"
+      ],
+      "abstract": "Scaling inference-time compute has emerged as an important driver of LLM performance, making inference efficiency a central focus of model design alongside model quality. While the current Transformer-based models deliver strong model quality, their quadratic compute and linear memory make inference expensive. This has spurred the development of sub-quadratic models with reduced linear compute and constant memory requirements. However, many recent linear models trade off model quality and capability for algorithmic efficiency, failing on tasks such as state tracking. Moreover, their theoretically linear inference remains hardware-inefficient in practice. Guided by an inference-first perspective, we introduce three core methodological improvements inspired by the state space model (SSM) viewpoint of linear models. We combine: (1) a more expressive recurrence derived from SSM discretization, (2) a complex-valued state update rule that enables richer state tracking, and (3) a multi-input, multi-output (MIMO) formulation for better model performance without increasing decode latency. Together with architectural refinements, our Mamba-3 model achieves significant gains across retrieval, state-tracking, and downstream language modeling tasks. At the 1.5B scale, Mamba-3 improves average downstream accuracy by 0.6 percentage points compared to the next best model (Gated DeltaNet), with Mamba-3's MIMO variant further improving accuracy by another 1.2 points for a total 1.8 point gain. Across state-size experiments, Mamba-3 achieves comparable perplexity to Mamba-2 despite using half of its predecessor's state size. Our evaluations demonstrate Mamba-3's ability to advance the performance-efficiency Pareto frontier.",
+      "published": "2026-03-16",
+      "url": "http://arxiv.org/abs/2603.15569v1"
+    },
+    {
+      "title": "Joint Routing and Model Pruning for Decentralized Federated Learning in Bandwidth-Constrained Multi-Hop Wireless Networks",
+      "authors": [
+        "Xiaoyu He",
+        "Weicai Li",
+        "Tiejun Lv",
+        "Xi Yu"
+      ],
+      "abstract": "Decentralized federated learning (D-FL) enables privacy-preserving training without a central server, but multi-hop model exchanges and aggregation are often bottlenecked by communication resource constraints. To address this issue, we propose a joint routing-and-pruning framework that optimizes routing paths and pruning rates to maintain communication latency within prescribed limits. We analyze how the sum of model biases across all clients affects the convergence bound of D-FL and formulate an optimization problem that maximizes the model retention rate to minimize these biases under communication constraints. Further analysis reveals that each client's model retention rate is path-dependent, which reduces the original problem to a routing optimization. Leveraging this insight, we develop a routing algorithm that selects latency-efficient transmission paths, allowing more parameters to be delivered within the time budget and thereby improving D-FL convergence. Simulations demonstrate that, compared with unpruned systems, the proposed framework reduces average transmission latency by 27.8% and improves testing accuracy by approximately 12%. Furthermore, relative to standard benchmark routing algorithms, the proposed routing method improves accuracy by roughly 8%.",
+      "published": "2026-03-16",
+      "url": "http://arxiv.org/abs/2603.15188v1"
+    },
+    {
+      "title": "PLUME: Building a Network-Native Foundation Model for Wireless Traces via Protocol-Aware Tokenization",
+      "authors": [
+        "Swadhin Pradhan",
+        "Shazal Irshad",
+        "Jerome Henry"
+      ],
+      "abstract": "Foundation models succeed when they learn in the native structure of a modality, whether morphology-respecting tokens in language or pixels in vision. Wireless packet traces deserve the same treatment: meaning emerges from layered headers, typed fields, timing gaps, and cross-packet state machines, not flat strings. We present Plume (Protocol Language Understanding Model for Exchanges), a compact 140M-parameter foundation model for 802.11 traces that learns from structured PDML dissections. A protocol-aware tokenizer splits along the dissector field tree, emits gap tokens for timing, and normalizes identifiers, yielding 6.2x shorter sequences than BPE with higher per token information density. Trained on a curated corpus, Plume achieves 74-97% next-packet token accuracy across five real-world failure categories and AUROC >= 0.99 for zero-shot anomaly detection. On the same prediction task, frontier LLMs (Claude Opus 4.6, GPT-5.4) score comparably despite receiving identical protocol context, yet Plume does so with > 600x fewer parameters, fitting on a single GPU at effectively zero marginal cost vs. cloud API pricing, enabling on-prem, privacy-preserving root cause analysis.",
+      "published": "2026-03-13",
+      "url": "http://arxiv.org/abs/2603.13647v1"
+    },
+    {
+      "title": "Privacy-Preserving Machine Learning for IoT: A Cross-Paradigm Survey and Future Roadmap",
+      "authors": [
+        "Zakia Zaman",
+        "Praveen Gauravaram",
+        "Mahbub Hassan",
+        "Sanjay Jha",
+        "Wen Hu"
+      ],
+      "abstract": "The rapid proliferation of the Internet of Things has intensified demand for robust privacy-preserving machine learning mechanisms to safeguard sensitive data generated by large-scale, heterogeneous, and resource-constrained devices. Unlike centralized environments, IoT ecosystems are inherently decentralized, bandwidth-limited, and latency-sensitive, exposing privacy risks across sensing, communication, and distributed training pipelines. These characteristics render conventional anonymization and centralized protection strategies insufficient for practical deployments. This survey presents a comprehensive IoT-centric, cross-paradigm analysis of privacy-preserving machine learning. We introduce a structured taxonomy spanning perturbation-based mechanisms such as differential privacy, distributed paradigms such as federated learning, cryptographic approaches including homomorphic encryption and secure multiparty computation, and generative synthesis techniques based on generative adversarial networks. For each paradigm, we examine formal privacy guarantees, computational and communication complexity, scalability under heterogeneous device participation, and resilience against threats including membership inference, model inversion, gradient leakage, and adversarial manipulation. We further analyze deployment constraints in wireless IoT environments, highlighting trade-offs between privacy, communication overhead, model convergence, and system efficiency within next-generation mobile architectures. We also consolidate evaluation methodologies, summarize representative datasets and open-source frameworks, and identify open challenges including hybrid privacy integration, energy-aware learning, privacy-preserving large language models, and quantum-resilient machine learning.",
+      "published": "2026-03-13",
+      "url": "http://arxiv.org/abs/2603.13570v2"
+    },
+    {
+      "title": "Task-Oriented Wireless Transmission of 3D Point Clouds: Geometric Versus Semantic Robustness",
+      "authors": [
+        "Vukan Ninkovic",
+        "Tamara Sobot",
+        "Vladimir Vincan",
+        "Gorana Gojic",
+        "Dragisa Miskovic",
+        "Dejan Vukobratovic"
+      ],
+      "abstract": "Wireless transmission of high-dimensional 3D point clouds (PCs) is increasingly required in industrial collaborative robotics systems. Conventional compression methods prioritize geometric fidelity, although many practical applications ultimately depend on reliable task-level inference rather than exact coordinate reconstruction. In this paper, we propose an end-to-end semantic communication framework for wireless 3D PC transmission and conduct a systematic study of the relationship between geometric reconstruction fidelity and semantic robustness under channel impairments. The proposed architecture jointly supports geometric recovery and object classification from a shared transmitted representation, enabling direct comparison between coordinate-level and task-level sensitivity to noise. Experimental evaluation on a real industrial dataset reveals a pronounced asymmetry: semantic inference remains stable across a broad signal-to-noise ratio (SNR) range even when geometric reconstruction quality degrades significantly. These results demonstrate that reliable task execution does not require high-fidelity geometric recovery and provide design insights for task-oriented wireless perception systems in bandwidth- and power-constrained industrial environments.",
+      "published": "2026-03-13",
+      "url": "http://arxiv.org/abs/2603.13560v1"
+    },
+    {
+      "title": "ARL-Tangram: Unleash the Resource Efficiency in Agentic Reinforcement Learning",
+      "authors": [
+        "Bangjun Xiao",
+        "Yihao Zhao",
+        "Xiangwei Deng",
+        "Shihua Yu",
+        "Yuxing Xiang",
+        "Huaqiu Liu",
+        "Qiying Wang",
+        "Liang Zhao",
+        "Hailin Zhang",
+        "Xuanzhe Liu",
+        "Xin Jin",
+        "Fuli Luo"
+      ],
+      "abstract": "Agentic reinforcement learning (RL) has emerged as a transformative workload in cloud clusters, enabling large language models (LLMs) to solve complex problems through interactions with real world. However, unlike traditional RL, agentic RL demands substantial external cloud resources, e.g., CPUs for code execution and GPUs for reward models, that exist outside the primary training cluster. Existing agentic RL framework typically rely on static over-provisioning, i.e., resources are often tied to long-lived trajectories or isolated by tasks, which leads to severe resource inefficiency.\n  We propose the action-level orchestration, and incorporate it into ARL-Tangram, a unified resource management system that enables fine-grained external resource sharing and elasticity. ARL-Tangram utilizes a unified action-level formulation and an elastic scheduling algorithm to minimize action completion time (ACT) while satisfying heterogeneous resource constraints. Further, heterogeneous resource managers are tailored to efficiently support the action-level execution on resources with heterogeneous characteristics and topologies. Evaluation on real-world agentic RL tasks demonstrates that ARL-Tangram improves average ACT by up to 4.3$\\times$, speeds up the step duration of RL training by up to 1.5$\\times$, and saves the external resources by up to 71.2$\\%$. This system has been deployed to support the training of the MiMo series models.",
+      "published": "2026-03-13",
+      "url": "http://arxiv.org/abs/2603.13019v1"
+    },
+    {
+      "title": "Federated Learning-driven Beam Management in LEO 6G Non-Terrestrial Networks",
+      "authors": [
+        "Maria Lamprini Bartsioka",
+        "Ioannis A. Bartsiokas",
+        "Athanasios D. Panagopoulos",
+        "Dimitra I. Kaklamani",
+        "Iakovos S. Venieris"
+      ],
+      "abstract": "Low Earth Orbit (LEO) Non-Terrestrial Networks (NTNs) require efficient beam management under dynamic propagation conditions. This work investigates Federated Learning (FL)-based beam selection in LEO satellite constellations, where orbital planes operate as distributed learners through the utilization of High-Altitude Platform Stations (HAPS). Two models, a Multi-Layer Perceptron (MLP) and a Graph Neural Network (GNN), are evaluated using realistic channel and beamforming data. Results demonstrate that GNN surpasses MLP in beam prediction accuracy and stability, particularly at low elevation angles, enabling lightweight and intelligent beam management for future NTN deployments.",
+      "published": "2026-03-11",
+      "url": "http://arxiv.org/abs/2603.10983v1"
+    },
+    {
+      "title": "FRIEND: Federated Learning for Joint Optimization of multi-RIS Configuration and Eavesdropper Intelligent Detection in B5G Networks",
+      "authors": [
+        "Maria Lamprini A. Bartsioka",
+        "Ioannis A. Bartsiokas",
+        "Anastasios K. Papazafeiropoulos",
+        "Maria A. Seimeni",
+        "Dimitra I. Kaklamani",
+        "Iakovos S. Venieris"
+      ],
+      "abstract": "As wireless systems evolve toward Beyond 5G (B5G), the adoption of cell-free (CF) millimeter-wave (mmWave) architectures combined with Reconfigurable Intelligent Surfaces (RIS) is emerging as a key enabler for ultra-reliable, high-capacity, scalable, and secure Industrial Internet of Things (IIoT) communications. However, safeguarding these complex and distributed environments against eavesdropping remains a critical challenge, particularly when conventional security mechanisms struggle to overcome scalability, and latency constraints. In this paper, a novel framework for detecting malicious users in RIS-enhanced cell-free mmWave networks using Federated Learning (FL) is presented. The envisioned setup features multiple access points (APs) operating without traditional cell boundaries, assisted by RIS nodes to dynamically shape the wireless propagation environment. Edge devices collaboratively train a Deep Convolutional Neural Network (DCNN) on locally observed Channel State Information (CSI), eliminating the need for raw data exchange. Moreover, an early-exit mechanism is incorporated in that model to jointly satisfy computational complexity requirements. Performance evaluation indicates that the integration of FL and multi-RIS coordination improves approximately 30% the achieved secrecy rate (SR) compared to baseline non-RIS-assisted methods while maintaining near-optimal detection accuracy levels. This work establishes a distributed, privacy-preserving approach to physical layer eavesdropping detection tailored for next-generation IIoT deployments.",
+      "published": "2026-03-11",
+      "url": "http://arxiv.org/abs/2603.10977v1"
+    },
+    {
+      "title": "Towards Intelligent Spectrum Management: Spectrum Demand Estimation Using Graph Neural Networks",
+      "authors": [
+        "Mohamad Alkadamani",
+        "Amir Ghasemi",
+        "Halim Yanikomeroglu"
+      ],
+      "abstract": "The growing demand for wireless connectivity, combined with limited spectrum resources, calls for more efficient spectrum management. Spectrum sharing is a promising approach; however, regulators need accurate methods to characterize demand dynamics and guide allocation decisions. This paper builds and validates a spectrum demand proxy from public deployment records and uses a graph attention network in a hierarchical, multi-resolution setup (HR-GAT) to estimate spectrum demand at fine spatial scales. The model captures both neighborhood effects and cross-scale patterns, reducing spatial autocorrelation and improving generalization. Evaluated across five Canadian cities and against eight competitive baselines, HR-GAT reduces median RMSE by roughly 21% relative to the best alternative and lowers residual spatial bias. The resulting demand maps are regulator-accessible and support spectrum sharing and spectrum allocation in wireless networks.",
+      "published": "2026-03-11",
+      "url": "http://arxiv.org/abs/2603.10802v1"
+    },
+    {
+      "title": "AI-Enhanced Spatial Cellular Traffic Demand Prediction with Contextual Clustering and Error Correction for 5G/6G Planning",
+      "authors": [
+        "Mohamad Alkadamani",
+        "Colin Brown",
+        "Halim Yanikomeroglu"
+      ],
+      "abstract": "Accurate spatial prediction of cellular traffic demand is essential for 5G NR capacity planning, network densification, and data-driven 6G planning. Although machine learning can fuse heterogeneous geospatial and socio-economic layers to estimate fine-grained demand maps, spatial autocorrelation can cause neighborhood leakage under naive train/test splits, inflating accuracy and weakening planning reliability. This paper presents an AI-driven framework that reduces leakage and improves spatial generalization via a context-aware two-stage splitting strategy with residual spatial error correction. Experiments using crowdsourced usage indicators across five major Canadian cities show consistent mean absolute error (MAE) reductions relative to location-only clustering, supporting more reliable bandwidth provisioning and evidence-based spectrum planning and sharing assessments.",
+      "published": "2026-03-11",
+      "url": "http://arxiv.org/abs/2603.10800v1"
+    },
+    {
+      "title": "Prioritizing Gradient Sign Over Modulus: An Importance-Aware Framework for Wireless Federated Learning",
+      "authors": [
+        "Yiyang Yue",
+        "Jiacheng Yao",
+        "Wei Xu",
+        "Zhaohui Yang",
+        "George K. Karagiannidis",
+        "Dusit Niyato"
+      ],
+      "abstract": "Wireless federated learning (FL) facilitates collaborative training of artificial intelligence (AI) models to support ubiquitous intelligent applications at the wireless edge. However, the inherent constraints of limited wireless resources inevitably lead to unreliable communication, which poses a significant challenge to wireless FL. To overcome this challenge, we propose Sign-Prioritized FL (SP-FL), a novel framework that improves wireless FL by prioritizing the transmission of important gradient information through uneven resource allocation. Specifically, recognizing the importance of descent direction in model updating, we transmit gradient signs in individual packets and allow their reuse for gradient descent if the remaining gradient modulus cannot be correctly recovered. To further improve the reliability of transmission of important information, we formulate a hierarchical resource allocation problem based on the importance disparity at both the packet and device levels, optimizing bandwidth allocation across multiple devices and power allocation between sign and modulus packets. To make the problem tractable, the one-step convergence behavior of SP-FL, which characterizes data importance at both levels in an explicit form, is analyzed. We then propose an alternating optimization algorithm to solve this problem using the Newton-Raphson method and successive convex approximation (SCA). Simulation results confirm the superiority of SP-FL, especially in resource-constrained scenarios, demonstrating up to 9.96\\% higher testing accuracy on the CIFAR-10 dataset compared to existing methods.",
+      "published": "2026-03-11",
+      "url": "http://arxiv.org/abs/2603.10763v1"
+    },
+    {
+      "title": "A Graph-Based Approach to Spectrum Demand Prediction Using Hierarchical Attention Networks",
+      "authors": [
+        "Mohamad Alkadamani",
+        "Halim Yanikomeroglu",
+        "Amir Ghasemi"
+      ],
+      "abstract": "The surge in wireless connectivity demand, coupled with the finite nature of spectrum resources, compels the development of efficient spectrum management approaches. Spectrum sharing presents a promising avenue, although it demands precise characterization of spectrum demand for informed policy-making. This paper introduces HR-GAT, a hierarchical resolution graph attention network model, designed to predict spectrum demand using geospatial data. HR-GAT adeptly handles complex spatial demand patterns and resolves issues of spatial autocorrelation that usually challenge standard machine learning models, often resulting in poor generalization. Tested across five major Canadian cities, HR-GAT improves predictive accuracy of spectrum demand by 21% over eight baseline models, underscoring its superior performance and reliability.",
+      "published": "2026-03-10",
+      "url": "http://arxiv.org/abs/2603.09859v1"
+    },
+    {
+      "title": "A Multi-Prototype-Guided Federated Knowledge Distillation Approach in AI-RAN Enabled Multi-Access Edge Computing System",
+      "authors": [
+        "Luyao Zou",
+        "Hayoung Oh",
+        "Chu Myaet Thwal",
+        "Apurba Adhikary",
+        "Seohyeon Hong",
+        "Zhu Han"
+      ],
+      "abstract": "With the development of wireless network, Multi-Access Edge Computing (MEC) and Artificial Intelligence (AI)-native Radio Access Network (RAN) have attracted significant attention. Particularly, the integration of AI-RAN and MEC is envisioned to transform network efficiency and responsiveness. Therefore, it is valuable to investigate AI-RAN enabled MEC system. Federated learning (FL) nowadays is emerging as a promising approach for AI-RAN enabled MEC system, in which edge devices are enabled to train a global model cooperatively without revealing their raw data. However, conventional FL encounters the challenge in processing the non-independent and identically distributed (non-IID) data. Single prototype obtained by averaging the embedding vectors per class can be employed in FL to handle the data heterogeneity issue. Nevertheless, this may result in the loss of useful information owing to the average operation. Therefore, in this paper, a multi-prototype-guided federated knowledge distillation (MP-FedKD) approach is proposed. Particularly, self-knowledge distillation is integrated into FL to deal with the non-IID issue. To cope with the problem of information loss caused by single prototype-based strategy, multi-prototype strategy is adopted, where we present a conditional hierarchical agglomerative clustering (CHAC) approach and a prototype alignment scheme. Additionally, we design a novel loss function (called LEMGP loss) for each local client, where the relationship between global prototypes and local embedding will be focused. Extensive experiments over multiple datasets with various non-IID settings showcase that the proposed MP-FedKD approach outperforms the considered state-of-the-art baselines regarding accuracy, average accuracy and errors (RMSE and MAE).",
+      "published": "2026-03-10",
+      "url": "http://arxiv.org/abs/2603.09727v1"
+    },
+    {
+      "title": "The Radio-Frequency Transformer for Signal Separation",
+      "authors": [
+        "Egor Lifar",
+        "Semyon Savkin",
+        "Rachana Madhukara",
+        "Tejas Jayashankar",
+        "Yury Polyanskiy",
+        "Gregory W. Wornell"
+      ],
+      "abstract": "We study a problem of signal separation: estimating a signal of interest (SOI) contaminated by an unknown non-Gaussian background/interference. Given the training data consisting of examples of SOI and interference, we show how to build a fully data-driven signal separator. To that end we learn a good discrete tokenizer for SOI and then train an end-to-end transformer on a cross-entropy loss. Training with a cross-entropy shows substantial improvements over the conventional mean-squared error (MSE). Our tokenizer is a modification of Google's SoundStream, which incorporates additional transformer layers and switches from VQVAE to finite-scalar quantization (FSQ). Across real and synthetic mixtures from the MIT RF Challenge dataset, our method achieves competitive performance, including a 122x reduction in bit-error rate (BER) over prior state-of-the-art techniques for separating a QPSK signal from 5G interference. The learned representation adapts to the interference type without side information and shows zero-shot generalization to unseen mixtures at inference time, underscoring its potential beyond RF. Although we instantiate our approach on radio-frequency mixtures, we expect the same architecture to apply to gravitational-wave data (e.g., LIGO strain) and other scientific sensing problems that require data-driven modeling of background and noise.",
+      "published": "2026-03-10",
+      "url": "http://arxiv.org/abs/2603.09201v1"
+    },
+    {
+      "title": "PPO-Based Hybrid Optimization for RIS-Assisted Semantic Vehicular Edge Computing",
+      "authors": [
+        "Wei Feng",
+        "Jingbo Zhang",
+        "Qiong Wu",
+        "Pingyi Fan",
+        "Qiang Fan"
+      ],
+      "abstract": "To support latency-sensitive Internet of Vehicles (IoV) applications amidst dynamic environments and intermittent links, this paper proposes a Reconfigurable Intelligent Surface (RIS)-aided semantic-aware Vehicle Edge Computing (VEC) framework. This approach integrates RIS to optimize wireless connectivity and semantic communication to minimize latency by transmitting semantic features. We formulate a comprehensive joint optimization problem by optimizing offloading ratios, the number of semantic symbols, and RIS phase shifts. Considering the problem's high dimensionality and non-convexity, we propose a two-tier hybrid scheme that employs Proximal Policy Optimization (PPO) for discrete decision-making and Linear Programming (LP) for offloading optimization. {The simulation results have validated the proposed framework's superiority over existing methods. Specifically, the proposed PPO-based hybrid optimization scheme reduces the average end-to-end latency by approximately 40% to 50% compared to Genetic Algorithm (GA) and Quantum-behaved Particle Swarm Optimization (QPSO). Moreover, the system demonstrates strong scalability by maintaining low latency even in congested scenarios with up to 30 vehicles.",
+      "published": "2026-03-10",
+      "url": "http://arxiv.org/abs/2603.09082v1"
+    },
+    {
+      "title": "Optimizing Reinforcement Learning Training over Digital Twin Enabled Multi-fidelity Networks",
+      "authors": [
+        "Hanzhi Yu",
+        "Hasan Farooq",
+        "Julien Forgeat",
+        "Shruti Bothe",
+        "Kristijonas Cyras",
+        "Md Moin Uddin Chowdhury",
+        "Mingzhe Chen"
+      ],
+      "abstract": "In this paper, we investigate a novel digital network twin (DNT) assisted deep learning (DL) model training framework. In particular, we consider a physical network where a base station (BS) uses several antennas to serve multiple mobile users, and a DNT that is a virtual representation of the physical network. The BS must adjust its antenna tilt angles to optimize the data rates of all users. Due to user mobility, the BS may not be able to accurately track network dynamics such as wireless channels and user mobilities. Hence, a reinforcement learning (RL) approach is used to dynamically adjust the antenna tilt angles. To train the RL, we can use data collected from the physical network and the DNT. The data collected from the physical network is more accurate but incurs more communication overhead compared to the data collected from the DNT. Therefore, it is necessary to determine the ratio of data collected from the physical network and the DNT to improve the training of the RL model. We formulate this problem as an optimization problem whose goal is to jointly optimize the tilt angle adjustment policy and the data collection strategy, aiming to maximize the data rates of all users while constraining the time delay introduced by collecting data from the physical network. To solve this problem, we propose a hierarchical RL framework that integrates robust adversarial loss and proximal policy optimization (PPO). Simulation results show that our proposed method reduces the physical network data collection delay by up to 28.01% and 1x compared to a hierarchical RL that uses vanilla PPO as the first level RL, and the baseline that uses robust-RL at the first level and selects the data collection ratio randomly.",
+      "published": "2026-03-09",
+      "url": "http://arxiv.org/abs/2603.08931v1"
+    },
+    {
+      "title": "Communication-Efficient and Robust Multi-Modal Federated Learning via Latent-Space Consensus",
+      "authors": [
+        "Mohamed Badi",
+        "Chaouki Ben Issaid",
+        "Mehdi Bennis"
+      ],
+      "abstract": "Federated learning (FL) enables collaborative model training across distributed devices without sharing raw data, but applying FL to multi-modal settings introduces significant challenges. Clients typically possess heterogeneous modalities and model architectures, making it difficult to align feature spaces efficiently while preserving privacy and minimizing communication costs. To address this, we introduce CoMFed, a Communication-Efficient Multi-Modal Federated Learning framework that uses learnable projection matrices to generate compressed latent representations. A latent-space regularizer aligns these representations across clients, improving cross-modal consistency and robustness to outliers. Experiments on human activity recognition benchmarks show that CoMFed achieves competitive accuracy with minimal overhead.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.19067v1"
+    },
+    {
+      "title": "Radar Detection through Rectified Flow Matching",
+      "authors": [
+        "P. Meena",
+        "Y. A. Rouzoumka",
+        "J. Pinsolle",
+        "C. Ren",
+        "M. N. El Korso",
+        "J. -P. Ovarlez"
+      ],
+      "abstract": "Radar target detection in the presence of a mixture of non-Gaussian clutter and white thermal noise is a challenging problem. This paper proposes a Rectified Flow Matching-based method for radar detection, termed D-RFM. Unlike existing detectors, D-RFM learns a mapping from a standard Gaussian distribution to radar observations by capturing the underlying velocity field. Detection is then performed by inverse mapping test samples into the latent Gaussian space using the learned velocity field, with targets identified as deviations from the learned distribution. Experimental results demonstrate the efficacy of the proposed method under both Gaussian and non-Gaussian clutter plus additive white Gaussian noise, highlighting its accuracy, robustness, and computational efficiency.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18995v1"
+    },
+    {
+      "title": "BeamAgent: LLM-Aided MIMO Beamforming with Decoupled Intent Parsing and Alternating Optimization for Joint Site Selection and Precoding",
+      "authors": [
+        "Xiucheng Wang",
+        "Yue Zhang",
+        "Nan Cheng"
+      ],
+      "abstract": "Integrating large language models (LLMs) into wireless communication optimization is a promising yet challenging direction. Existing approaches either use LLMs as black-box solvers or code generators, tightly coupling them with numerical computation. However, LLMs lack the precision required for physical-layer optimization, and the scarcity of wireless training data makes domain-specific fine-tuning impractical. We propose BeamAgent, an LLM-aided MIMO beamforming framework that explicitly decouples semantic intent parsing from numerical optimization. The LLM serves solely as a semantic translator that converts natural language descriptions into structured spatial constraints. A dedicated gradient-based optimizer then jointly solves the discrete base station site selection and continuous precoding design through an alternating optimization algorithm. A scene-aware prompt enables grounded spatial reasoning without fine-tuning, and a multi-round interaction mechanism with dual-layer intent classification ensures robust constraint verification. A penalty-based loss function enforces dark-zone power constraints while releasing optimization degrees of freedom for bright-zone gain maximization. Experiments on a ray-tracing-based urban MIMO scenario show that BeamAgent achieves a bright-zone power of 84.0\\,dB, outperforming exhaustive zero-forcing by 7.1 dB under the same dark-zone constraint. The end-to-end system reaches within 3.3 dB of the expert upper bound, with the full optimization completing in under 2 s on a laptop.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18855v1"
+    },
+    {
+      "title": "Holter-to-Sleep: AI-Enabled Repurposing of Single-Lead ECG for Sleep Phenotyping",
+      "authors": [
+        "Donglin Xie",
+        "Qingshuo Zhao",
+        "Jingyu Wang",
+        "Shijia Geng",
+        "Jiarui Jin",
+        "Jun Li",
+        "Rongrong Guo",
+        "Guangkun Nie",
+        "Gongzheng Tang",
+        "Yuxi Zhou",
+        "Thomas Penzel",
+        "Shenda Hong"
+      ],
+      "abstract": "Sleep disturbances are tightly linked to cardiovascular risk, yet polysomnography (PSG)-the clinical reference standard-remains resource-intensive and poorly suited for multi-night, home-based, and large-scale screening. Single-lead electrocardiography (ECG), already ubiquitous in Holter and patch-based devices, enables comfortable long-term acquisition and encodes sleep-relevant physiology through autonomic modulation and cardiorespiratory coupling. Here, we present a proof-of-concept Holter-to-Sleep framework that, using single-lead ECG as the sole input, jointly supports overnight sleep phenotyping and Holter-grade cardiac phenotyping within the same recording, and further provides an explicit analytic pathway for scalable cardio-sleep association studies. The framework is developed and validated on a pooled multi-center PSG sample of 10,439 studies spanning four public cohorts, with independent external evaluation to assess cross-cohort generalizability, and additional real-world feasibility assessment using overnight patch-ECG recordings via objective-subjective consistency analysis. This integrated design enables robust extraction of clinically meaningful overnight sleep phenotypes under heterogeneous populations and acquisition conditions, and facilitates systematic linkage between ECG-derived sleep metrics and arrhythmia-related Holter phenotypes. Collectively, the Holter-to-Sleep paradigm offers a practical foundation for low-burden, home-deployable, and scalable cardio-sleep monitoring and research beyond traditional PSG-centric workflows.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18714v1"
+    },
+    {
+      "title": "Fast Beam-Brainstorm: Few-Step Generative Site-Specific Beamforming with Flexible Probing",
+      "authors": [
+        "Zihao Zhou",
+        "Zhaolin Wang",
+        "Yuanwei Liu"
+      ],
+      "abstract": "A novel generative site-specific beamforming (GenSSBF) approach, termed fast beam-brainstorm (F-BBS), is proposed to address the practical bottlenecks of slow beam generation and fixed channel probing lengths in existing GenSSBF. To accelerate beam generation, F-BBS utilizes a two-stage distillation strategy that learns an average velocity field, instead of an instantaneous one, to guide the beam generative process. This strategy enables larger generation steps, realizing few-step or even one-step beam generation. Furthermore, to accommodate flexible channel probing lengths, a stochastic masking mechanism and a beam index-aware masked condition encoder are proposed, enabling a single trained model to operate with variable-length channel probing observations without retraining. Therefore, FBBS achieves the fast generation of high-fidelity communication beams from coarse and variable-length channel probing feedback, i.e., reference signal received power (RSRP), from user equipments. Simulation results on accurate ray-tracing datasets show that 1) F-BBS achieves comparable performance while reducing the beam generation cost by over 90% compared with diffusion-based GenSSBF solutions, 2) F-BBS realizes robust performance across variable channel probing length, and 3) FBBS offers a desirable trade-off between beamforming gain and beam probing overhead.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.17622v1"
+    },
+    {
+      "title": "A Tutorial on Learning-Based Radio Map Construction: Data, Paradigms, and Physics-Awarenes",
+      "authors": [
+        "Xiucheng Wang",
+        "Yuhao Pan",
+        "Nan Cheng"
+      ],
+      "abstract": "The integration of artificial intelligence into next-generation wireless networks necessitates the accurate construction of radio maps (RMs) as a foundational prerequisite for electromagnetic digital twins. A RM provides the digital representation of the wireless propagation environment, mapping complex geographical and topological boundary conditions to critical spatial-spectral metrics that range from received signal strength to full channel state information matrices. This tutorial presents a comprehensive survey of learning-based RM construction, systematically addressing three intertwined dimensions: data, paradigms, and physics-awareness. From the data perspective, we review physical measurement campaigns, ray tracing simulation engines, and publicly available benchmark datasets, identifying their respective strengths and fundamental limitations. From the paradigm perspective, we establish a core taxonomy that categorizes RM construction into source-aware forward prediction and source-agnostic inverse reconstruction, and examine five principal neural architecture families spanning convolutional neural networks, vision transformers, graph neural networks, generative adversarial networks, and diffusion models. We further survey optics-inspired methods adapted from neural radiance fields and 3D Gaussian splatting for continuous wireless radiation field modeling. From the physics-awareness perspective, we introduce a three-level integration framework encompassing data-level feature engineering, loss-level partial differential equation regularization, and architecture-level structural isomorphism. Open challenges including foundation model development, physical hallucination detection, and amortized inference for real-time deployment are discussed to outline future research directions.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.17499v1"
+    },
+    {
+      "title": "Deep Learning-Driven Black-Box Doherty Power Amplifier with Pixelated Output Combiner and Extended Efficiency Range",
+      "authors": [
+        "Han Zhou",
+        "Haojie Chang",
+        "David Widen"
+      ],
+      "abstract": "This article presents a deep learning-driven inverse design methodology for Doherty power amplifiers (PA) with multi-port pixelated output combiner networks. A deep convolutional neural network (CNN) is developed and trained as an electromagnetic (EM) surrogate model to accurately and rapidly predict the S-parameters of pixelated passive networks. By leveraging the CNN-based surrogate model within a blackbox Doherty framework and a genetic algorithm (GA)-based optimizer, we effectively synthesize complex Doherty combiners that enable an extended back-off efficiency range using fully symmetrical devices. As a proof of concept, we designed and fabricated two Doherty PA prototypes incorporating three-port pixelated combiners, implemented with GaN HEMT transistors. In measurements, both prototypes demonstrate a maximum drain efficiency exceeding 74% and deliver an output power surpassing 44.1 dBm at 2.75 GHz. Furthermore, a measured drain efficiency above 52% is maintained at the 9-dB back-off power level for both prototypes at the same frequency. To evaluate linearity and efficiency under realistic signal conditions, both prototypes are tested using a 20-MHz 5G new radio (NR)-like waveform exhibiting a peak-to-average power ratio (PAPR) of 9.0 dB. After applying digital predistortion (DPD), each design achieves an average power added efficiency (PAE) above 51%, while maintaining an adjacent channel leakage ratio (ACLR) better than -60.8 dBc.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16565v1"
+    },
+    {
+      "title": "Multi-Agent Reinforcement Learning Counteracts Delayed CSI in Multi-Satellite Systems",
+      "authors": [
+        "Marios Aristodemou",
+        "Yasaman Omid",
+        "Sangarapillai Lambotharan",
+        "Mahsa Derakhshan",
+        "Lajos Hanzo"
+      ],
+      "abstract": "The integration of satellite communication networks with next-generation (NG) technologies is a promising approach towards global connectivity. However, the quality of services is highly dependant on the availability of accurate channel state information (CSI). Channel estimation in satellite communications is challenging due to the high propagation delay between terrestrial users and satellites, which results in outdated CSI observations on the satellite side. In this paper, we study the downlink transmission of multiple satellites acting as distributed base stations (BS) to mobile terrestrial users. We propose a multi-agent reinforcement learning (MARL) algorithm which aims for maximising the sum-rate of the users, while coping with the outdated CSI. We design a novel bi-level optimisation, procedure themes as dual stage proximal policy optimisation (DS-PPO), for tackling the problem of large continuous action spaces as well as of independent and non-identically distributed (non-IID) environments in MARL. Specifically, the first stage of DS-PPO maximises the sum-rate for an individual satellite and the second stage maximises the sum-rate when all the satellites cooperate to form a distributed multi-antenna BS. Our numerical results demonstrate the robustness of DS-PPO to CSI imperfections as well as the sum-rate improvement attached by the use of DS-PPO. In addition, we provide the convergence analysis for the DS-PPO along with the computational complexity.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16470v1"
+    },
+    {
+      "title": "Linearized Bregman Iterations for Sparse Spiking Neural Networks",
+      "authors": [
+        "Daniel Windhager",
+        "Bernhard A. Moser",
+        "Michael Lunglmayr"
+      ],
+      "abstract": "Spiking Neural Networks (SNNs) offer an energy efficient alternative to conventional Artificial Neural Networks (ANNs) but typically still require a large number of parameters. This work introduces Linearized Bregman Iterations (LBI) as an optimizer for training SNNs, enforcing sparsity through iterative minimization of the Bregman distance and proximal soft thresholding updates. To improve convergence and generalization, we employ the AdaBreg optimizer, a momentum and bias corrected Bregman variant of Adam. Experiments on three established neuromorphic benchmarks, i.e. the Spiking Heidelberg Digits (SHD), the Spiking Speech Commands (SSC), and the Permuted Sequential MNIST (PSMNIST) datasets, show that LBI based optimization reduces the number of active parameters by about 50% while maintaining accuracy comparable to models trained with the Adam optimizer, demonstrating the potential of convex sparsity inducing methods for efficient neuromorphic learning.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16462v1"
+    },
+    {
+      "title": "Learning to Jointly Optimize Antenna Positioning and Beamforming for Movable Antenna-Aided Systems",
+      "authors": [
+        "Yikun Wang",
+        "Yang Li",
+        "Zeyi Ren",
+        "Jingreng Lei",
+        "Yik-Chung Wu",
+        "Rui Zhang"
+      ],
+      "abstract": "The recently emerged movable antenna (MA) and fluid antenna technologies offer promising solutions to enhance the spatial degrees of freedom in wireless systems by dynamically adjusting the positions of transmit or receive antennas within given regions. In this paper, we aim to address the joint optimization problem of antenna positioning and beamforming in MA-aided multi-user downlink transmission systems. This problem involves mixed discrete antenna position and continuous beamforming weight variables, along with coupled distance constraints on antenna positions, which pose significant challenges for optimization algorithm design. To overcome these challenges, we propose an end-to-end deep learning framework, consisting of a positioning model that handles the discrete variables and the coupled constraints, and a beamforming model that handles the continuous variables. Simulation results demonstrate that the proposed framework achieves superior sum rate performance, yet with much reduced computation time compared to existing methods.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16449v1"
+    },
+    {
+      "title": "Uplink Networked Sensing via Multiuser Correlation Exploitation",
+      "authors": [
+        "Jingying Bao",
+        "J. Andrew Zhang",
+        "Kai Wu",
+        "Christos Masouros",
+        "Y. Jay Guo"
+      ],
+      "abstract": "In this correspondence, we investigate networked sensing in perceptive mobile networks under a bistatic multi-transmitter single-receiver uplink topology, where multiple user equipments (UEs) transmit signals over orthogonal frequency-division multiple access (OFDMA) resources and a single base station performs joint sensing. Uplink clock asynchronism introduces offsets that destroy inter-packet coherence and hinder high-resolution sensing, while multi-user observations exhibit exploitable cross-user correlation. We therefore formulate an asynchronous multi-user uplink OFDMA sensing model and exploit common delay-cluster sparsity across UEs. A line-of-sight (LoS)-referenced calibration first suppresses the offsets, after which a shared-private delay-domain sparse Bayesian learning (SBL) model is used for delay support recovery and user grouping. Doppler and angle of arrival are then estimated from temporal and spatial phase differences. Simulation results show that the proposed scheme outperforms per-user processing, particularly under limited subcarrier budgets and in low signal-to-noise ratio (SNR) regimes.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16442v1"
+    },
+    {
+      "title": "Improved GNSS Positioning in Urban Environments Using a Logistic Error Model",
+      "authors": [
+        "Zhengdao Li",
+        "Penggao Yan",
+        "Baoshan Song",
+        "Li-Ta Hsu"
+      ],
+      "abstract": "A Gaussian error assumption is commonly adopted in the pseudorange measurement model for global navigation satellite system (GNSS) positioning, which leads to the conventional least squares (LS) estimator. In urban environments, however, multipath and non-line-of-sight (NLOS) receptions produce heavy-tailed pseudorange errors that are not well represented by the Gaussian model. This study models urban GNSS pseudorange errors using a logistic distribution and derives the corresponding maximum likelihood estimator, termed the Least Quasi-Log-Cosh (LQLC) estimator. The resulting estimation problem is solved efficiently using an iteratively reweighted least squares (IRLS) algorithm. Experiments in light, medium, and deep urban environments show that LQLC consistently outperforms LS, reducing the three-dimensional (3D) root mean square error (RMSE) by approximately 11%-31% and the 3D error standard deviation (STD) by approximately 27%-61%. A controlled scale-mismatch analysis further shows that LQLC is more sensitive to severe underestimation than to overestimation of the logistic scale, indicating that the practical tuning requirement is to avoid overly small scale values rather than to achieve exact scale matching. In addition, the computational cost remains compatible with real-time positioning. These results indicate that logistic modeling provides a simple and practical alternative to Gaussian-based urban GNSS positioning.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16420v1"
+    },
+    {
+      "title": "Robust Generative Audio Quality Assessment: Disentangling Quality from Spurious Correlations",
+      "authors": [
+        "Kuan-Tang Huang",
+        "Chien-Chun Wang",
+        "Cheng-Yeh Yang",
+        "Hung-Shin Lee",
+        "Hsin-Min Wang",
+        "Berlin Chen"
+      ],
+      "abstract": "The rapid proliferation of AI-Generated Content (AIGC) has necessitated robust metrics for perceptual quality assessment. However, automatic Mean Opinion Score (MOS) prediction models are often compromised by data scarcity, predisposing them to learn spurious correlations-- such as dataset-specific acoustic signatures-- rather than generalized quality features. To address this, we leverage domain adversarial training (DAT) to disentangle true quality perception from these nuisance factors. Unlike prior works that rely on static domain priors, we systematically investigate domain definition strategies ranging from explicit metadata-driven labels to implicit data-driven clusters. Our findings reveal that there is no \"one-size-fits-all\" domain definition; instead, the optimal strategy is highly dependent on the specific MOS aspect being evaluated. Experimental results demonstrate that our aspect-specific domain strategy effectively mitigates acoustic biases, significantly improving correlation with human ratings and achieving superior generalization on unseen generative scenarios.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16201v1"
+    },
+    {
+      "title": "Structure-Aware Multimodal LLM Framework for Trustworthy Near-Field Beam Prediction",
+      "authors": [
+        "Mengyuan Li",
+        "Qianfan Lu",
+        "Jiachen Tian",
+        "Hongjun Hu",
+        "Yu Han",
+        "Xiao Li",
+        "Chao-kai Wen",
+        "Shi Jin"
+      ],
+      "abstract": "In near-field extremely large-scale multiple-input multiple-output (XL-MIMO) systems, spherical wavefront propagation expands the traditional beam codebook into the joint angular-distance domain, rendering conventional beam training prohibitively inefficient, especially in complex 3-dimensional (3D) low-altitude environments. Furthermore, since near-field beam variations are deeply coupled not only with user positions but also with the physical surroundings, precise beam alignment demands profound environmental understanding capabilities. To address this, we propose a large language model (LLM)-driven multimodal framework that fuses historical GPS data, RGB image, LiDAR data, and strategically designed task-specific textual prompts. By utilizing the powerful emergent reasoning and generalization capabilities of the LLM, our approach learns complex spatial dynamics to achieve superior environmental comprehension...",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16143v1"
+    },
+    {
+      "title": "Knowledge Distillation for Collaborative Learning in Distributed Communications and Sensing",
+      "authors": [
+        "Nhan Thanh Nguyen",
+        "Mengyuan Ma",
+        "Nir Shlezinger",
+        "Junil Choi",
+        "Yonina C. Eldar",
+        "A. Lee Swindlehurst",
+        "Markku Juntti"
+      ],
+      "abstract": "The rise of sixth generation (6G) wireless networks promises to deliver ultra-reliable, low-latency, and energy-efficient communications, sensing, and computing. However, traditional centralized artificial intelligence (AI) paradigms are ill-suited to the decentralized, resource-constrained, and dynamic nature of 6G ecosystems. This paper explores knowledge distillation (KD) and collaborative learning as promising techniques that enable the efficient and scalable deployment of lightweight AI models across distributed communications and sensing (C&S) nodes. We begin by providing an overview of KD and highlight the key strengths that make it particularly effective in distributed scenarios characterized by device heterogeneity, task diversity, and constrained resources. We then examine its role in fostering collective intelligence through collaborative learning between the central and distributed nodes via various knowledge distilling and deployment strategies. Finally, we present a systematic numerical study demonstrating that KD-empowered collaborative learning can effectively support lightweight AI models for multi-modal sensing-assisted beam tracking applications with substantial performance gains and complexity reduction.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16116v1"
+    },
+    {
+      "title": "Generative Semantic HARQ: Latent-Space Text Retransmission and Combining",
+      "authors": [
+        "Bin Han",
+        "Yulin Hu",
+        "Hans D. Schotten"
+      ],
+      "abstract": "Semantic communication conveys meaning rather than raw bits, but reliability at the semantic level remains an open challenge. We propose a semantic-level hybrid automatic repeat request (HARQ) framework for text communication, in which a Transformer-variational autoencoder (VAE) codec operates as a lightweight overlay on the conventional protocol stack. The stochastic encoder inherently generates diverse latent representations across retransmissions-providing incremental knowledge (IK) from a single model without dedicated protocol design. On the receiver side, a soft quality estimator triggers retransmissions and a quality-aware combiner merges the received latent vectors within a consistent latent space. We systematically benchmark six semantic quality metrics and four soft combining strategies under hybrid semantic distortion that mixes systematic bias with additive noise. The results suggest combining Weighted-Average or MRC-Inspired combining with self-consistency-based HARQ triggering for the best performance.",
+      "published": "2026-03-16",
+      "url": "http://arxiv.org/abs/2603.15068v1"
+    },
+    {
+      "title": "Spectrogram features for audio and speech analysis",
+      "authors": [
+        "Ian McLoughlin",
+        "Lam Pham",
+        "Yan Song",
+        "Xiaoxiao Miao",
+        "Huy Phan",
+        "Pengfei Cai",
+        "Qing Gu",
+        "Jiang Nan",
+        "Haoyu Song",
+        "Donny Soh"
+      ],
+      "abstract": "Spectrogram-based representations have grown to dominate the feature space for deep learning audio analysis systems, and are often adopted for speech analysis also. Initially, the primary motivator for spectrogram-based representations was their ability to present sound as a two dimensional signal in the time-frequency plane, which not only provides an interpretable physical basis for analysing sound, but also unlocks the use of a wide range of machine learning techniques such as convolutional neural networks, that had been developed for image processing. A spectrogram is a matrix characterised by the resolution and span of its two dimensions, as well as by the representation and scaling of each element. Many possibilities for these three characteristics have been explored by researchers across numerous application areas, with different settings showing affinity for various tasks. This paper reviews the use of spectrogram-based representations and surveys the state-of-the-art to question how front-end feature representation choice allies with back-end classifier architecture for different tasks.",
+      "published": "2026-03-16",
+      "url": "http://arxiv.org/abs/2603.14917v1"
+    },
+    {
+      "title": "Near-Field Channel Estimation for mmWave/THz Communications with Extremely Large-Scale UPAs",
+      "authors": [
+        "Yiming Chen",
+        "Hongwei Wang",
+        "Lingxiang Li",
+        "Zhi Chen"
+      ],
+      "abstract": "Extremely large antenna arrays (ELAAs) are widely adopted in mmWave/THz communications to compensate for the severe path loss, wherein the channel estimation remains a significant challenge since the Rayleigh distance of ELAAs stretches to tens or even hundreds of meters and the near-field channel model should be considered. Existing polar-domain based methods and block-sparse based methods are originally devised for Uniform Linear Arrays (ULAs) near-field channel estimation. The polar-domain based method can be applied to Uniform Planar Arrays (UPAs), but it behaves plain since it ignores the specific sparsity structure of the UPA near-field channels. Meanwhile, the block-sparse based method cannot be extended to the UPA scenarios directly. To address these issues, we first reformulate the original UPA near-field channel as an outer product of two ULA near-field channels and we construct a modified two-dimensional DFT (2D-DFT) dictionary for it. With the proposed dictionary, we further prove that the UPA near-field channel admits a 2D block-sparse structure. Leveraging this specific sparse structure, we solve the channel estimation problem with the 2D Pattern-Coupled Sparse Bayesian Learning (2D-PCSBL) algorithm. Simulation results show that the proposed approach outperforms conventional existing methods while maintaining a comparable computational complexity.",
+      "published": "2026-03-15",
+      "url": "http://arxiv.org/abs/2603.14437v1"
+    },
+    {
+      "title": "AI/ML for mobile networks: Current status in Rel. 19 and challenges ahead",
+      "authors": [
+        "Yuan Gao",
+        "Xinyi Wu",
+        "Jun Jiang",
+        "Bintao Hu",
+        "Jianbo Du",
+        "Qiang Ye",
+        "Shunqing Zhang",
+        "F. Richard Yu",
+        "Shugong Xu"
+      ],
+      "abstract": "The transformative power of artificial intelligence (AI) and machine learning (ML) is recognized as a key enabler for sixth generation (6G) mobile networks by both academia and industry. Research on AI/ML in mobile networks has been ongoing for years, and the 3rd generation partnership project (3GPP) launched standardization efforts to integrate AI into mobile networks. However, a comprehensive review of the current status and challenges of the standardization of AI/ML for mobile networks is still missing. To this end, we provided a comprehensive review of the standardization efforts by 3GPP on AI/ML for mobile networks. This includes an overview of the general AI/ML framework, representative use cases (i.e., CSI feedback, beam management and positioning), and corresponding evaluation matrices. We emphasized the key research challenges on dataset preparation, generalization evaluation and baseline AI/ML models selection. Using CSI feedback as a case study, given the test dataset 2, we demonstrated that the pre-training-fine-tuning paradigm (i.e., pre-training using dataset 1 and fine-tuning using dataset 2) outperforms training on dataset 2. Moreover, we observed the highest performance enhancements in Transformer-based models through fine-tuning, showing its great generalization potential at large floating-point operations (FLOPs). Finally, we outlined future research directions for the application of AI/ML in mobile networks.",
+      "published": "2026-03-15",
+      "url": "http://arxiv.org/abs/2603.14317v1"
+    },
+    {
+      "title": "A Multi-Objective Learning Approach for Adaptive Waveform Selection in Integrated Sensing and Communications Systems",
+      "authors": [
+        "Ahmet Yazar",
+        "Yusuf Islam Demir",
+        "Ahmed Naeem",
+        "Seyit Karatepe"
+      ],
+      "abstract": "Integrated Sensing and Communications (ISAC) has emerged as a key enabler for sixth generation (6G) wireless systems by jointly supporting data transmission and environmental awareness within a unified framework. However, communication and sensing functionalities impose inherently conflicting performance requirements, particularly in heterogeneous networks where users may demand sensing only, communication only, or joint services. Selecting a waveform that satisfies diverse service demands therefore becomes a challenging multi objective decision problem. In this paper, a multi objective learning approach for adaptive waveform selection in ISAC systems is proposed. A simulation driven evaluation framework is developed to assess multiple waveform candidates across communication, sensing, and joint performance metrics. Instead of enforcing scalar utility aggregation, waveform performance is represented in a multi dimensional objective space where Pareto optimal candidates are identified for each scenario. A dataset is generated by varying user demand distributions and channel conditions, and multi-label targets are constructed based on Pareto dominance. Machine learning models are trained to learn the mapping between network conditions and Pareto optimal waveform sets, enabling fast waveform selection under dynamic network states. Simulation results demonstrate that the proposed framework effectively adapts waveform selection to heterogeneous service requirements while preserving sensing communication trade offs, providing a forward-looking perspective for 6G and beyond ISAC deployments.",
+      "published": "2026-03-14",
+      "url": "http://arxiv.org/abs/2603.14017v1"
+    },
+    {
+      "title": "The Taxonomies, Training, and Applications of Event Stream Modelling for Electronic Health Records",
+      "authors": [
+        "Mingcheng Zhu",
+        "Yu Liu",
+        "Zhiyao Luo",
+        "Tingting Zhu"
+      ],
+      "abstract": "The widespread adoption of electronic health records (EHRs) enables the acquisition of heterogeneous clinical data, spanning lab tests, vital signs, medications, and procedures, which offer transformative potential for artificial intelligence in healthcare. Although traditional modelling approaches have typically relied on multivariate time series, they often struggle to accommodate the inherent sparsity and irregularity of real-world clinical workflows. Consequently, research has shifted toward event stream representation, which treats patient records as continuous sequences, thereby preserving the precise temporal structure of the patient journey. However, the existing literature remains fragmented, characterised by inconsistent definitions, disparate modelling architectures, and varying training protocols. To address these gaps, this review establishes a unified definition of EHR event streams and introduces a novel taxonomy that categorises models based on their handling of event time, type, and value. We systematically review training strategies, ranging from supervised learning to self-supervised methods, and provide a comprehensive discussion of applications across clinical scenarios. Finally, we identify open critical challenges and future directions, with the aim of clarifying the current landscape and guiding the development of next-generation healthcare models.",
+      "published": "2026-03-14",
+      "url": "http://arxiv.org/abs/2603.14003v1"
+    },
+    {
+      "title": "Airy Beam Engineering in Near-field Communications: A Tractable Closed-Form Analysis in the Terahertz Band",
+      "authors": [
+        "Wenqi Zhao",
+        "Chong Han",
+        "Emil Björnson"
+      ],
+      "abstract": "Terahertz (THz) communication can offer terabit-per-second rates in future wireless systems, thanks to the ultra-wide bandwidths, but require large antenna arrays. As antenna apertures expand and we enter the near-field scenarios, the conventional binary classification of communication links as either Line-of-Sight (LoS) or Non-Line-of-Sight (NLoS) becomes insufficient. Instead, quasi-LoS scenarios, where the LoS path is partially obstructed, are increasingly prevalent, posing significant challenges for traditional LoS focusing and steering beams. The Airy beam serves as a promising alternative, utilizing its non-diffracting and curved trajectory properties to mitigate such blockages. However, while existing electromagnetics literature primarily explores their physical patterns without practical generation schemes, recent communication-oriented designs predominantly rely on learning-based frameworks lacking interpretable closed-form solutions. To address this issue, this paper investigates a closed-form Airy beam design to efficiently synthesize Airy beam phase profiles based on the positions of the transceivers and obstacles. Specifically, rigorous analytical derivations of the electric field and trajectory are presented to establish a deterministic closed-form design for ULA Airy beamforming. Leveraging 3D wavefront separability, this framework is extended to uniform planar arrays (UPAs) with two operation modes: the hybrid focusing-Airy mode and the dual Airy mode. Simulation results verify the effectiveness of our derived trajectory equations and demonstrate that the proposed closed-form design significantly outperforms conventional beamforming schemes in quasi-LoS scenarios. Furthermore, the proposed method achieves performance comparable to exhaustive numerical searches with low computational complexity and enhanced physical interpretability.",
+      "published": "2026-03-14",
+      "url": "http://arxiv.org/abs/2603.13866v1"
+    },
+    {
+      "title": "Ransomware and Artificial Intelligence: A Comprehensive Systematic Review of Reviews",
+      "authors": [
+        "Therdpong Daengsi",
+        "Phisit Pornpongtechavanich",
+        "Paradorn Boonpoor",
+        "Kathawut Wattanachukul",
+        "Korn Puangnak",
+        "Kritphon Phanrattanachai",
+        "Pongpisit Wuttidittachotti",
+        "Paramate Horkaew"
+      ],
+      "abstract": "This study provides a comprehensive synthesis of Artificial Intelligence (AI), especially Machine Learning (ML) and Deep Learning (DL), in ransomware defense. Using a \"review of reviews\" methodology based on PRISMA, this paper gathers insights on how AI is transforming ransomware detection, prevention, and mitigation strategies during the past five years (2020-2024). The findings highlight the effectiveness of hybrid models that combine multiple analysis techniques such as code inspection (static analysis) and behavior monitoring during execution (dynamic analysis). The study also explores anomaly detection and early warning mechanisms before encryption to address the increasing complexity of ransomware. In addition, it examines key challenges in ransomware defense, including techniques designed to deceive AI-driven detection systems and the lack of strong and diverse datasets. The results highlight the role of AI in early detection and real-time response systems, improving scalability and resilience. Using a systematic review-of-reviews approach, this study consolidates insights from multiple review articles, identifies effective AI models, and bridges theory with practice to support collaboration among academia, industry, and policymakers. Future research directions and practical recommendations for cybersecurity practitioners are also discussed. Finally, this paper proposes a roadmap for advancing AI-driven countermeasures to protect critical systems and infrastructures against evolving ransomware threats.",
+      "published": "2026-03-14",
+      "url": "http://arxiv.org/abs/2603.13734v1"
+    },
+    {
+      "title": "Task-Oriented Wireless Transmission of 3D Point Clouds: Geometric Versus Semantic Robustness",
+      "authors": [
+        "Vukan Ninkovic",
+        "Tamara Sobot",
+        "Vladimir Vincan",
+        "Gorana Gojic",
+        "Dragisa Miskovic",
+        "Dejan Vukobratovic"
+      ],
+      "abstract": "Wireless transmission of high-dimensional 3D point clouds (PCs) is increasingly required in industrial collaborative robotics systems. Conventional compression methods prioritize geometric fidelity, although many practical applications ultimately depend on reliable task-level inference rather than exact coordinate reconstruction. In this paper, we propose an end-to-end semantic communication framework for wireless 3D PC transmission and conduct a systematic study of the relationship between geometric reconstruction fidelity and semantic robustness under channel impairments. The proposed architecture jointly supports geometric recovery and object classification from a shared transmitted representation, enabling direct comparison between coordinate-level and task-level sensitivity to noise. Experimental evaluation on a real industrial dataset reveals a pronounced asymmetry: semantic inference remains stable across a broad signal-to-noise ratio (SNR) range even when geometric reconstruction quality degrades significantly. These results demonstrate that reliable task execution does not require high-fidelity geometric recovery and provide design insights for task-oriented wireless perception systems in bandwidth- and power-constrained industrial environments.",
+      "published": "2026-03-13",
+      "url": "http://arxiv.org/abs/2603.13560v1"
+    },
+    {
+      "title": "Robust Automatic Differentiation of Square-Root Kalman Filters via Gramian Differentials",
+      "authors": [
+        "Adrien Corenflos"
+      ],
+      "abstract": "Square-root Kalman filters propagate state covariances in Cholesky-factor form for numerical stability, and are a natural target for gradient-based parameter learning in state-space models. Their core operation, triangularization of a matrix $M \\in \\mathbb{R}^{n \\times m}$, is computed via a QR decomposition in practice, but naively differentiating through it causes two problems: the semi-orthogonal factor is non-unique when $m > n$, yielding undefined gradients; and the standard Jacobian formula involves inverses, which diverges when $M$ is rank-deficient. Both are resolved by the observation that all filter outputs relevant to learning depend on the input matrix only through the Gramian $MM^\\top$, so the composite loss is smooth in $M$ even where the triangularization is not. We derive a closed-form chain-rule directly from the differential of this Gramian identity, prove it exact for the Kalman log-marginal likelihood and filtered moments, and extend it to rank-deficient inputs via a two-component decomposition: a column-space term based on the Moore--Penrose pseudoinverse, and a null-space correction for perturbations outside the column space of $M$.",
+      "published": "2026-03-13",
+      "url": "http://arxiv.org/abs/2603.13559v1"
+    },
+    {
+      "title": "Bridging Network Fragmentation: A Semantic-Augmented DRL Framework for UAV-aided VANETs",
+      "authors": [
+        "Gaoxiang Cao",
+        "Wenke Yuan",
+        "Huasen He",
+        "Yunpeng Hou",
+        "Xiaofeng Jiang",
+        "Shuangwu Chen",
+        "Jian Yang"
+      ],
+      "abstract": "Vehicular Ad-hoc Networks (VANETs) are the digital cornerstone of autonomous driving, yet they suffer from severe network fragmentation in urban environments due to physical obstructions. Unmanned Aerial Vehicles (UAVs), with their high mobility, have emerged as a vital solution to bridge these connectivity gaps. However, traditional Deep Reinforcement Learning (DRL)-based UAV deployment strategies lack semantic understanding of road topology, often resulting in blind exploration and sample inefficiency. By contrast, Large Language Models (LLMs) possess powerful reasoning capabilities capable of identifying topological importance, though applying them to control tasks remains challenging. To address this, we propose the Semantic-Augmented DRL (SA-DRL) framework. Firstly, we propose a fragmentation quantification method based on Road Topology Graphs (RTG) and Dual Connected Graphs (DCG). Subsequently, we design a four-stage pipeline to transform a general-purpose LLM into a domain-specific topology expert. Finally, we propose the Semantic-Augmented PPO (SA-PPO) algorithm, which employs a Logit Fusion mechanism to inject the LLM's semantic reasoning directly into the policy as a prior, effectively guiding the agent toward critical intersections. Extensive high-fidelity simulations demonstrate that SA-PPO achieves state-of-the-art performance with remarkable efficiency, reaching baseline performance levels using only 26.6% of the training episodes. Ultimately, SA-PPO improves two key connectivity metrics by 13.2% and 23.5% over competing methods, while reducing energy consumption to just 28.2% of the baseline.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18871v1"
+    },
+    {
+      "title": "Holistic Energy Performance Management: Enablers, Capabilities, and Features",
+      "authors": [
+        "Meysam Masoudi",
+        "Milad Ganjalizadeh",
+        "Tahar Zanouda",
+        "Pal Frenger"
+      ],
+      "abstract": "Energy consumption is a significant concern for mobile network operators, and to enable further network energy improvements it is also an important target when developing the emerging 6G standard. In this paper we show that, despite the existence of many energy-saving features in 5G new radio (NR) networks, activating them in isolation yields only suboptimal savings and often compromises other network key performance indicators (KPIs) such as coverage or latency. We first introduce a compact taxonomy that distinguishes hardware capabilities from higher-layer features. Features fall into two classes: (i) signaling and scheduling mechanisms that create idle windows, and (ii) features that utilize those windows to save energy. We then present a feature orchestrator as a logical node to coordinate between features to maximize the gain. Using a 3GPP-aligned simulator with product-realistic parameters, we show that coordinating lean NR, scheduling, and advanced sleep modes significantly reduces gNodeB (gNB) energy consumption with negligible throughput loss, compared to the uncoordinated scenario. We conclude by outlining open issues in observability, system dynamics, coordination, and intelligent automation for energy performance management.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18841v1"
+    },
+    {
+      "title": "AutORAN: LLM-driven Natural Language Programming for Agile xApp Development",
+      "authors": [
+        "Xin Li",
+        "Shiming Yu",
+        "Leming Shen",
+        "Jianing Zhang",
+        "Yuanqing Zheng",
+        "Yaxiong Xie"
+      ],
+      "abstract": "Traditional RAN systems are closed and monolithic, stifling innovation. The openness and programmability enabled by Open Radio Access Network (O-RAN) are envisioned to revolutionize cellular networks with control-plane applications--xApps. The development of xApps (typically by third-party developers), however, remains time-consuming and cumbersome, often requiring months of manual coding and integration, which hinders the roll-out of new functionalities in practice. To lower the barrier of xApp development for both developers and network operators, we present AutORAN, the first LLM-driven natural language programming framework for agile xApps that automates the entire xApp development pipeline. In a nutshell, AutORAN turns high-level user intents into swiftly deployable xApps within minutes, eliminating the need for manual coding or testing. To this end, AutORAN builds a fully automated xApp generation pipeline, which integrates multiple functional modules (from user requirement elicitation, AI/ML function design and validation, to xApp synthesis and deployment). We design, implement, and comprehensively evaluate AutORAN on representative xApp tasks. Results show AutORAN-generated xApps can achieve similar or even better performance than the best known hand-crafted baselines. AutORAN drastically accelerates the xApp development cycle (from user intent elicitation to roll-out), streamlining O-RAN innovation.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18604v1"
+    },
+    {
+      "title": "Cross-Layer Traffic Allocation and Contention Window Optimization for Wi-Fi 7 MLO: When DRL Meets LSTM",
+      "authors": [
+        "Zhang Liu",
+        "Xianbin Wang",
+        "Shumin Lian",
+        "Lianfen Huang",
+        "Liqun Fu",
+        "Ying-Jun Angela Zhang"
+      ],
+      "abstract": "To support future diverse applications, multi-link operation (MLO) has been introduced in the Wi-Fi 7 standard (IEEE 802.11be) to enable concurrent communication over multiple frequency bands. This new capability relies on a two-tier medium access control (MAC) architecture, where the upper MAC (U-MAC) allocates traffic across links and the lower MAC (L-MAC) performs independent channel access. However, MLO optimization is challenging due to the inherent coupling between the U-MAC and L-MAC, as well as the dynamic and complex nature of wireless networks. To address these challenges, we propose a cross-layer framework that jointly optimizes traffic allocation at the U-MAC layer and initial contention window (ICW) sizes at the L-MAC layer to maximize network throughput. Specifically, we extend the single-link Bianchi Markov model to develop an analytical framework that captures the relationship among network throughput, traffic allocation, and ICW sizes. Based on this framework, we formulate a nonconvex, nonlinear cross-layer optimization problem. To solve it efficiently, we design a long short-term memory-based soft actor-critic (LSTM-SAC) algorithm that leverages LSTM to handle the partial observability and non-Markovian dynamics inherent in Wi-Fi networks. Finally, using a well-developed event-based Wi-Fi simulator, we demonstrate that the proposed LSTM-SAC substantially outperforms existing benchmark solutions across a wide range of network settings.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18602v1"
+    },
+    {
+      "title": "iSatCR: Graph-Empowered Joint Onboard Computing and Routing for LEO Data Delivery",
+      "authors": [
+        "Jiangtao Luo",
+        "Bingbing Xu",
+        "Shaohua Xia",
+        "Yongyi Ran"
+      ],
+      "abstract": "Sending massive Earth observation data produced by low Earth orbit (LEO) satellites back to the ground for processing consumes a large amount of on-orbit bandwidth and exacerbates the space-to-ground link bottleneck. Most prior work has concentrated on optimizing the routing of raw data within the constellation, yet cannot cope with the surge in data volume. Recently, advances in onboard computing have made it possible to process data in situ, thus significantly reducing the data volume to be transmitted. In this paper, we present iSatCR, a distributed graph-based approach that jointly optimizes onboard computing and routing to boost transmission efficiency. Within iSatCR, we design a novel graph embedding utilizing shifted feature aggregation and distributed message passing to capture satellite states, and then propose a distributed graph-based deep reinforcement learning algorithm that derives joint computing-routing strategies under constrained on-board storage to handle the complexity and dynamics of LEO networks. Extensive experiments show iSatCR outperforms baselines, particularly under high load.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18539v1"
+    },
+    {
+      "title": "Offload or Overload: A Platform Measurement Study of Mobile Robotic Manipulation Workloads",
+      "authors": [
+        "Sara Pohland",
+        "Xenofon Foukas",
+        "Ganesh Ananthanarayanan",
+        "Andrey Kolobov",
+        "Sanjeev Mehrotra",
+        "Bozidar Radunovic",
+        "Ankit Verma"
+      ],
+      "abstract": "Mobile robotic manipulation--the ability of robots to navigate spaces and interact with objects--is a core capability of physical AI. Foundation models have led to breakthroughs in their performance, but at a significant computational cost. We present the first measurement study of mobile robotic manipulation workloads across onboard, edge, and cloud GPU platforms. We find that the full workload stack is infeasible to run on smaller onboard GPUs, while larger onboard GPUs drain robot batteries several hours faster. Offloading alleviates these constraints but introduces its own challenges, as additional network latency degrades task accuracy, and the bandwidth requirement makes naive cloud offloading impractical. Finally, we quantify opportunities and pitfalls of sharing compute across robot fleets. We believe our measurement study will be crucial to designing inference systems for mobile robots.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.18284v1"
+    },
+    {
+      "title": "RIS-Aided Mobile Network Design",
+      "authors": [
+        "Adam Samorzewski",
+        "Adrian Kliks"
+      ],
+      "abstract": "In this paper, we examine the distribution of radio signal propagation within the city of Poznan (Poland) to determine optimal locations for deploying Reconfigurable Intelligent Surfaces (RIS). The study focuses on designing a 5G/6G Radio Access Network (RAN), incorporating eight Base Stations (BSs) that utilize either Single Input Single Output (SISO), or Multiple Input Multiple Output (MIMO) antenna technologies, depending on the network cell configuration. Through detailed simulations and analyses, we explore various propagation scenarios in both Line-of-Sight (LOS) and Non-Line-of-Sight (NLOS) conditions, considering the complex urban landscape characterized by high-rise buildings. The results demonstrate the potential of using RISs in mobile networks to enhance radio signal quality in urban environments through strategic placements. Our findings suggest that RISs can significantly mitigate Path Loss (PL) and improve signal coverage in challenging urban environments, particularly in areas where traditional base station deployment alone would be insufficient. Furthermore, the study highlights the role of RISs in reducing the need for additional base stations, thereby optimizing network costs and infrastructure while maintaining high-quality service delivery. The insights gained from this research provide valuable guidelines for network planners and engineers seeking to implement RIS technology in future 5G and beyond networks, ensuring more efficient and robust urban communication systems.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.18252v1"
+    },
+    {
+      "title": "Access Controlled Website Interaction for Agentic AI with Delegated Critical Tasks",
+      "authors": [
+        "Sunyoung Kim",
+        "Hokeun Kim"
+      ],
+      "abstract": "Recent studies reveal gaps in delegating critical tasks to agentic AI that accesses websites on the user's behalf, primarily due to limited access control mechanisms on websites designed for agentic AI. In response, we propose a design of website-based interaction for AI agents with fine-grained access control for delegated critical tasks. Our approach encompasses a website design and implementation, as well as modifications to the access grant protocols in an open-source authorization service to tailor it to agentic AI, with delegated critical tasks on the website. The evaluation of our approach demonstrates the capabilities of our access-controlled website used by AI agents.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.18197v1"
+    },
+    {
+      "title": "Enabling Real-Time Programmability for RAN Functions: A Wasm-Based Approach for Robust and High-Performance dApps",
+      "authors": [
+        "João Paulo Esper",
+        "Yure Freitas",
+        "Pedro Souza",
+        "Bruno Silvestre",
+        "Joao F. Santos",
+        "Alexandre Huff",
+        "Cristiano Both",
+        "Kleber Cardoso"
+      ],
+      "abstract": "While the Open Radio Access Network Alliance (O-RAN) architecture enables third-party applications to optimize radio access networks at multiple timescales, real-time distributed applications (dApps) that demand low latency, high performance, and strong isolation remain underexplored. Existing approaches propose colocating a new RAN Intelligent Controller (RIC) at the edge, or deploying dApps in bare metal along with RAN functions. While the former approach increases network complexity and requires additional edge computing resources, the latter raises serious security concerns due to the lack of native mechanisms to isolate dApps and RAN functions. Meanwhile, WebAssembly (Wasm) has emerged as a lightweight, fast technology for robust execution of external, untrusted code. In this work, we propose a new approach to executing dApps using Wasm to isolate applications in real-time in O-RAN. Results show that our lightweight and robust approach ensures predictable, deterministic performance, strong isolation, and low latency, enabling real-time control loops.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.17880v1"
+    },
+    {
+      "title": "A Vision-based Framework for Intelligent gNodeB Mobility Control",
+      "authors": [
+        "Pedro Duarte",
+        "André Coelho",
+        "Francisco Ribeiro",
+        "Filipe B. Teixeira",
+        "Luís Pessoa",
+        "Manuel Ricardo"
+      ],
+      "abstract": "This paper proposes a vision-based framework for the intelligent control of mobile Open Radio Access Network (O-RAN) base stations (gNBs) operating in dynamic wireless environments. The framework comprises three innovative components. The first is the introduction of novel Service Models (SMs) within a vision-enabled O-RAN architecture, termed VisionRAN. These SMs extend state-of-the-art O-RAN-based architectures by enabling the transmission of vision-based sensing data and gNB positioning control messages. The second is an O-RAN xApp, VisionApp, which fuses vision and radio data, and uses this information to control the position of a mobile gNB, using a Deep Q-Network (DQN). The third is a digital twin environment, VisionTwin, which incorporates vision data and can emulate realistic wireless scenarios; this digital twin was used to train the DQN running in VisionApp and validate the overall system. Experimental results, obtained using real vision data and an emulated radio, demonstrate that the proposed approach reduces the duration of Line-of-Sight (LoS) blockages by up to 75% compared to a static gNB. These findings confirm the viability of integrating multimodal perception and learning-based control within RANs.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.18092v1"
+    },
+    {
+      "title": "Bringing Network Coding into Multi-Robot Systems: Interplay Study for Autonomous Systems over Wireless Communications",
+      "authors": [
+        "Anil Zaher",
+        "Kiril Solovey",
+        "Alejandro Cohen"
+      ],
+      "abstract": "Communication is a core enabler for multi-robot systems (MRS), providing the mechanism through which robots exchange state information, coordinate actions, and satisfy safety constraints. While many MRS autonomy algorithms assume reliable and timely message delivery, realistic wireless channels introduce delay, erasures, and ordering stalls that can degrade performance and compromise safety-critical decisions of the robot task. In this paper, we investigate how transport-layer reliability mechanisms that mitigate communication losses and delays shape the autonomy-communication loop. We show that conventional non-coded retransmission-based protocols introduce long delays that are misaligned with the timeliness requirements of MRS applications, and may render the received data irrelevant. As an alternative, we advocate for adaptive and causal network coding, which proactively injects coded redundancy to achieve the desired delay and throughput that enable relevant data delivery to the robotic task. Specifically, this method adapts to channel conditions between robots and causally tunes the communication rates via efficient algorithms.\n  We present two case studies: cooperative localization under delayed and lossy inter-robot communication, and a safety-critical overtaking maneuver where timely vehicle-to-vehicle message availability determines whether an ego vehicle can abort to avoid a crash. Our results demonstrate that coding-based communication significantly reduces in-order delivery stalls, preserves estimation consistency under delay, and improves deadline reliability relative to retransmission-based transport. Overall, the study highlights the need to jointly design autonomy algorithms and communication mechanisms, and positions network coding as a principled tool for dependable multi-robot operation over wireless networks.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.17472v1"
+    },
+    {
+      "title": "Multi-stage Flow Scheduling for LLM Serving",
+      "authors": [
+        "Yijun Sun",
+        "Xudong Liao",
+        "Songrun Xie",
+        "Hao Chen",
+        "Han Tian",
+        "Wenxue Li",
+        "Yiming Zhang",
+        "Kai Chen"
+      ],
+      "abstract": "Meeting stringent Time-To-First-Token (TTFT) requirements is crucial for LLM applications. To improve efficiency, modern LLM serving systems adopt disaggregated architectures with diverse parallelisms, introducing complex multi-stage workflows involving reusable KV-block retrieval, collective communication, and P2D transfer. Flows from dependent stages overlap within and across requests on shared bottleneck links, making TTFT highly susceptible to network contention and necessitating stage-aware scheduling. Unfortunately, most existing works schedule flows in a stage-agnostic manner, leading to uncoordinated contention that constitutes a primary cause of SLO violations.\n  In this paper, we present MFS, a holistic multi-stage flow scheduling mechanism designed to maximize TTFT SLO attainment. At its core, MFS approximates the Least-Laxity-First (LLF) scheduling policy without requiring precise knowledge of a request's remaining slack. It achieves this through a Defer-and-Promote principle implemented through a Reverse Multi-Level Queue (RMLQ) structure. By dynamically promoting task precedence as effective laxity diminishes, MFS prioritizes flows with less laxity while preventing requests with loose SLOs from prematurely consuming network bandwidth. We implement MFS as a pluggable module integrated into vLLM, and evaluate it on a 8-server, 32-GPU testbed as well as through large-scale simulations. Our results demonstrate that MFS effectively outperforms state-of-the-art baselines, improving the TTFT SLO attainment by 1.2x--2.4x.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.17456v1"
+    },
+    {
+      "title": "AI-Driven Multi-Modal Adaptive Handover Control Optimization for O-RAN",
+      "authors": [
+        "Abdul Wadud",
+        "Fatemeh Golpayegani",
+        "Nima Afraz"
+      ],
+      "abstract": "Handover optimization in O-RAN faces growing challenges due to heterogeneous user mobility patterns and rapidly varying radio conditions. Existing ML-based handover schemes typically operate at the near-RT layer, which lack awareness of the mobility-mode and struggle to incorporate a longer-term predictive context. This paper proposes a multi-modal mobility-aware optimization framework in which all predictive intelligence, including mobility mode classification, short-horizon trajectory and RSRP forecasting, and a PPO Actor--Critic policy, runs entirely inside an rApp in the non-RT RIC. The rApp generates per-UE ranked neighbour-cell recommendations and delivers them to the existing handover xApp through the A1 interface. The xApp combines these rankings with instantaneous E2 measurements and performs the final standards-compliant handover decision. This hierarchical design preserves low-latency execution in the xApp while enabling the rApp to supply richer and mode-specific predictive guidance. Evaluation using mobility traces demonstrates that the proposed approach reduces ping-pong handover events and improves handover reliability compared to conventional 3GPP A3-based and ML-based baselines.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.17158v1"
+    },
+    {
+      "title": "HAPS-RIS-assisted IoT Networks for Disaster Recovery and Emergency Response: Architecture, Application Scenarios, and Open Challenges",
+      "authors": [
+        "Bilal Karaman",
+        "Ilhan Basturk",
+        "Engin Zeydan",
+        "Ferdi Kara",
+        "Esra Aycan Beyazit",
+        "Sezai Taskin",
+        "Halim Yanikomeroglu"
+      ],
+      "abstract": "Reliable and resilient communication is essential for disaster recovery and emergency response, yet terrestrial infrastructure often fails during large-scale natural disasters. This paper proposes a High-Altitude Platform Station (HAPS) and Reconfigurable Intelligent Surfaces (RIS)-assisted Internet of Things (IoT) communication system to restore connectivity in disaster-affected areas. Distributed IoT sensors collect critical environmental data and forward it to nearby gateways via short-range links, while the HAPS-RIS system provides backhaul to these gateways. To overcome the severe double path loss of passive RIS at high altitudes, we propose a dynamically adjustable sub-connected active RIS architecture that can reconfigure the number of elements connected to each power amplifier through switching mechanisms. Simulation results demonstrate substantial gains in downlink and uplink data rates, as well as system energy efficiency, compared with conventional passive RIS schemes. Moreover, a 1 dB increase in ground-station transmit power yields approximately 20-30 Mbps improvement in gateway data rates. These findings confirm that HAPS-RIS technology offers an effective and energy-efficient approach for resilient IoT backhaul in 6G non-terrestrial networks, particularly in line-of-sight (LoS)-dominant HAPS-ground backhaul scenarios.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.17054v1"
+    },
+    {
+      "title": "Fine-Grained Network Traffic Classification with Contextual QoS Profiling",
+      "authors": [
+        "Huiwen Zhang",
+        "Feng Ye"
+      ],
+      "abstract": "Accurate network traffic classification is vital for managing modern applications with strict Quality of Service (QoS) demands, such as edge computing, real-time XR, and autonomous systems. While recent advances in application-level classification show high accuracy, they often miss fine-grained in-app QoS variations critical for service differentiation. This paper proposes a hierarchical graph neural network (GNN) framework that combines a three-level graph representation with an automated QoS-aware assignment algorithm. The model captures multi-scale temporal patterns via packet aggregation, time-window clustering, and session-level behavior modeling. QoS priorities are derived using five key metrics (bandwidth, jitter, packet stability, burst frequency, and burst stability), processed through logarithmic transformation and weighted ranking. Evaluations across 14 usage scenarios from YouTube, Prime Video, TikTok, and Zoom show that the proposed GNN significantly outperforms state-of-the-art methods in service-level classification. The QoS-aware assignment further refines classification to enhance user experience. This work advances QoS-aware traffic classification by enabling precise in-app usage differentiation and adaptive service prioritization in dynamic network environments.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16748v1"
+    },
+    {
+      "title": "Persistent Device Identity for Network Access Control in the Era of MAC Address Randomization: A RADIUS-Based Framework",
+      "authors": [
+        "Premanand Seralathan"
+      ],
+      "abstract": "Modern operating systems increasingly randomize Media Access Control (MAC) addresses to protect user privacy, fundamentally disrupting Network Access Control (NAC) systems that have relied on MAC addresses as persistent device identifiers for over two decades. This disruption affects critical enterprise environments including federal government agencies operating under FISMA, healthcare organizations subject to HIPAA, financial institutions governed by PCI-DSS, and educational networks managing large-scale BYOD deployments. This paper presents a comprehensive framework for maintaining persistent device identity in NAC environments through a RADIUS protocol-based approach that assigns and distributes a Globally Unique Identifier (GUID) to endpoints via RADIUS Access-Accept messages. The proposed architecture addresses the complete device lifecycle including initial enrollment, re-authentication across randomized addresses, device management integration, certificate-based identity binding, and device attribute correlation. We describe the framework's design across six distinct use cases -- BYOD, managed devices, VPN-based posture assessment, non-VPN posture, guest access, and IoT device profiling -- and analyze its effectiveness in maintaining device visibility, accurate license counting, and regulatory compliance under continuous MAC address randomization. The approach is compatible with existing 802.1X and MAB infrastructure, requires no client-side operating system modifications, and aligns with the recently published RFC 9797 and IEEE 802.11bh-2024 standards. Our framework enables organizations to maintain regulatory compliance while preserving the privacy benefits that MAC address randomization was designed to provide.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16745v1"
+    },
+    {
+      "title": "Agentic AI for SAGIN Resource Management_Semantic Awareness, Orchestration, and Optimization",
+      "authors": [
+        "Linghao Zhang",
+        "Haitao Zhao",
+        "Bo Xu",
+        "Hongbo Zhu",
+        "Xianbin Wang"
+      ],
+      "abstract": "Space-air-ground integrated networks (SAGIN) promise ubiquitous 6G connectivity but face significant resource management challenges due to heterogeneous infrastructure, dynamic topologies, and stringent quality-of-service (QoS) requirements. Conventional model-driven approaches struggle with scalability and adaptability in such complex environments. This paper presents an agentic artificial intelligence (AI) framework for autonomous SAGIN resource management by embedding large language model (LLM)-based agents into a Monitor-Analyze-Plan- Execute-Knowledge (MAPE-K) control plane. The framework incorporates three specialized agents, namely semantic resource perceivers, intent-driven orchestrators, and adaptive learners, that collaborate through natural language reasoning to bridge the gap between operator intents and network execution. A key innovation is the hierarchical agent-reinforcement learning (RL) collaboration mechanism, wherein LLM-based orchestrators dynamically shape reward functions for RL agents based on semantic network conditions. Validation through UAV-assisted AIGC service orchestration in energy-constrained scenarios demonstrates that LLM-driven reward shaping achieves 14% energy reduction and the lowest average service latency among all compared methods. This agentic paradigm offers a scalable pathway toward adaptive, AI-native 6G networks, capable of autonomously interpreting intents and adapting to dynamic environments.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16458v1"
+    },
+    {
+      "title": "Toward Experimentation-as-a-Service in 5G/6G: The Plaza6G Prototype for AI-Assisted Trials",
+      "authors": [
+        "Sergio Barrachina-Muñoz",
+        "Marc Carrascosa-Zamacois",
+        "Horacio Bleda",
+        "Umair Riaz",
+        "Yasir Maqsood",
+        "Xavier Calle",
+        "Selva Vía",
+        "Miquel Payaró",
+        "Josep Mangues-Bafalluy"
+      ],
+      "abstract": "This paper presents Plaza6G, the first operational Experiment-as-a-Service (ExaS) platform unifying cloud resources with next-generation wireless infrastructure. Developed at CTTC in Barcelona, Plaza6G integrates GPU-accelerated compute clusters, multiple 5G cores, both open-source (e.g., Free5GC) and commercial (e.g., Cumucore), programmable RANs, and physical or emulated user equipment under unified orchestration. In Plaza6G, the experiment design requires minimal expertise as it is expressed in natural language via a web portal or a REST API. The web portal and REST API are enhanced with a Large Language Model (LLM)-based assistant, which employs retrieval-augmented generation (RAG) for up-to-date experiment knowledge and Low-Rank Adaptation (LoRA) for continuous domain fine-tuning. Over-the-air (OTA) trials leverage a four-chamber anechoic facility and a dual-site outdoor 5G network operating in sub-6~GHz and mmWave bands. Demonstrations include automated CI/CD integration with sub-ten-minute setup and interactive OTA testing under programmable propagation conditions. Machine-readable experiment descriptors ensure reproducibility, while future work targets policy-aware orchestration, safety validation, and federated testbed integration toward open, reproducible wireless experimentation.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16356v1"
+    },
+    {
+      "title": "BLADE: Adaptive Wi-Fi Contention Control for Next-Generation Real-Time Communication",
+      "authors": [
+        "Fengqian Guo",
+        "Yuhan Zhou",
+        "Longwei Jiang",
+        "Congcong Miao",
+        "Yuxin Liu",
+        "Chenren Xu",
+        "Hancheng Lu",
+        "Chang Wen Chen",
+        "Yaxiong Xie",
+        "Honghao Liu"
+      ],
+      "abstract": "Next-generation real-time communication (NGRTC) applications, such as cloud gaming and XR, demand consistently ultra-low latency. However, through our first large-scale measurement, we find that despite the deployment of edge servers, dedicated congestion control, and loss recovery mechanisms, cloud gaming users still experience long-tail latency in Wi-Fi networks. We further identify that Wi-Fi last-mile access points (APs) serve as the primary latency bottleneck. Specifically, short-term packet delivery droughts, caused by fundamental limitations in Wi-Fi contention control standards, are the root cause. To address this issue, we propose BLADE, an adaptive contention control algorithm that dynamically adjusts the contention windows (CW) of all Wi-Fi transmitters based on the channel contention level in a fully distributed manner. Our NS3 simulations and real-world evaluations with commercial Wi-Fi APs demonstrate that, compared to standard contention control, BLADE reduces Wi-Fi packet transmission tail latency by over 5X under heavy channel contention and significantly stabilizes MAC throughput while ensuring fast and fair convergence. Consequently, BLADE reduces the video stall rate in cloud gaming by over 90%.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16119v1"
+    },
+    {
+      "title": "Galaxy Tracer: A Topology-First 3D Interface for Interactive PCAP Exploration",
+      "authors": [
+        "Ryan Younger"
+      ],
+      "abstract": "Packet analysis tools conventionally present capture data through tabular packet lists, constraining the analyst to a sequential view that obscures the relational structure of network communication. This paper presents Galaxy Tracer, a browser-native packet capture exploration system in which the default interface is an interactive three-dimensional network topology rather than a packet list. Hosts appear as spatially positioned nodes, conversations as edges, and protocol groupings as visually distinct clusters. A synchronized packet list remains available as a secondary view, sharing filter state with the topology so that structural and tabular inspection function as one continuous workflow. The system parses PCAP and PCAPNG formats, dissects over 90 protocols, and renders the topology through Three.js. The paper argues that the third spatial dimension is not merely aesthetic but analytically meaningful: it reveals density, clustering, host centrality, and communication scale that are difficult to perceive in list-only tools.",
+      "published": "2026-03-16",
+      "url": "http://arxiv.org/abs/2603.16018v1"
+    },
+    {
+      "title": "Evaluating Performance Characteristic of Opportunistic Routing Protocols: A Case Study of the 2016 Italian League Match Earthquake in the Stadio Adriatico",
+      "authors": [
+        "Yihang Cao",
+        "Milena Radenkovic"
+      ],
+      "abstract": "Delay Tolerant Networks (DTNs) can provide emergency communication support when conventional infrastructure is disrupted during disasters. This paper evaluates the performance of opportunistic routing protocols in a realistic disaster scenario based on the 2016 Central Italy earthquake, modelled as an emergency occurring during a football match at Stadio Adriatico in Pescara. We identify multiple suitable groups of mobile and static nodes, such as audiences, a range of different emergency responders, stage sensors, and vehicles, to design and build evacuation and rescue activities in a partially connected environment. Two representative DTN routing protocols, Epidemic and Spray and Wait, are tested under identical simulation settings and compared using delivery probability, latency, overhead ratio, hop count and dropped messages. The results highlight that Spray and Wait provides a better balance between reliability and efficiency in this scenario, achieving higher delivery probability while reducing overhead and using network resources more efficiently. The study shows the usefulness of DTN simulation for analysing disaster communication performance in emergency response scenarios.",
+      "published": "2026-03-16",
+      "url": "http://arxiv.org/abs/2603.15945v1"
+    },
+    {
+      "title": "The Internet of Physical AI Agents: Interoperability, Longevity, and the Cost of Getting It Wrong",
+      "authors": [
+        "Roberto Morabito",
+        "Mallik Tatipamula"
+      ],
+      "abstract": "The Internet has evolved by progressively expanding what humanity connects: first computers, then people, and later billions of devices through the Internet of Things (IoT). While IoT succeeded in digitizing perception at scale, it also exposed fundamental limitations, including fragmentation, weak security, limited autonomy, and poor long-term sustainability. Today, advances in edge hardware, sensing, connectivity, and artificial intelligence enable a new phase: the Internet of Physical AI Agents. Unlike IoT devices that primarily sense and report, Physical AI Agents perceive, reason, and act in real time, operating autonomously and cooperatively across safety-critical domains such as disaster response, healthcare, industrial automation, and mobility. However, embedding fast-evolving AI capabilities into long-lived physical infrastructure introduces new architectural risks, particularly around interoperability, lifecycle management, and premature ossification. This article revisits lessons from IoT and Internet evolution, and articulates design principles for building resilient, evolvable, and trustworthy agentic systems. We present an architectural blueprint encompassing agentic identity, secure agent-to-agent communication, semantic interoperability, policy-governed runtimes, and observability-driven governance. We argue that treating evolution, trust, and interoperability as first-class requirements is essential to avoid hard-coding today's assumptions into tomorrow's intelligent infrastructure, and to prevent the high technical and economic cost of getting it wrong.",
+      "published": "2026-03-16",
+      "url": "http://arxiv.org/abs/2603.15900v1"
+    },
+    {
+      "title": "Entropy-Aware Task Offloading in Mobile Edge Computing",
+      "authors": [
+        "Mohsen Sahraei Ardakani",
+        "Hong Wan",
+        "Rui Song"
+      ],
+      "abstract": "Mobile Edge Computing (MEC) technology has been introduced to enable could computing at the edge of the network in order to help resource limited mobile devices with time sensitive data processing tasks. In this paradigm, mobile devices can offload their computationally heavy tasks to more efficient nearby MEC servers via wireless communication. Consequently, the main focus of researches on the subject has been on development of efficient offloading schemes, leaving the privacy of mobile user out. While the Blockchain technology is used as the trust mechanism for secured sharing of the data, the privacy issues induced from wireless communication, namely, usage pattern and location privacy are the centerpiece of this work. The effects of these privacy concerns on the task offloading Markov Decision Process (MDP) is addressed and the MDP is solved using a Deep Recurrent Q-Netwrok (DRQN). The Numerical simulations are presented to show the effectiveness of the proposed method.",
+      "published": "2026-03-16",
+      "url": "http://arxiv.org/abs/2603.16949v1"
+    },
+    {
+      "title": "Bridging Local and Global Knowledge: Cascaded Mixture-of-Experts Learning for Near-Shortest Path Routing",
+      "authors": [
+        "Yung-Fu Chen",
+        "Anish Arora"
+      ],
+      "abstract": "While deep learning models that leverage local features have demonstrated significant potential for near-optimal routing in dense Euclidean graphs, they struggle to generalize well in sparse networks where topological irregularities require broader structural awareness. To address this limitation, we train a Cascaded Mixture of Experts (Ca-MoE) to solve the all-pairs near-shortest path (APNSP) routing problem. Our Ca-MoE is a modular two-tier architecture that supports the decision-making for forwarder selection with lower-tier experts relying on local features and upper-tier experts relying on global features. It performs adaptive inference wherein the upper-tier experts are triggered only when the lower-tier ones do not suffice to achieve adequate decision quality. Computational efficiency is thus achieved by escalating model capacity only when necessitated by topological complexity, and parameter redundancy is avoided. Furthermore, we incorporate an online meta-learning strategy that facilitates independent expert fine-tuning and utilizes a stability-focused update mechanism to prevent catastrophic forgetting as new graph environments are encountered. Experimental evaluations demonstrate that Ca-MoE routing improves accuracy by up to 29.1% in sparse networks compared to single-expert baselines and maintains performance within 1%-6% of the theoretical upper bound across diverse graph densities.",
+      "published": "2026-03-16",
+      "url": "http://arxiv.org/abs/2603.15541v1"
+    },
+    {
+      "title": "ln(3): A Universal Percolation Constant for Collective Dynamics on One-Dimensional Proximity Networks",
+      "authors": [
+        "Jian Ji"
+      ],
+      "abstract": "We report the identification and proof of a universal constant, ln(3) = 1.09861, which governs the onset of bidirectional collective behavior in one-dimensional Poisson proximity networks. The constant - named the cooperative percolation constant and denoted by Lambda_c - is the unique positive solution to 2/(exp(x)-1) = 1 and equals the Shannon entropy of three equiprobable states. For agents distributed at intensity lambda and interacting within range L, bidirectional collective behavior is possible if and only if the topological density (lambda * L) >= ln(3). Below this threshold, no cooperative control policy can produce macroscopic coherence, as the proximity graph does not contain a bidirectional spanning cluster in expectation. The result is parameter-free and model-independent: the Poisson distribution is derived from memorylessness symmetry axioms, making ln(3) a fundamental consequence of spatial symmetry.\n  The threshold is validated by two independent large-scale empirical datasets. Analysis of the Chengdu V2X OBU dataset (N = 19.7 million records) reveals a 1.60x reduction in speed variance at the predicted boundary. Furthermore, the highD German motorway dataset (N = 163,896 observations) yields a best-fit LWR exponent theta = 1.033 +/- 0.088, placing the theoretical value ln(3) within 0.75 sigma of naturalistic trajectory data (R^2 = 0.8631). The remarkable consistency across geographical and physical scales - from motorway traffic to documented thresholds in 1D biological signal transmission - suggests that ln(3) represents a fundamental topological rent for cooperative information exchange.",
+      "published": "2026-03-16",
+      "url": "http://arxiv.org/abs/2603.15521v1"
+    },
+    {
+      "title": "NavTrust: Benchmarking Trustworthiness for Embodied Navigation",
+      "authors": [
+        "Huaide Jiang",
+        "Yash Chaudhary",
+        "Yuping Wang",
+        "Zehao Wang",
+        "Raghav Sharma",
+        "Manan Mehta",
+        "Yang Zhou",
+        "Lichao Sun",
+        "Zhiwen Fan",
+        "Zhengzhong Tu",
+        "Jiachen Li"
+      ],
+      "abstract": "There are two major categories of embodied navigation: Vision-Language Navigation (VLN), where agents navigate by following natural language instructions; and Object-Goal Navigation (OGN), where agents navigate to a specified target object. However, existing work primarily evaluates model performance under nominal conditions, overlooking the potential corruptions that arise in real-world settings. To address this gap, we present NavTrust, a unified benchmark that systematically corrupts input modalities, including RGB, depth, and instructions, in realistic scenarios and evaluates their impact on navigation performance. To our best knowledge, NavTrust is the first benchmark that exposes embodied navigation agents to diverse RGB-Depth corruptions and instruction variations in a unified framework. Our extensive evaluation of seven state-of-the-art approaches reveals substantial performance degradation under realistic corruptions, which highlights critical robustness gaps and provides a roadmap toward more trustworthy embodied navigation systems. Furthermore, we systematically evaluate four distinct mitigation strategies to enhance robustness against RGB-Depth and instructions corruptions. Our base models include Uni-NaVid and ETPNav. We deployed them on a real mobile robot and observed improved robustness to corruptions. The project website is: https://navtrust.github.io.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.19229v1"
+    },
+    {
+      "title": "Markov Potential Game and Multi-Agent Reinforcement Learning for Autonomous Driving",
+      "authors": [
+        "Huiwen Yan",
+        "Mushuang Liu"
+      ],
+      "abstract": "Autonomous driving (AD) requires safe and reliable decision-making among interacting agents, e.g., vehicles, bicycles, and pedestrians. Multi-agent reinforcement learning (MARL) modeled by Markov games (MGs) provides a suitable framework to characterize such agents' interactions during decision-making. Nash equilibria (NEs) are often the desired solution in an MG. However, it is typically challenging to compute an NE in general-sum games, unless the game is a Markov potential game (MPG), which ensures the NE attainability under a few learning algorithms such as gradient play. However, it has been an open question how to construct an MPG and whether these construction rules are suitable for AD applications. In this paper, we provide sufficient conditions under which an MG is an MPG and show that these conditions can accommodate general driving objectives for autonomous vehicles (AVs) using highway forced merge scenarios as illustrative examples. A parameter-sharing neural network (NN) structure is designed to enable decentralized policy execution. The trained driving policy from MPGs is evaluated in both simulated and naturalistic traffic datasets. Comparative studies with single-agent RL and with human drivers whose behaviors are recorded in the traffic datasets are reported, respectively.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.19188v1"
+    },
+    {
+      "title": "Safety-Guaranteed Imitation Learning from Nonlinear Model Predictive Control for Spacecraft Close Proximity Operations",
+      "authors": [
+        "Alexander Meinert",
+        "Niklas Baldauf",
+        "Peter Stadler",
+        "Alen Turnwald"
+      ],
+      "abstract": "This paper presents a safety-guaranteed, runtime-efficient imitation learning framework for spacecraft close proximity control. We leverage Control Barrier Functions (CBFs) for safety certificates and Control Lyapunov Functions (CLFs) for stability as unified design principles across data generation, training, and deployment. First, a nonlinear Model Predictive Control (NMPC) expert enforces CBF constraints to provide safe reference trajectories. Second, we train a neural policy with a novel CBF-CLF-informed loss and DAgger-like rollouts with curriculum weighting, promoting data-efficiency and reducing future safety filter interventions. Third, at deployment a lightweight one-step CBF-CLF quadratic program minimally adjusts the learned control input to satisfy hard safety constraints while encouraging stability. We validate the approach for ESA-compliant close proximity operations, including fly-around with a spherical keep-out zone and final approach inside a conical approach corridor, using the Basilisk high-fidelity simulator with nonlinear dynamics and perturbations. Numerical experiments indicate stable convergence to decision points and strict adherence to safety under the filter, with task performance comparable to the NMPC expert while significantly reducing online computation. A runtime analysis demonstrates real-time feasibility on a commercial off-the-shelf processor, supporting onboard deployment for safety-critical on-orbit servicing.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18910v1"
+    },
+    {
+      "title": "RadioDiff-FS: Physics-Informed Manifold Alignment in Few-Shot Diffusion Models for High-Fidelity Radio Map Construction",
+      "authors": [
+        "Xiucheng Wang",
+        "Zixuan Guo",
+        "Nan Cheng"
+      ],
+      "abstract": "Radio maps (RMs) provide spatially continuous propagation characterizations essential for 6G network planning, but high-fidelity RM construction remains challenging. Rigorous electromagnetic solvers incur prohibitive computational latency, while data-driven models demand massive labeled datasets and generalize poorly from simplified simulations to complex multipath environments. This paper proposes RadioDiff-FS, a few-shot diffusion framework that adapts a pre-trained main-path generator to multipath-rich target domains with only a small number of high-fidelity samples. The adaptation is grounded in a theoretical decomposition of the multipath RM into a dominant main-path component and a directionally sparse residual. This decomposition shows that the cross-domain shift corresponds to a bounded and geometrically structured feature translation rather than an arbitrary distribution change. A Direction-Consistency Loss (DCL) is then introduced to constrain diffusion score updates along physically plausible propagation directions, suppressing phase-inconsistent artifacts that arise in the low-data regime. Experiments show that RadioDiff-FS reduces NMSE by 59.5% on static RMs and by 74.0% on dynamic RMs relative to the vanilla diffusion baseline, achieving an SSIM of 0.9752 and a PSNR of 36.37 dB under severely limited supervision.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18865v1"
+    },
+    {
+      "title": "BeamAgent: LLM-Aided MIMO Beamforming with Decoupled Intent Parsing and Alternating Optimization for Joint Site Selection and Precoding",
+      "authors": [
+        "Xiucheng Wang",
+        "Yue Zhang",
+        "Nan Cheng"
+      ],
+      "abstract": "Integrating large language models (LLMs) into wireless communication optimization is a promising yet challenging direction. Existing approaches either use LLMs as black-box solvers or code generators, tightly coupling them with numerical computation. However, LLMs lack the precision required for physical-layer optimization, and the scarcity of wireless training data makes domain-specific fine-tuning impractical. We propose BeamAgent, an LLM-aided MIMO beamforming framework that explicitly decouples semantic intent parsing from numerical optimization. The LLM serves solely as a semantic translator that converts natural language descriptions into structured spatial constraints. A dedicated gradient-based optimizer then jointly solves the discrete base station site selection and continuous precoding design through an alternating optimization algorithm. A scene-aware prompt enables grounded spatial reasoning without fine-tuning, and a multi-round interaction mechanism with dual-layer intent classification ensures robust constraint verification. A penalty-based loss function enforces dark-zone power constraints while releasing optimization degrees of freedom for bright-zone gain maximization. Experiments on a ray-tracing-based urban MIMO scenario show that BeamAgent achieves a bright-zone power of 84.0\\,dB, outperforming exhaustive zero-forcing by 7.1 dB under the same dark-zone constraint. The end-to-end system reaches within 3.3 dB of the expert upper bound, with the full optimization completing in under 2 s on a laptop.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18855v1"
+    },
+    {
+      "title": "Learn for Variation: Variationally Guided AAV Trajectory Learning in Differentiable Environments",
+      "authors": [
+        "Xiucheng Wang",
+        "Zhenye Chen",
+        "Nan Cheng"
+      ],
+      "abstract": "Autonomous aerial vehicles (AAVs) empower sixth-generation (6G) Internet-of-Things (IoT) networks through mobility-driven data collection. However, conventional reward-driven reinforcement learning for AAV trajectory planning suffers from severe credit assignment issues and training instability, because sparse scalar rewards fail to capture the long-term and nonlinear effects of sequential movements. To address these challenges, this paper proposes Learn for Variation (L4V), a gradient-informed trajectory learning framework that replaces high-variance scalar reward signals with dense and analytically grounded policy gradients. Particularly, the coupled evolution of AAV kinematics, distance-dependent channel gains, and per-user data-collection progress is first unrolled into an end-to-end differentiable computational graph. Backpropagation through time then serves as a discrete adjoint solver, which propagates exact sensitivities from the cumulative mission objective to every control action and policy parameter. These structured gradients are used to train a deterministic neural policy with temporal smoothness regularization and gradient clipping. Extensive simulations demonstrate that L4V consistently outperforms representative baselines, including a genetic algorithm, DQN, A2C, and DDPG, in mission completion time, average transmission rate, and training cost",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18853v1"
+    },
+    {
+      "title": "WarPGNN: A Parametric Thermal Warpage Analysis Framework with Physics-aware Graph Neural Network",
+      "authors": [
+        "Haotian Lu",
+        "Jincong Lu",
+        "Sachin Sachdeva",
+        "Sheldon X. -D. Tan"
+      ],
+      "abstract": "With the advent of system-in-package (SiP) chiplet-based design and heterogeneous 2.5D/3D integration, thermal-induced warpage has become a critical reliability concern. While conventional numerical approaches can deliver highly accurate results, they often incur prohib- itively high computational costs, limiting their scalability for complex chiplet-package systems. In this paper, we present WarPGNN, an ef- ficient and accurate parametric thermal warpage analysis framework powered by Graph Neural Networks (GNNs). By operating directly on graphs constructed from the floorplans, WarPGNN enables fast warpage-aware floorplan exploration and exhibits strong transfer- ability across diverse package configurations. Our method first en- codes multi-die floorplans into reduced Transitive Closure Graphs (rTCGs), then a Graph Convolution Network (GCN)-based encoder extracts hierarchical structural features, followed by a U-Net inspired decoder that reconstructs warpage maps from graph feature embed- dings. Furthermore, to address the long-tailed pattern of warpage data distribution, we developed a physics-informed loss and revised a message-passing encoder based on Graph Isomorphic Network (GIN) that further enhance learning performance for extreme cases and expressiveness of graph embeddings. Numerical results show that WarPGNN achieves more than 205.91x speedup compared with the 2-D efficient FEM-based method and over 119766.64x acceleration with 3-D FEM method COMSOL, respectively, while maintaining comparable accuracy at only 1.26% full-scale normalized RMSE and 2.21% warpage value error. Compared with recent DeepONet-based model, our method achieved comparable prediction accuracy and in- ference speedup with 3.4x lower training time. In addition, WarPGNN demonstrates remarkable transferability on unseen datasets with up to 3.69% normalized RMSE and similar runtime.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18581v1"
+    },
+    {
+      "title": "HEP Statistical Inference for UAV Fault Detection: CLs, LRT, and SBI Applied to Blade Damage",
+      "authors": [
+        " Khushiyant"
+      ],
+      "abstract": "This paper transfers three statistical methods from particle physics to multirotor propeller fault detection: the likelihood ratio test (LRT) for binary detection, the CLs modified frequentist method for false alarm rate control, and sequential neural posterior estimation (SNPE) for quantitative fault characterization. Operating on spectral features tied to rotor harmonic physics, the system returns three outputs: binary detection, controlled false alarm rates, and calibrated posteriors over fault severity and motor location. On UAV-FD, a hexarotor dataset of 18 real flights with 5% and 10% blade damage, leave-one-flight-out cross-validation gives AUC 0.862 +/- 0.007 (95% CI: 0.849--0.876), outperforming CUSUM (0.708 +/- 0.010), autoencoder (0.753 +/- 0.009), and LSTM autoencoder (0.551). At 5% false alarm rate the system detects 93% of significant and 81% of subtle blade damage. On PADRE, a quadrotor platform, AUC reaches 0.986 after refitting only the generative models. SNPE gives a full posterior over fault severity (90% credible interval coverage 92--100%, MAE 0.012), so the output includes uncertainty rather than just a point estimate or fault flag. Per-flight sequential detection achieves 100% fault detection with 94% overall accuracy.",
+      "published": "2026-03-19",
+      "url": "http://arxiv.org/abs/2603.18546v1"
+    },
+    {
+      "title": "Trajectory Landscapes for Therapeutic Strategy Design in Agent-Based Tumor Microenvironment Models",
+      "authors": [
+        "Eric Cramer",
+        "Laura M. Heiser",
+        "Young Hwan Chang"
+      ],
+      "abstract": "Multiplex tissue imaging (MTI) enables high- dimensional, spatially resolved measurements of the tumor microenvironment (TME), but most clinical datasets are tempo- rally undersampled and longitudinally limited, restricting direct inference of underlying spatiotemporal dynamics and effective intervention timing. Agent-based models (ABMs) provide mech- anistic, stochastic simulators of TME evolution; yet their high- dimensional state space and uncertain parameterization make direct control design challenging. This work presents a reduced- order, simulation-driven framework for therapeutic strategy design using ABM-derived trajectory ensembles. Starting from a nominal ABM, we systematically perturb biologically plausible parameters to generate a set of simulated trajectories and construct a low-dimensional trajectory landscape describing TME evolution. From time series of spatial summary statistics extracted from the simulations, we learn a probabilistic Markov State Model (MSM) that captures metastable states and the transitions between them. To connect simulation dynamics with clinical observations, we map patient MTI snapshots onto the landscape and assess concordance with observed spatial phenotypes and clinical outcomes. We further show that conditioning the MSM on dominant governing parameters yields group-specific transition models to formulate a finite-horizon Markov Decision Process (MDP) for treatment scheduling. The resulting framework enables simulation-grounded therapeutic policy design for partially observed biological systems without requiring longitudinal patient measurements.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.18333v1"
+    },
+    {
+      "title": "Convergence of Payoff-Based Higher-Order Replicator Dynamics in Contractive Games",
+      "authors": [
+        "Hassan Abdelraouf",
+        "Vijay Gupta",
+        "Jeff S. Shamma"
+      ],
+      "abstract": "We study the convergence properties of a payoff-based higher-order version of replicator dynamics, a widely studied model in evolutionary dynamics and game-theoretic learning, in contractive games. Recent work has introduced a control-theoretic perspective for analyzing the convergence of learning dynamics through passivity theory, leading to a classification of learning dynamics based on the passivity notion they satisfy, such as \\textdelta-passivity, equilibrium-independent passivity, and incremental passivity. We leverage this framework for the study of higher-order replicator dynamics for contractive games, which form the complement of passive learning dynamics. Standard replicator dynamics can be represented as a cascade interconnection between an integrator and the softmax mapping. Payoff-based higher-order replicator dynamics include a linear time-invariant (LTI) system in parallel with the existing integrator. First, we show that if this added system is strictly passive and asymptotically stable, then the resulting learning dynamics converge locally to the Nash equilibrium in contractive games. Second, we establish global convergence properties using incremental stability analysis for the special case of symmetric matrix contractive games.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.18219v1"
+    },
+    {
+      "title": "RHYME-XT: A Neural Operator for Spatiotemporal Control Systems",
+      "authors": [
+        "Marijn Ruiter",
+        "Miguel Aguiar",
+        "Jake Rap",
+        "Karl H. Johansson",
+        "Amritam Das"
+      ],
+      "abstract": "We propose RHYME-XT, an operator-learning framework for surrogate modeling of spatiotemporal control systems governed by input-affine nonlinear partial integro-differential equations (PIDEs) with localized rhythmic behavior. RHYME-XT uses a Galerkin projection to approximate the infinite-dimensional PIDE on a learned finite-dimensional subspace with spatial basis functions parameterized by a neural network. This yields a projected system of ODEs driven by projected inputs. Instead of integrating this non-autonomous system, we directly learn its flow map using an architecture for learning flow functions, avoiding costly computations while obtaining a continuous-time and discretization-invariant representation. Experiments on a neural field PIDE show that RHYME-XT outperforms a state-of-the-art neural operator and is able to transfer knowledge effectively across models trained on different datasets, through a fine-tuning process.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.17867v1"
+    },
+    {
+      "title": "Verification and Validation of Physics-Informed Surrogate Component Models for Dynamic Power-System Simulation",
+      "authors": [
+        "Petros Ellinas",
+        "Indrajit Chaudhuri",
+        "Johanna Vorwerk",
+        "Spyros Chatzivasileiadis"
+      ],
+      "abstract": "Physics-informed machine learning surrogates are increasingly explored to accelerate dynamic simulation of generators, converters, and other power grid components. The key question, however, is not only whether a surrogate matches a stand-alone component model on average, but whether it remains accurate after insertion into a differential-algebraic simulator, where the surrogate outputs enter the algebraic equations coupling the component to the rest of the system. This paper formulates that in-simulator use as a verification and validation (V\\&V) problem. A finite-horizon bound is derived that links allowable component-output error to algebraic-coupling sensitivity, dynamic error amplification, and the simulation horizon. Two complementary settings are then studied: model-based verification against a reference component solver, and data-based validation through conformal calibration of the component-output variables exchanged with the simulator. The framework is general, but the case study focuses on physics-informed neural-network surrogates of second-, fourth-, and sixth-order synchronous-machine models. Results show that good stand-alone surrogate accuracy does not by itself guarantee accurate in-simulator behavior, that the largest discrepancies concentrate in stressed operating regions, and that small equation residuals do not necessarily imply small state-trajectory errors.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.17836v1"
+    },
+    {
+      "title": "Real-Time Online Learning for Model Predictive Control using a Spatio-Temporal Gaussian Process Approximation",
+      "authors": [
+        "Lars Bartels",
+        "Amon Lahr",
+        "Andrea Carron",
+        "Melanie N. Zeilinger"
+      ],
+      "abstract": "Learning-based model predictive control (MPC) can enhance control performance by correcting for model inaccuracies, enabling more precise state trajectory predictions than traditional MPC. A common approach is to model unknown residual dynamics as a Gaussian process (GP), which leverages data and also provides an estimate of the associated uncertainty. However, the high computational cost of online learning poses a major challenge for real-time GP-MPC applications. This work presents an efficient implementation of an approximate spatio-temporal GP model, offering online learning at constant computational complexity. It is optimized for GP-MPC, where it enables improved control performance by learning more accurate system dynamics online in real-time, even for time-varying systems. The performance of the proposed method is demonstrated by simulations and hardware experiments in the exemplary application of autonomous miniature racing.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.17632v1"
+    },
+    {
+      "title": "Benchmarking Reinforcement Learning via Stochastic Converse Optimality: Generating Systems with Known Optimal Policies",
+      "authors": [
+        "Sinan Ibrahim",
+        "Grégoire Ouerdane",
+        "Hadi Salloum",
+        "Henni Ouerdane",
+        "Stefan Streif",
+        "Pavel Osinenko"
+      ],
+      "abstract": "The objective comparison of Reinforcement Learning (RL) algorithms is notoriously complex as outcomes and benchmarking of performances of different RL approaches are critically sensitive to environmental design, reward structures, and stochasticity inherent in both algorithmic learning and environmental dynamics. To manage this complexity, we introduce a rigorous benchmarking framework by extending converse optimality to discrete-time, control-affine, nonlinear systems with noise. Our framework provides necessary and sufficient conditions, under which a prescribed value function and policy are optimal for constructed systems, enabling the systematic generation of benchmark families via homotopy variations and randomized parameters. We validate it by automatically constructing diverse environments, demonstrating our framework's capacity for a controlled and comprehensive evaluation across algorithms. By assessing standard methods against a ground-truth optimum, our work delivers a reproducible foundation for precise and rigorous RL benchmarking.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.17631v1"
+    },
+    {
+      "title": "A Tutorial on Learning-Based Radio Map Construction: Data, Paradigms, and Physics-Awarenes",
+      "authors": [
+        "Xiucheng Wang",
+        "Yuhao Pan",
+        "Nan Cheng"
+      ],
+      "abstract": "The integration of artificial intelligence into next-generation wireless networks necessitates the accurate construction of radio maps (RMs) as a foundational prerequisite for electromagnetic digital twins. A RM provides the digital representation of the wireless propagation environment, mapping complex geographical and topological boundary conditions to critical spatial-spectral metrics that range from received signal strength to full channel state information matrices. This tutorial presents a comprehensive survey of learning-based RM construction, systematically addressing three intertwined dimensions: data, paradigms, and physics-awareness. From the data perspective, we review physical measurement campaigns, ray tracing simulation engines, and publicly available benchmark datasets, identifying their respective strengths and fundamental limitations. From the paradigm perspective, we establish a core taxonomy that categorizes RM construction into source-aware forward prediction and source-agnostic inverse reconstruction, and examine five principal neural architecture families spanning convolutional neural networks, vision transformers, graph neural networks, generative adversarial networks, and diffusion models. We further survey optics-inspired methods adapted from neural radiance fields and 3D Gaussian splatting for continuous wireless radiation field modeling. From the physics-awareness perspective, we introduce a three-level integration framework encompassing data-level feature engineering, loss-level partial differential equation regularization, and architecture-level structural isomorphism. Open challenges including foundation model development, physical hallucination detection, and amortized inference for real-time deployment are discussed to outline future research directions.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.17499v1"
+    },
+    {
+      "title": "Physics-informed Deep Mixture-of-Koopmans Vehicle Dynamics Model with Dual-branch Encoder for Distributed Electric-drive Trucks",
+      "authors": [
+        "Jinyu Miao",
+        "Pu Zhang",
+        "Rujun Yan",
+        "Yifei He",
+        "Bowei Zhang",
+        "Zheng Fu",
+        "Ke Wang",
+        "Qi Song",
+        "Kun Jiang",
+        "Mengmeng Yang",
+        "Diange Yang"
+      ],
+      "abstract": "Advanced autonomous driving systems require accurate vehicle dynamics modeling. However, identifying a precise dynamics model remains challenging due to strong nonlinearities and the coupled longitudinal and lateral dynamic characteristics. Previous research has employed physics-based analytical models or neural networks to construct vehicle dynamics representations. Nevertheless, these approaches often struggle to simultaneously achieve satisfactory performance in terms of system identification efficiency, modeling accuracy, and compatibility with linear control strategies. In this paper, we propose a fully data-driven dynamics modeling method tailored for complex distributed electric-drive trucks (DETs), leveraging Koopman operator theory to represent highly nonlinear dynamics in a lifted linear embedding space. To achieve high-precision modeling, we first propose a novel dual-branch encoder which encodes dynamic states and provides a powerful basis for the proposed Koopman-based methods entitled KODE. A physics-informed supervision mechanism, grounded in the geometric consistency of temporal vehicle motion, is incorporated into the training process to facilitate effective learning of both the encoder and the Koopman operator. Furthermore, to accommodate the diverse driving patterns of DETs, we extend the vanilla Koopman operator to a mixture-of-Koopman operator framework, enhancing modeling capability. Simulations conducted in a high-fidelity TruckSim environment and real-world experiments demonstrate that the proposed approach achieves state-of-the-art performance in long-term dynamics state estimation.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.17416v1"
+    },
+    {
+      "title": "Real-Time, Crowdsourcing-Enhanced Forecasting of Building Functionality During Urban Floods",
+      "authors": [
+        "Lei Xie",
+        "Peihui Lin",
+        "Naiyu Wang",
+        "Paolo Gardoni"
+      ],
+      "abstract": "Urban flood emergency response increasingly relies on infrastructure impact forecasts rather than hazard variables alone. However, real-time predictions are unreliable due to biased rainfall, incomplete flood knowledge, and sparse observations. Conventional open-loop forecasting propagates impacts without adjusting the system state, causing errors during critical decisions. This study presents CRAF (Crowdsourcing-Enhanced Real-Time Awareness and Forecasting), a physics-informed, closed-loop framework that converts sparse human-sensed evidence into rolling, decision-grade impact forecasts. By coupling physics-based simulation learning with crowdsourced observations, CRAF infers system conditions from incomplete data and propagates them forward to produce multi-step, real-time predictions of zone-level building functionality loss without online retraining. This closed-loop design supports continuous state correction and forward prediction under weakly structured data with low-latency operation. Offline evaluation demonstrates stable generalization across diverse storm scenarios. In operational deployment during Typhoon Haikui (2023) in Fuzhou, China, CRAF reduces 1-3 hour-ahead forecast errors by 84-95% relative to fixed rainfall-driven forecasting and by 73-80% relative to updated rainfall-driven forecasting, while limiting computation to 10 minutes per update cycle. These results show that impact-state alignment-rather than hazard refinement alone-is essential for reliable real-time decision support, providing a pathway toward operational digital twins for resilient urban infrastructure systems.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.17340v1"
+    },
+    {
+      "title": "ReLMXEL: Adaptive RL-Based Memory Controller with Explainable Energy and Latency Optimization",
+      "authors": [
+        "Panuganti Chirag Sai",
+        "Gandholi Sarat",
+        "R. Raghunatha Sarma",
+        "Venkata Kalyan Tavva",
+        "Naveen M"
+      ],
+      "abstract": "Reducing latency and energy consumption is critical to improving the efficiency of memory systems in modern computing. This work introduces ReLMXEL (Reinforcement Learning for Memory Controller with Explainable Energy and Latency Optimization), a explainable multi-agent online reinforcement learning framework that dynamically optimizes memory controller parameters using reward decomposition. ReLMXEL operates within the memory controller, leveraging detailed memory behavior metrics to guide decision-making. Experimental evaluations across diverse workloads demonstrate consistent performance gains over baseline configurations, with refinements driven by workload-specific memory access behaviour. By incorporating explainability into the learning process, ReLMXEL not only enhances performance but also increases the transparency of control decisions, paving the way for more accountable and adaptive memory system designs.",
+      "published": "2026-03-18",
+      "url": "http://arxiv.org/abs/2603.17309v1"
+    },
+    {
+      "title": "Integral Quadratic Constraints for Repeated ReLU",
+      "authors": [
+        "Sahel Vahedi Noori",
+        "Bin Hu",
+        "Geir Dullerud",
+        "Peter Seiler"
+      ],
+      "abstract": "This paper presents a new dynamic integral quadratic constraint (IQC) for the repeated Rectified Linear Unit (ReLU). These dynamic IQCs can be used to analyze stability and induced $\\ell_2$-gain performance of discrete-time, recurrent neural networks (RNNs) with ReLU activation functions. These analysis conditions can be incorporated into learning-based controller synthesis methods, which currently rely on static IQCs. We show that our proposed dynamic IQCs for repeated ReLU form a superset of the dynamic IQCs for repeated, slope-restricted nonlinearities. We also prove that the $\\ell_2$-gain bounds are nonincreasing with respect to the horizon used in the dynamic IQC filter. A numerical example using a simple (academic) RNN shows that our proposed IQCs lead to less conservative bounds than existing IQCs.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.17137v1"
+    },
+    {
+      "title": "Neural-NPV Control: Learning Parameter-Dependent Controllers and Lyapunov Functions with Neural Networks",
+      "authors": [
+        "MD Abul Kashem Niloy",
+        "Adam Hallmark",
+        "Yikun Cheng",
+        "Pan Zhao"
+      ],
+      "abstract": "Nonlinear parameter-varying (NPV) systems are a class of nonlinear systems whose dynamics explicitly depend on time-varying external parameters, making them suitable for modeling real-world systems with dynamics variations. Traditional synthesis methods for NPV systems, such as sum-of-squares (SOS) optimization, are only applicable to control-affine systems, face scalability challenges and often lead to conservative results due to structural restrictions. To address these limitations, we propose Neural-NPV, a two-stage learning-based framework that leverages neural networks to jointly synthesize a PD controller and a PD Lyapunov function for an NPV system under input constraints. In the first stage, we utilize a computationally cheap, gradient-based counterexample-guided procedure to synthesize an approximately valid PD Lyapunov function and a PD controller. In the second stage, a level-set guided refinement is then conducted to obtain a valid Lyapunov function and controller while maximizing the robust region of attraction (R-ROA). We demonstrate the advantages of Neural-NPV in terms of applicability, performance, and scalability compared to SOS-based methods through numerical experiments involving an simple inverted pendulum with one scheduling parameter and a quadrotor system with three scheduling parameters.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.17134v1"
+    },
+    {
+      "title": "Asymmetric Nash Seeking via Best Response Maps: Global Linear Convergence and Robustness to Inexact Reaction Models",
+      "authors": [
+        "Mahdis Rabbani",
+        "Navid Mojahed",
+        "Shima Nazari"
+      ],
+      "abstract": "Nash equilibria provide a principled framework for modeling interactions in multi-agent decision-making and control. However, many equilibrium-seeking methods implicitly assume that each agent has access to the other agents' objectives and constraints, an assumption that is often unrealistic in practice. This letter studies a class of asymmetric-information two-player constrained games with decoupled feasible sets, in which Player 1 knows its own objective and constraints while Player 2 is available only through a best-response map. For this class of games, we propose an asymmetric projected gradient descent-best response iteration that does not require full mutual knowledge of both players' optimization problems. Under suitable regularity conditions, we establish the existence and uniqueness of the Nash equilibrium and prove global linear convergence of the proposed iteration when the best-response map is exact. Recognizing that best-response maps are often learned or estimated, we further analyze the inexact case and show that, when the approximation error is uniformly bounded by $\\varepsilon$, the iterates enter an explicit $O(\\varepsilon)$ neighborhood of the true Nash equilibrium. Numerical results on a benchmark game corroborate the predicted convergence behavior and error scaling.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.17058v1"
+    },
+    {
+      "title": "Contingency-Aware Planning via Certified Neural Hamilton-Jacobi Reachability",
+      "authors": [
+        "Kasidit Muenprasitivej",
+        "Derya Aksaray"
+      ],
+      "abstract": "Hamilton-Jacobi (HJ) reachability provides formal safety guarantees for dynamical systems, but solving high-dimensional HJ partial differential equations limits its use in real-time planning. This paper presents a contingency-aware multi-goal navigation framework that integrates learning-based reachability with sampling-based planning in unknown environments. We use Fourier Neural Operator (FNO) to approximate the solution operator of the Hamilton-Jacobi-Isaacs variational inequality under varying obstacle configurations. We first provide a theoretical under-approximation guarantee on the safe backward reach-avoid set, which enables formal safety certification of the learned reachable sets. Then, we integrate the certified reachable sets with an incremental multi-goal planner, which enforces reachable-set constraints and a recovery policy that guarantees finite-time return to a safe region. Overall, we demonstrate that the proposed framework achieves asymptotically optimal navigation with provable contingency behavior, and validate its performance through real-time deployment on KUKA's youBot in Webots simulation.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.17022v1"
+    },
+    {
+      "title": "Learning generalized Nash equilibria from pairwise preferences",
+      "authors": [
+        "Pablo Krupa",
+        "Alberto Bemporad"
+      ],
+      "abstract": "Generalized Nash Equilibrium Problems (GNEPs) arise in many applications, including non-cooperative multi-agent control problems. Although many methods exist for finding generalized Nash equilibria, most of them rely on assuming knowledge of the objective functions or being able to query the best responses of the agents. We present a method for learning solutions of GNEPs only based on querying agents for their preference between two alternative decisions. We use the collected preference data to learn a GNEP whose equilibrium approximates a GNE of the underlying (unknown) problem. Preference queries are selected using an active-learning strategy that balances exploration of the decision space and exploitation of the learned GNEP. We present numerical results on game-theoretic linear quadratic regulation problems, as well as on other literature GNEP examples, showing the effectiveness of the proposed method.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.17015v1"
+    },
+    {
+      "title": "Stochastic Resetting Accelerates Policy Convergence in Reinforcement Learning",
+      "authors": [
+        "Jello Zhou",
+        "Vudtiwat Ngampruetikorn",
+        "David J. Schwab"
+      ],
+      "abstract": "Stochastic resetting, where a dynamical process is intermittently returned to a fixed reference state, has emerged as a powerful mechanism for optimizing first-passage properties. Existing theory largely treats static, non-learning processes. Here we ask how stochastic resetting interacts with reinforcement learning, where the underlying dynamics adapt through experience. In tabular grid environments, we find that resetting accelerates policy convergence even when it does not reduce the search time of a purely diffusive agent, indicating a novel mechanism beyond classical first-passage optimization. In a continuous control task with neural-network-based value approximation, we show that random resetting improves deep reinforcement learning when exploration is difficult and rewards are sparse. Unlike temporal discounting, resetting preserves the optimal policy while accelerating convergence by truncating long, uninformative trajectories to enhance value propagation. Our results establish stochastic resetting as a simple, tunable mechanism for accelerating learning, translating a canonical phenomenon of statistical mechanics into an optimization principle for reinforcement learning.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16842v1"
+    },
+    {
+      "title": "Data-driven generalized perimeter control: Zürich case study",
+      "authors": [
+        "Alessio Rimoldi",
+        "Carlo Cenedese",
+        "Alberto Padoan",
+        "Florian Dörfler",
+        "John Lygeros"
+      ],
+      "abstract": "Urban traffic congestion is a key challenge for the development of modern cities, requiring advanced control techniques to optimize existing infrastructures usage. Despite the extensive availability of data, modeling such complex systems remains an expensive and time consuming step when designing model-based control approaches. On the other hand, machine learning approaches require simulations to bootstrap models, or are unable to deal with the sparse nature of traffic data and enforce hard constraints. We propose a novel formulation of traffic dynamics based on behavioral systems theory and apply data-enabled predictive control to steer traffic dynamics via dynamic traffic light control. A high-fidelity simulation of the city of Zürich, the largest closed-loop microscopic simulation of urban traffic in the literature to the best of our knowledge, is used to validate the performance of the proposed method in terms of total travel time and CO2 emissions.",
+      "published": "2026-03-17",
+      "url": "http://arxiv.org/abs/2603.16599v1"
+    }
+  ],
+  "semantic_scholar_profiles": []
+}

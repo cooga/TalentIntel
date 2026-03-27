@@ -157,6 +157,10 @@ class CandidateEvaluator:
 class LinkedInHunter:
     """LinkedIn人才检索器"""
     
+    # 目标配置
+    TARGET_TOTAL = 100  # 总目标：100个高分候选人
+    TARGET_CHINESE = 40  # 华人候选人目标：40人
+    
     def __init__(self):
         self.proxy_index = 0
         self.candidates = []
@@ -324,8 +328,10 @@ async def main():
     # 进度回调
     def report_progress(stats, candidates):
         high_score = [c for c in candidates if c['match_score'] >= 0.7]
+        print(f"\n   📊 进度: 已找到 {len(high_score)} 位高分华人候选人 (目标: {LinkedInHunter.TARGET_CHINESE} 人)")
+        print(f"   🇨🇳 华人专项进度: {len(high_score)}/{LinkedInHunter.TARGET_CHINESE} ({len(high_score)/LinkedInHunter.TARGET_CHINESE*100:.1f}%)")
         if len(high_score) % 5 == 0 and len(high_score) > 0:
-            print(f"\n   📊 进度: 已找到 {len(high_score)} 位高分华人候选人")
+            print(f"   🎉 已完成 {len(high_score)/LinkedInHunter.TARGET_CHINESE*100:.0f}% 的华人候选人目标！")
     
     # 执行搜索
     await hunter.run_search(progress_callback=report_progress)
@@ -335,13 +341,14 @@ async def main():
     
     # 打印报告
     print("\n" + "=" * 75)
-    print("📊 检索完成报告")
+    print("📊 华人专项检索完成报告")
     print("=" * 75)
     print(f"执行策略: {hunter.stats['strategies']}")
     print(f"获取页面: {hunter.stats['pages_fetched']}")
     print(f"发现档案: {hunter.stats['profiles_found']}")
     print(f"华人候选人: {hunter.stats['chinese_candidates']}")
     print(f"高分候选人(≥0.7): {len(candidates)}")
+    print(f"目标进度: {len(candidates)}/{LinkedInHunter.TARGET_CHINESE} ({len(candidates)/LinkedInHunter.TARGET_CHINESE*100:.1f}%)")
     print("-" * 75)
     
     if candidates:
@@ -350,6 +357,27 @@ async def main():
             print(f"{i:2d}. {c['name']:20s} | 匹配度: {c['match_score']:.2f} | {c['url'][:50]}...")
     
     print(f"\n💾 结果已保存: {output_file}")
+    
+    # ===== 刷新华人候选人整体报告 =====
+    print("\n" + "=" * 75)
+    print("🔄 正在刷新华人候选人整体报告...")
+    print("=" * 75)
+    try:
+        import subprocess
+        result = subprocess.run(
+            ["python3", "scripts/generate_chinese_report.py"],
+            cwd=str(Path(__file__).parent.parent),
+            capture_output=True,
+            text=True
+        )
+        if result.returncode == 0:
+            print("✅ 华人候选人整体报告已刷新!")
+            print("📄 报告位置: CHINESE_TALENT_OVERALL_REPORT.md")
+        else:
+            print(f"⚠️ 报告刷新遇到问题: {result.stderr}")
+    except Exception as e:
+        print(f"⚠️ 报告刷新失败: {e}")
+    # ==================================
     
     # 返回结果供外部调用
     return {
