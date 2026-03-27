@@ -235,25 +235,20 @@ TalentIntel/
 │   └── generate_csv_report.py    # 生成CSV报告
 ├── data/                     # 数据目录
 │   ├── .gitignore            # 忽略浏览器缓存等
-│   ├── unified_candidates_db.json    # 统一数据库（完整数据）
-│   ├── clean_candidates_db.json      # 清理后数据库（推荐）
-│   ├── chinese_talent_summary.json   # 华人人才汇总
+│   ├── clean_candidates_db.json      # 清理后数据库，90位已验证候选人（推荐）
+│   ├── chinese_talent_summary.json   # 华人人才汇总，72位海外华人专家
+│   ├── verification_progress.json    # LinkedIn验证进度追踪
+│   ├── verification_summary.json     # 验证结果汇总
+│   ├── linkedin_verification_report.json  # LinkedIn验证报告
+│   ├── daily_search/         # 每日搜索任务（最近7天）
+│   ├── monitor_results/      # 监控结果
 │   ├── active/               # 活跃候选人档案
 │   │   ├── candidates.json   # 活跃候选人主文件
 │   │   └── candidates/       # 候选人详细档案 (001_xxx.json)
 │   ├── research/             # X-Ray研究发现
-│   │   ├── DISCOVERED_CANDIDATES_*.json
-│   │   ├── ROUND2_DISCOVERED_*.json
-│   │   └── *_CANDIDATES_*.json
 │   ├── xray_searches/        # X-Ray搜索原始结果
-│   │   ├── spacex_search_results.json
-│   │   ├── nvidia_search_results_final.json
-│   │   └── qualcomm_*.json
-│   ├── daily_search/         # 每日搜索任务
 │   ├── findings/             # 历史研究发现（按日期）
 │   ├── exports/              # 导出文件
-│   │   ├── csv/              # CSV报告
-│   │   └── reports/          # Markdown报告
 │   └── profiles/             # 浏览器指纹/会话（gitignored）
 └── logs/                     # 工作日志
 ```
@@ -261,8 +256,10 @@ TalentIntel/
 ### 数据使用说明
 
 **主数据库文件：**
-- `data/clean_candidates_db.json` - **推荐使用**，不含模拟数据，118位真实候选人
+- `data/clean_candidates_db.json` - **推荐使用**，已验证候选人，90位真实候选人
+- `data/chinese_talent_summary.json` - 华人人才汇总，72位海外华人专家（≥0.7分61人）
 - `data/unified_candidates_db.json` - 完整数据库（含所有来源）
+- `data/verification_progress.json` - LinkedIn验证进度追踪
 
 **CSV报告生成：**
 ```bash
