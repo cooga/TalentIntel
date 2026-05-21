@@ -1,0 +1,22 @@
+{
+  "project": "TalentIntel",
+  "desc": "AI无线通信人才情报平台 - 学术+工业界华人专家数据库和分析",
+  "modules": {
+    "academic_search": {
+      "desc": "学术人才搜索",
+      "key_files": ["academic_search.py"],
+      "core_api": ["search_academic_talents()", "parse_scholar_profile()"],
+      "known_issues": ["Google Scholar rate limiting"],
+      "deps": ["requests", "beautifulsoup4", "pandas"]
+    },
+    "auto_xray": {
+      "desc": "X-Ray自动分析器",
+      "key_files": ["auto_xray_analyzer.py"],
+      "core_api": [],
+      "known_issues": [],
+      "deps": []
+    }
+  },
+  "last_updated": "2026-04-11",
+  "status": "active"
+}
